@@ -1,0 +1,6 @@
+include accounts.journal
+; journal created 2026-04-01 by hledger
+
+2026-04-01 test
+    card             500
+    pay             -500
