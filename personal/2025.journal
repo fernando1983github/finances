@@ -1,0 +1,5 @@
+include accounts.journal
+2025-11-12 TicketMaster | AC/DC
+    expenses:entertainment:concert  3 @ $5662.00
+	expenses:entertainment:fees		3 @ $1359.00
+    assets:bank:checking

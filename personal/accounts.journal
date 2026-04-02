@@ -1,5 +1,178 @@
-account assets:cash
-account expenses:food
+# --- COMODITY DEFINITIONS ---
+commodity $
+  format $1,000.00
 
-account Assets:Bank:Checking
-account Expenses:Food
+# Fixes the "3 @ $50" error for your tickets
+# This declares the "empty" commodity for quantities like '3'
+commodity 1,000.00 
+
+# --- PREFERENCES ---
+check-commodities
+
+
+check-accounts
+# --- ACCOUNT TREE ---
+
+alias SHORT_NAME = FULL:ACCOUNT:NAME
+
+# --- Short Aliases for Speed ---
+# alias elec-sp = expenses:housing:utilities:electricity:san-pedro
+# alias water-sp = expenses:housing:utilities:water:san-pedro
+# alias cash = assets:cash:wallet
+# alias check = assets:bank:checking
+
+# Any account ending in ':parking' becomes 'expenses:entertainment:parking'
+# alias /:parking$/ = expenses:entertainment:parking
+
+
+#account assets:cash
+#account expenses:food
+
+#account Assets:Bank:Checking
+#account Expenses:Food
+
+
+account assets:bank:checking       ; Your main bank account
+#account assets:bank:debit-card     ; Usually maps to the same checking account
+account expenses:housing:rent      ; Your monthly rent payment
+account expenses:car:fuel          ; Gasoline/Charging
+account expenses:car:insurance     ; Monthly or yearly premium
+account expenses:car:maintenance   ; Oil changes, tires, etc.
+account expenses:car:verificacion
+account expenses:car:tenencia
+
+# 2026-04-15 Secretaria de Finanzas | Tenencia 2026 - Plate ABC-123
+#     expenses:transport:car:tenencia     $650.00
+#     assets:bank:checking
+
+account expenses:household:fortnight       ; specific 15-day cycle of settling all your major recurring obligations—rent, utilities, and shared household costs—in one go.
+
+
+# --- Income (Money coming in) ---
+account income:rent                  ; Money you receive from your property
+
+
+# --- Expenses (Money you spend) ---
+account expenses:education:japanese  ; Your classes
+account expenses:education:daughter  ; Daughter's English classes
+account expenses:housing:maintenance  ; Department maintenance fees
+account expenses:education:daughter:english
+
+# --- Liabilities (Money passing through) ---
+account liabilities:family:bil-insurance  ; Money your Brother-in-law owes/pays you
+
+
+account expenses:housing:maintenance:san-pedro
+account expenses:housing:maintenance:puerta-toreo
+
+account expenses:entertainment:concert
+account expenses:entertainment:parking
+account expenses:entertainment:fees
+
+
+account expenses:health:medical  ; (For doctor visits, consultations, and lab tests)
+account expenses:health:pharmacy  ; (For medicines, prescriptions, and first-aid supplies)
+account expenses:health:insurance  ; (If you pay a monthly premium or copay)
+
+
+# --- Utilities Hierarchy ---
+account expenses:housing:utilities:electricity:san-pedro
+account expenses:housing:utilities:electricity:puerta-toreo
+account expenses:housing:utilities:water:san-pedro
+account expenses:housing:utilities:water:puerta-toreo
+account expenses:housing:utilities:gas:san-pedro
+account expenses:housing:utilities:gas:puerta-toreo
+account expenses:housing:utilities:internet
+account expenses:housing:taxes:predial:san-pedro
+account expenses:housing:taxes:predial:puerta-toreo
+
+# 2026-04-10 CFE | Electricity San Pedro
+#     expenses:housing:utilities:electricity:san-pedro    $450.00
+#     assets:bank:checking
+# 
+# 2026-04-12 Izzi | Internet & Cable
+#     expenses:housing:utilities:internet                 $600.00
+#     assets:bank:checking
+# 
+# 2026-04-15 City Hall | Predial Puerta Toreo
+#     expenses:housing:taxes:predial:puerta-toreo         $1200.00
+#     assets:bank:checking
+
+
+account assets:cash:wallet  ;(The money in your pocket)
+account assets:cash:home-safe  ;(If you keep a "petty cash" stash at home or at one of the buildings)
+account expenses:food:snacks
+account expenses:misc:adjustments
+
+# 2026-04-15 Starbucks | Coffee
+#     expenses:food:snacks            $85.00
+#     assets:cash:wallet
+
+
+
+# 3. The "SysAdmin" Challenge: Keeping the Wallet Balanced
+# Unlike a bank account, your wallet doesn't have a digital statement. It is very easy to forget a $20 purchase. To keep it accurate, you should perform a "Cash Count" once a week.
+# 
+# If you count your wallet and find you have $450, but hledger thinks you have $480, you can add an adjustment to account for "forgotten" small spends:
+# 
+# Plaintext
+# 2026-04-18 Cash Adjustment | Lost or forgotten
+#     expenses:misc:adjustments       $30.00
+#     assets:cash:wallet              $450.00  ; This "asserts" the total is now 450
+# 4. Moving Money: Bank to Wallet
+# When you go to an ATM to get cash, you aren't spending money; you are just moving it between assets.
+# 
+# Plaintext
+# 2026-04-20 ATM | Withdrawal
+#     assets:cash:wallet              $1000.00
+#     assets:bank:checking
+
+
+# --- SiVale Benefit Cards ---
+account assets:sivale:pantry
+account assets:sivale:meals
+account assets:sivale:services
+
+# --- Related Income ---
+account income:benefits:sivale
+
+# assets:sivale:pantry (Despensa - for groceries, usually accepted at supermarkets)
+# assets:sivale:meals (Restaurante - for prepared food/restaurants)
+# assets:sivale:services (Servicios - for utilities like light, water, or gas)
+
+# 2. How to Record the "Income" (The Deposit)
+# When your employer deposits money into these cards, it isn't "Bank" money, but it is still income. You should record the movement from an income account to the specific card.
+# Plaintext
+# 2026-04-15 Schneider Electric | Pantry Deposit
+#     assets:sivale:grocery             $2,500.00
+#     income:benefits:sivale
+# 3. How to Record Spending
+# When you use the cards, the money moves from the SiVale asset to the corresponding expense.
+# Using the Meal Card:
+# Plaintext
+# 2026-04-16 Chedraui | Groceries
+#     expenses:food:groceries           $850.00
+#     assets:sivale:grocery
+# Using the Services Card (e.g., for Light or Water):
+# Plaintext
+# 2026-04-17 CFE | Electricity - San Pedro
+#     expenses:housing:utilities:electricity:san-pedro    $400.00
+#     assets:sivale:services
+# 4. Setting up Aliases for Speed
+# Since you'll likely use these cards often, add these aliases to your accounts.journal:
+# Plaintext
+# alias siv-meal = assets:sivale:grocery
+# alias siv-serv = assets:sivale:services
+# Now, in your 2026.journal, you can just type:
+# Plaintext
+# 2026-04-18 OXXO | Gas for Stove
+#     expenses:housing:utilities:gas    $300.00
+#     siv-serv
+# 5. Why track them separately?
+# As a "SysAdmin" of your own life, tracking these separately allows you to run a very specific report:
+# hledger bal assets:sivale
+# This will show you exactly how much "hidden" money you have left for food versus how much you have left for bills like Tenencia or Predial (if your card allows those payments).
+# Pro-Tip: The "Master" View
+# If you want to see all your liquid money (Bank + Wallet + SiVale), you can run:
+# hledger bal assets
+# This gives you a true "Total Assets" view, which is more accurate than just checking your bank app.
