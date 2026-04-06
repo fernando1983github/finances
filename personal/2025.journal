@@ -1,5 +1,70 @@
 include accounts.journal
+
 2025-11-12 TicketMaster | AC/DC
     expenses:entertainment:concert  3 @ $5662.00
 	expenses:entertainment:fees		3 @ $1359.00
-    assets:bank:checking
+    assets:bank:banamex:checking
+
+2025-01-31 Fortnight Payment Enero | Wife
+    expenses:household:fortnight           $ 100
+    assets:bank:banamex:checking                   $ -100
+
+2025-01-31 Fortnight Payment Enero | Wife
+    expenses:household:fortnight           $ 7900
+    assets:bank:banamex:checking                   $ -7900
+
+2025-04-02 Fortnight Payment Q1 Marzo | Wife
+    expenses:household:fortnight           $ 4600
+    assets:bank:banamex:checking                   $ -4600
+
+2025-04-02 Fortnight Payment Q2 Marzo | Wife
+    expenses:household:fortnight           $ 4600
+    assets:bank:banamex:checking                   $ -4600
+
+2025-06-24 Fortnight Payment Q1 Abril | Wife
+    expenses:household:fortnight           $ 4600
+    assets:bank:banamex:checking                   $ -4600
+
+2025-06-24 Fortnight Payment Q2 Abril | Wife
+    expenses:household:fortnight           $ 4600
+    assets:bank:banamex:checking                   $ -4600
+
+2025-07-03 Fortnight Payment Q1 Mayo | Wife
+    expenses:household:fortnight           $ 4600
+    assets:bank:banamex:checking                   $ -4600
+
+2025-07-03 Fortnight Payment Q2 Mayo | Wife
+    expenses:household:fortnight           $ 4600
+    assets:bank:banamex:checking                   $ -4600
+
+2025-09-01 Fortnight Payment Q1 Junio | Wife
+    expenses:household:fortnight           $ 4600
+    assets:bank:banamex:checking                   $ -4600
+
+2025-09-01 Fortnight Payment Q2 Junio | Wife
+    expenses:household:fortnight           $ 4600
+    assets:bank:banamex:checking                   $ -4600
+
+2025-09-01 Fortnight Payment Q1 Julio | Wife
+    expenses:household:fortnight           $ 4600
+    assets:bank:banamex:checking                   $ -4600
+
+2025-09-01 Fortnight Payment Q2 Julio | Wife
+    expenses:household:fortnight           $ 4600
+    assets:bank:banamex:checking                   $ -4600
+
+2025-10-10 Fortnight Payment Q1 Agosto | Wife
+    expenses:household:fortnight           $ 4600
+    assets:bank:banamex:checking                   $ -4600
+
+2025-10-10 Fortnight Payment Q2 Agosto | Wife
+    expenses:household:fortnight           $ 4600
+    assets:bank:banamex:checking                   $ -4600
+
+2025-12-31 Fortnight Payment Q1 Septiembre | Wife
+    expenses:household:fortnight           $ 4600
+    assets:bank:banamex:checking                   $ -4600
+
+2025-12-31 Fortnight Payment Q2 Septiembre | Wife
+    expenses:household:fortnight           $ 4600
+    assets:bank:banamex:checking                   $ -4600

@@ -32,7 +32,8 @@ alias SHORT_NAME = FULL:ACCOUNT:NAME
 #account Expenses:Food
 
 
-account assets:bank:checking       ; Your main bank account
+account assets:bank:banamex:checking       ; Your main bank account
+account assets:bank:hsbc:checking       ; Your main bank account
 #account assets:bank:debit-card     ; Usually maps to the same checking account
 account expenses:housing:rent      ; Your monthly rent payment
 account expenses:car:fuel          ; Gasoline/Charging
@@ -40,6 +41,10 @@ account expenses:car:insurance     ; Monthly or yearly premium
 account expenses:car:maintenance   ; Oil changes, tires, etc.
 account expenses:car:verificacion
 account expenses:car:tenencia
+
+
+alias banamex=assets:bank:banamex:checking
+alias hsbc=assets:bank:hsbc:checking
 
 # 2026-04-15 Secretaria de Finanzas | Tenencia 2026 - Plate ABC-123
 #     expenses:transport:car:tenencia     $650.00
@@ -65,6 +70,7 @@ account liabilities:family:bil-insurance  ; Money your Brother-in-law owes/pays 
 account expenses:housing:maintenance:san-pedro
 account expenses:housing:maintenance:puerta-toreo
 
+account expenses:entertainment:movies
 account expenses:entertainment:concert
 account expenses:entertainment:parking
 account expenses:entertainment:fees

@@ -1,27 +1,20 @@
-#include accounts.journal
+include accounts.journal
 ; journal created 2026-04-01 by hledger
 
 
-2026-04-01 Fortnight Payment Q1 February | Wife
-    expenses:household:fortnight           $ 4600
-    assets:bank:checking                   $ -4600
-
-2026-04-01 Fortnight Payment Q2 February | Wife
-    expenses:household:fortnight           $ 4600
-    assets:bank:checking                   $ -4600
 
 
 
 # Since you are receiving money for his insurance, this usually implies you are paying the bill on his behalf, or he is paying you back. Using a Liability account is best so that his money doesn't look like "Income" (which would falsely inflate your earnings).
 #When he pays you:
 2026-04-12 Brother-in-Law | Insurance Money
-    assets:bank:checking             $80.00
+    assets:bank:banamex:checking             $80.00
     liabilities:family:bil-insurance
 
 #When you pay the insurance company:
 2026-04-15 Auto Insurance Co
     liabilities:family:bil-insurance  $80.00
-    assets:bank:checking
+    assets:bank:banamex:checking
 
 
 
@@ -36,96 +29,147 @@
 
 
 # January
+2026-01-29 Fortnight Payment Q1 Octubre | Wife
+    expenses:household:fortnight           $ 4600
+    assets:bank:banamex:checking                   $ -4600
+
+2026-01-29 Fortnight Payment Q2 Octubre | Wife
+    expenses:household:fortnight           $ 4600
+    assets:bank:banamex:checking                   $ -4600
+
 2026-01-05 Building Admin | MTTO ENERO B405
     expenses:housing:maintenance:puerta-toreo  $1550.00
-    assets:bank:checking                      $ -1550.00
+    assets:bank:banamex:checking                      $ -1550.00
 
 2026-01-05 Kids & Us | Pago Enero Regina Cuervo
     expenses:education:daughter:english  $1850.00	; member:daughter
-    assets:bank:checking                 $ -1850.00
+    assets:bank:banamex:checking                 $ -1850.00
 
 2026-01-20 TicketMaster | 31 minutos
     expenses:entertainment:concert  6 @ $2000.00
-    assets:bank:checking
+    assets:bank:banamex:checking
 
 # February
+2026-02-05 Fortnight Payment Q1 Noviembre | Wife
+    expenses:household:fortnight           $ 4600
+    assets:bank:banamex:checking                   $ -4600
+
+2026-02-05 Fortnight Payment Q2 Noviembre | Wife
+    expenses:household:fortnight           $ 4600
+    assets:bank:banamex:checking                   $ -4600
+
+2026-02-05 Fortnight Payment Q1 Diciembre | Wife
+    expenses:household:fortnight           $ 4600
+    assets:bank:banamex:checking                   $ -4600
+
+2026-02-05 Fortnight Payment Q2 Diciembre | Wife
+    expenses:household:fortnight           $ 4600
+    assets:bank:banamex:checking                   $ -4600
+
 2026-02-05 Building Admin | MTTO FEBRERO B405
     expenses:housing:maintenance:puerta-toreo  $1550.00
-    assets:bank:checking                      $ -1550.00
+    assets:bank:banamex:checking                      $ -1550.00
 
 # Hledger has a special feature where it recognizes a pipe symbol (|). Everything before the pipe is the Payee (who got the money), and everything after is the Note (the concept/reason)
 2026-02-09 Gakuen Academy(Japanese) | Pago Fernando Cuervo
     expenses:education:japanese        $650.00
-    assets:bank:checking               $ -650.00
+    assets:bank:banamex:checking               $ -650.00
 
 2026-02-05 Kids & Us | Pago Febrero Regina Cuervo
     expenses:education:daughter:english  $1850.00
-    assets:bank:checking                 $ -1850.00
+    assets:bank:banamex:checking                 $ -1850.00
 
 2026-02-05 San Pedro | MTTO ENERO 302
     expenses:housing:maintenance:san-pedro       $280.32
-    assets:bank:checking               $ -280.32
+    assets:bank:banamex:checking               $ -280.32
 
 2026-02-05 San Pedro | MTTO FEBRERO 302
     expenses:housing:maintenance:san-pedro       $280.32
-    assets:bank:checking               $ -280.32
+    assets:bank:banamex:checking               $ -280.32
 
 2026-02-23 TicketMaster | AC/DC parking
     expenses:entertainment:parking  $550
-    assets:bank:checking
+    assets:bank:banamex:checking
 
 2026-02-25 Kia Sportage | Seguro Atlas
     expenses:car:insurance          $7440.09
-	assets:bank:checking            $ -7440.09
+	assets:bank:banamex:checking            $ -7440.09
 
 2026-02-24 Local Pharmacy | Pamorelin
     expenses:health:pharmacy          $11600.00  ; member:daughter
-    assets:bank:checking
+    assets:bank:banamex:checking
 
 # 2026-04-12 Dr. Smith | General Checkup
 #     expenses:health:medical           $120.00
-#     assets:bank:checking
+#     assets:bank:banamex:checking
 
 # March
+2026-03-03 Fortnight Payment Q1 Enero | Wife
+    expenses:household:fortnight           $ 4600
+    assets:bank:banamex:checking                   $ -4600
+
+2026-03-03 Fortnight Payment Q2 Enero | Wife
+    expenses:household:fortnight           $ 4600
+    assets:bank:banamex:checking                   $ -4600
+
 2026-03-03 Building Admin | MTTO MARZO B405
     expenses:housing:maintenance:puerta-toreo  $1550.00
-    assets:bank:checking                      $ -1550.00
+    assets:bank:banamex:checking                      $ -1550.00
 
 2026-03-02 Building Admin | PAGO EXTRAORDINARIO B405
     expenses:housing:maintenance:puerta-toreo  $5980.00
-    assets:bank:checking                      $ -5980.00
+    assets:bank:banamex:checking                      $ -5980.00
 
 2026-03-03 Gakuen Academy(Japanese) | Pago Fernando Cuervo
     expenses:education:japanese        $650.00
-    assets:bank:checking               $ -650.00
+    assets:bank:banamex:checking               $ -650.00
 
 2026-03-03 Kids & Us | Pago Marzo Regina Cuervo
     expenses:education:daughter:english  $1850.00
-    assets:bank:checking                 $ -1850.00
+    assets:bank:banamex:checking                 $ -1850.00
 
 
 2026-03-02 Ivan Tolama | March Rent
-    assets:bank:checking             $9000.00
+    assets:bank:banamex:checking             $9000.00
     income:rent
 
 2026-03-03 San Pedro | MTTO MARZO 302
     expenses:housing:maintenance:san-pedro       $280.32
-    assets:bank:checking               $ -280.32
+    assets:bank:banamex:checking               $ -280.32
 
 # April
+2026-04-01 Fortnight Payment Q1 Febrero | Wife
+    expenses:household:fortnight           $ 4600
+    assets:bank:banamex:checking                   $ -4600
+
+2026-04-01 Fortnight Payment Q2 Febrero | Wife
+    expenses:household:fortnight           $ 4600
+    assets:bank:banamex:checking                   $ -4600
+
 2026-04-01 Building Admin | MTTO ABRIL B405
     expenses:housing:maintenance:puerta-toreo  $1550.00
-    assets:bank:checking                      $ -1550.00
+    assets:bank:banamex:checking                      $ -1550.00
 
 2026-04-01 Gakuen Academy(Japanese) | Pago Fernando Cuervo
     expenses:education:japanese        $650.00
-    assets:bank:checking               $ -650.00
+    assets:bank:banamex:checking               $ -650.00
 
 2026-04-01 Kids & Us | Pago Abril Regina Cuervo
     expenses:education:daughter:english  $1850.00
-    assets:bank:checking                 $ -1850.00
+    assets:bank:banamex:checking                 $ -1850.00
 
 2026-04-01 San Pedro | MTTO ABRIL 302
     expenses:housing:maintenance:san-pedro       $280.32
-    assets:bank:checking               $ -280.32
+    assets:bank:banamex:checking               $ -280.32
 
+2026-04-01 Ivan Tolama | April Rent
+    assets:bank:banamex:checking             $9000.00
+    income:rent
+
+2026-04-02 Cinepolis | Mario Galaxy
+    expenses:entertainment:movies  $346
+    assets:bank:banamex:checking
+
+2026-04-06 Secretaria de Finanzas | Tenencia 2026 - Placas NLP6060
+    expenses:car:tenencia  $990
+    assets:bank:banamex:checking
