@@ -173,3 +173,11 @@ include accounts.journal
 2026-04-06 Secretaria de Finanzas | Tenencia 2026 - Placas NLP6060
     expenses:car:tenencia  $990
     assets:bank:banamex:checking
+
+2026-06-26 Gakuen Academy(Japanese) | Pago Fernando Cuervo
+    expenses:education:japanese          $650.00
+    assets:bank:banamex:checking        $-650.00
+
+2026-06-26 ATM | Withdrawal
+    assets:cash:wallet                   9000
+    assets:bank:hsbc:checking           -9000
