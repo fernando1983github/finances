@@ -179,5 +179,18 @@ include accounts.journal
     assets:bank:banamex:checking        $-650.00
 
 2026-06-26 ATM | Withdrawal
-    assets:cash:wallet                   9000
-    assets:bank:hsbc:checking           -9000
+    assets:cash:wallet                   $9000.00
+    assets:bank:hsbc:checking           $-9000.00
+
+2026-06-29 ATM | Withdrawal
+    assets:cash:wallet                 $9000.00
+    assets:bank:hsbc:checking         $-9000.00
+
+2026-06-28 ATM | Withdrawal
+    assets:cash:wallet                    $9000.00
+    assets:bank:banamex:checking         $-9000.00
+
+
+2026-06-28 Metamizol sodico 500mg
+    assets:cash:wallet                   $24
+    expenses:health:pharmacy            $-24
