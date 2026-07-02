@@ -192,5 +192,49 @@ include accounts.journal
 
 
 2026-06-28 Metamizol sodico 500mg
-    assets:cash:wallet                   $24
-    expenses:health:pharmacy            $-24
+    expenses:health:pharmacy            $24
+    assets:cash:wallet                   $-24
+
+2026-06-30 Compras velorio abuelita
+    expenses:food:groceries        $2758
+    assets:sivale:pantry           $-2758
+
+2026-06-29 Fondo Carmen
+    expenses:family:transfer:carmen          $18000
+    assets:cash:wallet                      $-18000
+
+2026-06-30 Fondo Carmen
+    expenses:family:transfer:carmen           $9000
+    assets:cash:wallet                       $-9000
+
+2026-06-09 Fondo Carmen
+    expenses:family:transfer:carmen          $20000
+    assets:cash:wallet                      $-20000
+
+2026-07-01 minisix
+    expenses:food:groceries            $109
+    assets:cash:wallet                $-109
+
+2026-06-11 botanas oxxo
+    expenses:food:groceries           $401.5
+    assets:cash:wallet               $-401.5
+
+2026-04-06 minisix
+    expenses:food:groceries            $180
+    assets:sivale:meals               $-180
+
+2026-05-21 ATM | Withdrawal
+    assets:cash:wallet              $9,000.00
+    assets:bank:hsbc:checking      $-9,000.00
+
+2026-06-01 Birthday | salon pay remaining amount
+    expenses:entertainment              $21940  ; event:birthday-2026
+    assets:bank:hsbc:checking          $-21940
+
+2026-03-15 Birthday | Salon deposit
+    expenses:entertainment                 $3000  ;  event:birthday-2026
+    assets:bank:banamex:checking          $-3000
+
+2026-06-20 Gastos adicionales, agua, servilletas, vasos
+    expenses:entertainment            $150  ;  event:birthday-2026
+    assets:cash:wallet               $-150

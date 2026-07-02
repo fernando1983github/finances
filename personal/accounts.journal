@@ -73,6 +73,7 @@ account liabilities:family:bil-insurance  ; Money your Brother-in-law owes/pays 
 account expenses:housing:maintenance:san-pedro
 account expenses:housing:maintenance:puerta-toreo
 
+account expenses:entertainment
 account expenses:entertainment:movies
 account expenses:entertainment:concert
 account expenses:entertainment:parking
@@ -110,7 +111,8 @@ account expenses:housing:taxes:predial:puerta-toreo
 
 account assets:cash:wallet  ;(The money in your pocket)
 account assets:cash:home-safe  ;(If you keep a "petty cash" stash at home or at one of the buildings)
-account expenses:food:snacks
+#account expenses:food:snacks  ; If you want to see exactly how much you spend on regular meals versus junk food/treats, you can break them down into sub-accounts. This is highly recommended for things like snacks, which can sneakily drain a budget.
+account expenses:food:groceries  ; how much you spend on food overall without overcomplicating things
 account expenses:misc:adjustments
 
 # 2026-04-15 Starbucks | Coffee
@@ -185,3 +187,36 @@ account income:benefits:sivale
 # If you want to see all your liquid money (Bank + Wallet + SiVale), you can run:
 # hledger bal assets
 # This gives you a true "Total Assets" view, which is more accurate than just checking your bank app.
+
+#account assets:transfers:wife
+#account expenses:family:transfer
+# difference between assets:transfers:wife and expenses:family:transfer
+# The difference comes down to one question: Do you ever expect that money to come back, or is it gone for good?
+# In plain-text accounting, choosing between an Asset and an Expense changes how that money affects your net worth on your balance sheet.
+# 1. expenses:family:transfer (Money Spent)
+# When you use an Expense account, you are telling hledger: "This money has left my ecosystem. It is gone, and I am not tracking what happens to it next."
+# 	- How it acts: It immediately reduces your net worth. It shows up on your Income Statement (hledger is) as money spent this month.
+# 	- When to use it: If you and your wife run completely separate finances. Once you give her the money, it belongs to her personal budget, and you don't expect her to pay you back or give you a receipt for how she spent it.
+# 2. assets:transfers:wife (Money Shifted)
+# When you use an Asset account, you are telling hledger: "This money moved out of my bank account, but it is still 'my' value or family value. It is just sitting in a different place right now."
+# 	- How it acts: It does not change your net worth. It won't show up as an expense. Instead, it stays on your Balance Sheet (hledger bs) under your assets.
+# 	- When to use it: You usually use this as a clearing account or a temporary holding spot. For example:
+# 		- You give her $500 to buy a new household appliance next week. It's an asset right now because the money hasn't been spent yet. Once she buys it and shows you the receipt, you clear it out:
+# 			2026-07-01 Bought Fridge
+# 				expenses:appliances          $500.00
+# 				assets:transfers:wife       -$500.00
+# 		- Or, you treat it like an informal loan/tab that you expect to balance out later if she transfers money back to you.
+# Summary Checklist
+# If the money is...													Use Account					hledger Impact
+# An allowance, a gift, or just her share of separate finances		expenses:family:transfer	Reduces your net worth today.
+# For a future purchase she will make later, or an informal "tab"		assets:transfers:wife		Net worth stays the same until the final receipt is booked.
+
+# Go with expenses:family:transfer:wife_name (replacing wife_name with her actual name).
+# Here is why adding her name is the better move for your journal:
+# 1. Future Flexibility (The "Just in Case" Rule)
+# Right now, you are only transferring money to her. But down the road, you might need to track money transfers to your kids, your parents, or other family needs. If everything is dumped into expenses:family:transfer, it becomes a headache to untangle later.
+# 2. Cleaner Reporting
+# hledger handles nested accounts beautifully. If you use the specific name, you get the best of both worlds:
+# 	- If you run hledger balance expenses:family, it will automatically roll up the totals and show you everything spent on the family as a whole.
+# 	- If you run hledger balance expenses:family:transfer, it will break down exactly how much went to her versus anyone else.
+account expenses:family:transfer:carmen
