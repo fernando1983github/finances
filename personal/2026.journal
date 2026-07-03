@@ -42,7 +42,7 @@ include accounts.journal
     assets:bank:banamex:checking                      $ -1550.00
 
 2026-01-05 Kids & Us | Pago Enero Regina Cuervo
-    expenses:education:daughter:english  $1850.00	; member:daughter
+    expenses:education:daughter:english  $1850.00  ; member:daughter
     assets:bank:banamex:checking                 $ -1850.00
 
 2026-01-20 TicketMaster | 31 minutos
@@ -76,7 +76,7 @@ include accounts.journal
     assets:bank:banamex:checking               $ -650.00
 
 2026-02-05 Kids & Us | Pago Febrero Regina Cuervo
-    expenses:education:daughter:english  $1850.00
+    expenses:education:daughter:english  $1850.00  ; member:daughter
     assets:bank:banamex:checking                 $ -1850.00
 
 2026-02-05 San Pedro | MTTO ENERO 302
@@ -125,7 +125,7 @@ include accounts.journal
     assets:bank:banamex:checking               $ -650.00
 
 2026-03-03 Kids & Us | Pago Marzo Regina Cuervo
-    expenses:education:daughter:english  $1850.00
+    expenses:education:daughter:english  $1850.00  ; member:daughter
     assets:bank:banamex:checking                 $ -1850.00
 
 
@@ -155,7 +155,7 @@ include accounts.journal
     assets:bank:banamex:checking               $ -650.00
 
 2026-04-01 Kids & Us | Pago Abril Regina Cuervo
-    expenses:education:daughter:english  $1850.00
+    expenses:education:daughter:english  $1850.00  ; member:daughter
     assets:bank:banamex:checking                 $ -1850.00
 
 2026-04-01 San Pedro | MTTO ABRIL 302
@@ -238,3 +238,51 @@ include accounts.journal
 2026-06-20 Gastos adicionales, agua, servilletas, vasos
     expenses:entertainment            $150  ;  event:birthday-2026
     assets:cash:wallet               $-150
+
+2026-07-02 Fondo Carmen
+    expenses:family:transfer:carmen           $3000
+    assets:cash:wallet                       $-3000
+
+2026-07-02 ATM | Withdrawal
+    assets:cash:wallet              $9,000.00
+    assets:bank:hsbc:checking      $-9,000.00
+
+2026-07-01 Ivan Tolama | July rent
+    assets:bank:banamex:checking       $9,000.00
+    income:rent                       $-9,000.00
+
+2026-05-01 Ivan Tolama | May rent
+    assets:bank:banamex:checking       $9,000.00
+    income:rent                       $-9,000.00
+
+2026-06-01 Ivan Tolama | June rent
+    assets:bank:banamex:checking       $9,000.00
+    income:rent                       $-9,000.00
+
+2026-05-21 Local Pharmacy | Pamorelin
+    expenses:health:pharmacy              $11725  ; member:daughter
+    assets:bank:banamex:checking         $-11725
+
+2026-05-29 Gakuen Academy(Japanese) | Pago Fernando Cuervo
+    expenses:education:japanese          $650.00
+    assets:bank:banamex:checking        $-650.00
+
+2026-06-04 San Pedro | MTTO ABRIL(debe se Junio) 302
+    expenses:housing:maintenance:san-pedro         $280.32
+    assets:bank:banamex:checking                  $-280.32
+
+2026-06-04 Building Admin | MTTO ABRIL(debe ser Junio) B405
+    expenses:housing:maintenance:puerta-toreo           $1550
+    assets:bank:banamex:checking                       $-1550
+
+2026-05-10 San Pedro | MTTO MAYO 302
+    expenses:housing:maintenance:san-pedro         $280.32
+    assets:bank:banamex:checking                  $-280.32
+
+2026-05-10 Kids & Us | Pago Mayo Regina Cuervo
+    expenses:education:daughter:english       $1,850.00  ; member:daughter
+    assets:bank:banamex:checking             $-1,850.00
+
+2026-06-04 Kids & Us | Pago Junio Regina Cuervo
+    expenses:education:daughter:english       $1,850.00  ; member:daughter
+    assets:bank:banamex:checking             $-1,850.00
