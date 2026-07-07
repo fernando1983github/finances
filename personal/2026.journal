@@ -286,3 +286,9 @@ include accounts.journal
 2026-06-04 Kids & Us | Pago Junio Regina Cuervo
     expenses:education:daughter:english       $1,850.00  ; member:daughter
     assets:bank:banamex:checking             $-1,850.00
+
+2026-07-04 Rosario Town Center
+    expenses:entertainment:movies            $220  ;  toy story
+    expenses:food:dining                     $169  ;  sushi itto
+    expenses:food:dining                     $222  ;  Carls Jr
+    assets:cash:wallet                      $-611

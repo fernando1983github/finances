@@ -113,6 +113,7 @@ account assets:cash:wallet  ;(The money in your pocket)
 account assets:cash:home-safe  ;(If you keep a "petty cash" stash at home or at one of the buildings)
 #account expenses:food:snacks  ; If you want to see exactly how much you spend on regular meals versus junk food/treats, you can break them down into sub-accounts. This is highly recommended for things like snacks, which can sneakily drain a budget.
 account expenses:food:groceries  ; how much you spend on food overall without overcomplicating things
+account expenses:food:dining  ; how much you spend on 
 account expenses:misc:adjustments
 
 # 2026-04-15 Starbucks | Coffee
