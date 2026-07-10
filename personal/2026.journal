@@ -38,12 +38,12 @@ include accounts.journal
     assets:bank:banamex:checking                   $ -4600
 
 2026-01-05 Building Admin | MTTO ENERO B405
-    expenses:housing:maintenance:puerta-toreo  $1550.00
-    assets:bank:banamex:checking                      $ -1550.00
+    expenses:housing:maintenance:puerta-toreo  $1550
+    assets:bank:banamex:checking                      $ -1550
 
 2026-01-05 Kids & Us | Pago Enero Regina Cuervo
-    expenses:education:daughter:english  $1850.00  ; member:daughter
-    assets:bank:banamex:checking                 $ -1850.00
+    expenses:education:daughter:english  $1850  ; member:daughter
+    assets:bank:banamex:checking                 $ -1850
 
 2026-01-20 TicketMaster | 31 minutos
     expenses:entertainment:concert  6 @ $2000.00
@@ -280,11 +280,11 @@ include accounts.journal
     assets:bank:banamex:checking                  $-280.32
 
 2026-05-10 Kids & Us | Pago Mayo Regina Cuervo
-    expenses:education:daughter:english       $1,850.00  ; member:daughter
+    expenses:education:daughter:english       $1,850.00  ; member:daughter, course:english
     assets:bank:banamex:checking             $-1,850.00
 
 2026-06-04 Kids & Us | Pago Junio Regina Cuervo
-    expenses:education:daughter:english       $1,850.00  ; member:daughter
+    expenses:education:daughter:english       $1,850.00  ; member:daughter, course:english
     assets:bank:banamex:checking             $-1,850.00
 
 2026-07-04 Rosario Town Center
@@ -292,3 +292,43 @@ include accounts.journal
     expenses:food:dining                     $169  ;  sushi itto
     expenses:food:dining                     $222  ;  Carls Jr
     assets:cash:wallet                      $-611
+
+2026-07-08 Colegiatura 2026-2027
+    expenses:education                    $37800  ; member:daughter, student:regina
+    assets:bank:banamex:checking         $-37800
+
+2026-07-08 minisix
+    expenses:food:groceries            $164
+    assets:cash:wallet                $-164
+
+2026-07-04 Despensa
+    expenses:food:groceries           $1854
+    assets:sivale:pantry             $-1854
+
+2026-07-09 desayuno
+    expenses:food:dining            $100
+    assets:cash:wallet             $-100
+
+2026-07-09 comida
+    expenses:food:dining             $165
+    assets:sivale:meals             $-165
+
+2026-07-09 Forthnight Payment Q1 May | Wife
+    expenses:household:fortnight         $4600
+    assets:bank:banamex:checking        $-4600
+
+2026-07-09 San Pedro | MTTO JULIO 302
+    expenses:housing:maintenance:san-pedro         $280.32
+    assets:bank:banamex:checking                  $-280.32
+
+2026-07-09 Building Admin | MTTO JULIO B405
+    expenses:housing:maintenance:puerta-toreo         $1550
+    assets:bank:banamex:checking                     $-1550
+
+2026-07-09 Payment Q2 Mayo | Wife
+    expenses:household:fortnight         $4600
+    assets:bank:banamex:checking        $-4600
+
+2026-07-09 Kids & Us | Pago Materiales
+    expenses:education:daughter:english           $3200
+    assets:bank:banamex:checking                 $-3200

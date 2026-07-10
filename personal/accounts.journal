@@ -65,6 +65,7 @@ account expenses:education:japanese  ; Your classes
 account expenses:education:daughter  ; Daughter's English classes
 account expenses:housing:maintenance  ; Department maintenance fees
 account expenses:education:daughter:english
+account expenses:education
 
 # --- Liabilities (Money passing through) ---
 account liabilities:family:bil-insurance  ; Money your Brother-in-law owes/pays you
