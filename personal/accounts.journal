@@ -5,6 +5,7 @@ commodity $
 # Fixes the "3 @ $50" error for your tickets
 # This declares the "empty" commodity for quantities like '3'
 commodity 1,000.00
+commodity 1,000.00 L
 
 # --- DEFAULT COMMODITY ---
 D $1,000.00
@@ -40,6 +41,7 @@ account assets:bank:hsbc:checking       ; Your main bank account
 #account assets:bank:debit-card     ; Usually maps to the same checking account
 account expenses:housing:rent      ; Your monthly rent payment
 account expenses:car:fuel          ; Gasoline/Charging
+account expenses:car:tips          ; tips given
 account expenses:car:insurance     ; Monthly or yearly premium
 account expenses:car:maintenance   ; Oil changes, tires, etc.
 account expenses:car:verificacion
@@ -84,6 +86,9 @@ account expenses:entertainment:fees
 account expenses:health:medical  ; (For doctor visits, consultations, and lab tests)
 account expenses:health:pharmacy  ; (For medicines, prescriptions, and first-aid supplies)
 account expenses:health:insurance  ; (If you pay a monthly premium or copay)
+
+account expenses:personal:grooming
+account expenses:personal:tips
 
 
 # --- Utilities Hierarchy ---

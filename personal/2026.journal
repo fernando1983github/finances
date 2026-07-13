@@ -332,3 +332,34 @@ include accounts.journal
 2026-07-09 Kids & Us | Pago Materiales
     expenses:education:daughter:english           $3200
     assets:bank:banamex:checking                 $-3200
+
+2026-07-11 minisix
+    expenses:food:groceries            $174
+    assets:cash:wallet                $-174
+
+2026-07-05 oxxo
+    expenses:food:groceries             $39
+    assets:cash:wallet                 $-39
+
+2026-07-05 kentucky comida mitad
+    expenses:food:dining            $361
+    assets:cash:wallet             $-361
+
+2026-07-09 gas station  ; odometer:41114
+    expenses:car:fuel      23.49 L @ $57.048
+    assets:cash:wallet    -23.49 L @ $57.048
+    expenses:car:tips                    $10
+    assets:cash:wallet                  $-10
+
+2026-07-11 desayuno tamales
+    expenses:food:dining            $121
+    assets:cash:wallet             $-121
+
+2026-07-12 comida
+    expenses:food:dining            $155
+    assets:cash:wallet             $-155
+
+2026-07-12 corte de cabello
+    expenses:personal:grooming             $80
+    expenses:personal:tips                 $20
+    assets:cash:wallet                   $-100
