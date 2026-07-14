@@ -102,6 +102,8 @@ account expenses:housing:utilities:internet
 account expenses:housing:taxes:predial:san-pedro
 account expenses:housing:taxes:predial:puerta-toreo
 
+account expenses:utilities:cellphone
+
 # 2026-04-10 CFE | Electricity San Pedro
 #     expenses:housing:utilities:electricity:san-pedro    $450.00
 #     assets:bank:checking
