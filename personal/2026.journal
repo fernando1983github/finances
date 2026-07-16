@@ -45,7 +45,7 @@ include accounts.journal
     expenses:education:daughter:english  $1850  ; member:daughter
     assets:bank:banamex:checking                 $ -1850
 
-2026-01-20 TicketMaster | 31 minutos
+2026-01-20 TicketMaster | 31 minutos  ; event:concert
     expenses:entertainment:concert  6 @ $2000.00
     assets:bank:banamex:checking
 
@@ -89,7 +89,7 @@ include accounts.journal
 
 2026-02-23 TicketMaster | AC/DC parking
     expenses:entertainment:parking  $550
-    assets:bank:banamex:checking
+    assets:bank:banamex:checking    $-550
 
 2026-02-25 Kia Sportage | Seguro Atlas
     expenses:car:insurance          $7440.09
@@ -371,3 +371,12 @@ include accounts.journal
 2026-07-13 Mobile Carrier | Monthly Phone Plan  ; period:2026-07
     expenses:utilities:cellphone         $531.29
     assets:bank:banamex:checking                 $-531.29
+
+
+#estacionamiento grduacion regina
+#56 efectivo, estoy determinando la cuenta donde lo registrare
+2026-07-15 Estacionamiento | graduacion  ; event:graduacion
+    expenses:entertainment:parking             $56
+    assets:cash:wallet                        $-56
+    expenses:personal:tips                     $10
+    assets:cash:wallet                        $-10
