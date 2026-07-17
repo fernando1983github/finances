@@ -373,7 +373,7 @@ include accounts.journal
     assets:bank:banamex:checking                 $-531.29
 
 
-#estacionamiento grduacion regina
+#estacionamiento graduacion regina
 #56 efectivo, estoy determinando la cuenta donde lo registrare
 2026-07-15 Estacionamiento | graduacion  ; event:graduacion
     expenses:entertainment:parking             $56
