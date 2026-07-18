@@ -313,7 +313,7 @@ include accounts.journal
     expenses:food:dining             $165
     assets:sivale:meals             $-165
 
-2026-07-09 Forthnight Payment Q1 May | Wife
+2026-07-09 Forthnight Payment Q1 Mayo | Wife
     expenses:household:fortnight         $4600
     assets:bank:banamex:checking        $-4600
 
@@ -325,7 +325,7 @@ include accounts.journal
     expenses:housing:maintenance:puerta-toreo         $1550
     assets:bank:banamex:checking                     $-1550
 
-2026-07-09 Payment Q2 Mayo | Wife
+2026-07-09 Forthnight Payment Q2 Mayo | Wife
     expenses:household:fortnight         $4600
     assets:bank:banamex:checking        $-4600
 
@@ -380,3 +380,43 @@ include accounts.journal
     assets:cash:wallet                        $-56
     expenses:personal:tips                     $10
     assets:cash:wallet                        $-10
+
+2026-07-18 odontopediatra
+    expenses:health:medical            $500
+    assets:cash:wallet                $-500
+
+2026-07-18 minisix
+    expenses:food:groceries            $203
+    assets:cash:wallet                $-203
+
+2026-07-18 comida trabajo
+    expenses:food:dining            $700
+    assets:sivale:meals            $-700
+
+2026-07-16 comida kfc
+    expenses:food:dining            $309
+    assets:sivale:meals            $-309
+
+2026-07-13 minisix
+    expenses:food:groceries            $232
+    assets:cash:wallet                $-232
+
+2026-05-11 Building Admin | MMTO MAYO B405
+    expenses:housing:maintenance:puerta-toreo         $1,550.
+    assets:bank:banamex:checking                     $-1,550.
+
+2026-05-10 Fortnight Payment Q1 Marzo | Wife
+    expenses:household:fortnight           $ 4600
+    assets:bank:banamex:checking                   $ -4600
+
+2026-05-10 Fortnight Payment Q2 Marzo | Wife
+    expenses:household:fortnight           $ 4600
+    assets:bank:banamex:checking                   $ -4600
+
+2026-06-04 Fortnight Payment Q1 Abril | Wife
+    expenses:household:fortnight           $ 4600
+    assets:bank:banamex:checking                   $ -4600
+
+2026-06-04 Fortnight Payment Q2 Abril | Wife
+    expenses:household:fortnight           $ 4600
+    assets:bank:banamex:checking                   $ -4600
