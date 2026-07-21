@@ -420,3 +420,6 @@ include accounts.journal
 2026-06-04 Fortnight Payment Q2 Abril | Wife
     expenses:household:fortnight           $ 4600
     assets:bank:banamex:checking                   $ -4600
+2026-07-20 comida
+    expenses:food:dining             $70
+    assets:sivale:meals             $-70
