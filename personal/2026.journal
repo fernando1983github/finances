@@ -423,3 +423,7 @@ include accounts.journal
 2026-07-20 comida
     expenses:food:dining             $70
     assets:sivale:meals             $-70
+
+2026-07-21 comida
+    expenses:food:dining             $50
+    assets:sivale:meals             $-50
