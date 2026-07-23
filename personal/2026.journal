@@ -427,3 +427,11 @@ include accounts.journal
 2026-07-21 comida
     expenses:food:dining             $50
     assets:sivale:meals             $-50
+
+2026-07-22 minisix
+    expenses:food:groceries             $64
+    assets:cash:wallet                 $-64
+
+2026-07-23 minisix
+    expenses:food:groceries            $106
+    assets:cash:wallet                $-106
