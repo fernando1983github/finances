@@ -435,3 +435,13 @@ include accounts.journal
 2026-07-23 minisix
     expenses:food:groceries            $106
     assets:cash:wallet                $-106
+
+2026-07-23 dinning | McDonalds
+    expenses:food:dining            $453
+    assets:cash:wallet             $-453
+
+2026-07-18 Reparacion casa | Home Depot
+    expenses:home:maintenance            $496
+    assets:cash:wallet                  $-496
+    expenses:food:groceries               $20
+    assets:cash:wallet                   $-20
