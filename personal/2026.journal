@@ -445,3 +445,7 @@ include accounts.journal
     assets:cash:wallet                  $-496
     expenses:food:groceries               $20
     assets:cash:wallet                   $-20
+
+2026-07-24 Gakuen Academy(Japanese) | Pago Fernando Cuervo
+    expenses:education:japanese          $650.00
+    assets:bank:banamex:checking        $-650.00
