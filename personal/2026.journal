@@ -420,6 +420,7 @@ include accounts.journal
 2026-06-04 Fortnight Payment Q2 Abril | Wife
     expenses:household:fortnight           $ 4600
     assets:bank:banamex:checking                   $ -4600
+
 2026-07-20 comida
     expenses:food:dining             $70
     assets:sivale:meals             $-70
@@ -449,3 +450,27 @@ include accounts.journal
 2026-07-24 Gakuen Academy(Japanese) | Pago Fernando Cuervo
     expenses:education:japanese          $650.00
     assets:bank:banamex:checking        $-650.00
+
+2026-07-25 estacionamiento | parque toreo
+    expenses:entertainment:parking            $100
+    assets:cash:wallet                       $-100
+
+2026-07-25 ear buds pro 4 | Amazon
+    expenses:shopping:amazon           $3299
+    assets:bank:banamex:checking               $-3299
+
+2026-07-26 ear buds pro 4 | Amazon
+    expenses:shopping:amazon           $3299  ; gift:wife
+    assets:bank:banamex:checking               $-3299
+
+2026-07-26 Toro cremeria
+    expenses:food:groceries         $546.01
+    assets:sivale:pantry           $-546.01
+
+2026-07-28 desayuno | schneider
+    expenses:food:dining             $70
+    assets:sivale:meals             $-70
+
+2026-07-28 minisix
+    expenses:food:groceries             $97
+    assets:cash:wallet                 $-97
