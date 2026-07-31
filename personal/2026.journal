@@ -480,5 +480,13 @@ include accounts.journal
     assets:sivale:meals             $-70
 
 2026-07-30 minisix
-    expenses:food:groceries             $71
-    assets:cash:wallet                 $-71
+    expenses:food:groceries             $79
+    assets:cash:wallet                 $-79
+
+2026-07-31 Gas | Naturgy
+    expenses:housing:utilities:gas:puerta-toreo            $283
+    assets:sivale:services                                $-283
+
+2026-07-31 luz | CFE
+    expenses:housing:utilities:electricity:puerta-toreo            $741
+    assets:sivale:services                                        $-741
