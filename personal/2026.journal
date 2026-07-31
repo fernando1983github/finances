@@ -474,3 +474,11 @@ include accounts.journal
 2026-07-28 minisix
     expenses:food:groceries             $97
     assets:cash:wallet                 $-97
+
+2026-07-30 schneider | cafeteria
+    expenses:food:dining             $70
+    assets:sivale:meals             $-70
+
+2026-07-30 minisix
+    expenses:food:groceries             $71
+    assets:cash:wallet                 $-71
