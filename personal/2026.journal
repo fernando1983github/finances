@@ -490,3 +490,11 @@ include accounts.journal
 2026-07-31 luz | CFE
     expenses:housing:utilities:electricity:puerta-toreo            $741
     assets:sivale:services                                        $-741
+
+2026-07-31 oxxo
+    expenses:food:groceries             $89
+    assets:cash:wallet                 $-89
+
+2026-07-31 oxxo | google play
+    expenses:digital              $100
+    assets:cash:wallet           $-100

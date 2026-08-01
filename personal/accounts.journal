@@ -35,6 +35,7 @@ alias SHORT_NAME = FULL:ACCOUNT:NAME
 #account Assets:Bank:Checking
 #account Expenses:Food
 
+account expenses:digital
 
 account assets:bank:banamex:checking       ; Your main bank account
 account assets:bank:hsbc:checking       ; Your main bank account
