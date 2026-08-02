@@ -195,7 +195,7 @@ include accounts.journal
     expenses:health:pharmacy            $24
     assets:cash:wallet                   $-24
 
-2026-06-30 Compras velorio abuelita
+2026-06-30 Compras velorio abuelita | sams
     expenses:food:groceries        $2758
     assets:sivale:pantry           $-2758
 
@@ -389,7 +389,7 @@ include accounts.journal
     expenses:food:groceries            $203
     assets:cash:wallet                $-203
 
-2026-07-18 comida trabajo
+2026-07-18 comida | trabajo
     expenses:food:dining            $700
     assets:sivale:meals            $-700
 
@@ -402,8 +402,8 @@ include accounts.journal
     assets:cash:wallet                $-232
 
 2026-05-11 Building Admin | MMTO MAYO B405
-    expenses:housing:maintenance:puerta-toreo         $1,550.
-    assets:bank:banamex:checking                     $-1,550.
+    expenses:housing:maintenance:puerta-toreo         $1,550
+    assets:bank:banamex:checking                     $-1,550
 
 2026-05-10 Fortnight Payment Q1 Marzo | Wife
     expenses:household:fortnight           $ 4600
@@ -481,7 +481,7 @@ include accounts.journal
 
 2026-07-30 minisix
     expenses:food:groceries             $79
-    assets:cash:wallet                 $-79
+    assets:sivale:meals                 $-79
 
 2026-07-31 Gas | Naturgy
     expenses:housing:utilities:gas:puerta-toreo            $283
@@ -513,6 +513,10 @@ include accounts.journal
     expenses:food:groceries                 $495  ;  cerveza
     assets:bank:banamex:checking           $-495
 
+2026-08-01 despensa | walmart
+    expenses:food:groceries           $1993
+    assets:sivale:pantry             $-1993
+
 2026-08-01 comida | familia
     expenses:food:dining                  $951.5
     assets:bank:banamex:checking         $-951.5
@@ -521,6 +525,38 @@ include accounts.journal
     assets:bank:banamex:checking       $9,000.00
     income:rent                       $-9,000.00
 
-2026-08-01 despensa | walmart
-    expenses:food:groceries           $1993
-    assets:sivale:pantry             $-1993
+2026-07-30 ATM | Withdrawal
+    assets:cash:wallet              $9,000.00
+    assets:bank:hsbc:checking      $-9,000.00
+
+2026-07-16 ATM | Withdrawal
+    assets:cash:wallet              $9,000.00
+    assets:bank:hsbc:checking      $-9,000.00
+
+2026-07-19 oxxo
+    expenses:food:groceries            $145
+    assets:cash:wallet                $-145
+
+2026-04-30 comida | trabajo
+    expenses:food:dining            $277
+    assets:sivale:meals            $-277
+
+2026-04-12 comida | familia
+    expenses:food:dining             $437
+    assets:sivale:meals             -$437
+
+2026-06-13 dulces
+    expenses:entertainment         $1399.8  ; event:birthday-2026
+    assets:cash:wallet            $-1399.8
+
+2026-05-29 oxxo
+    expenses:food:groceries             $51
+    assets:cash:wallet                 $-51
+
+2026-05-30 despensa | sams
+    expenses:food:groceries                $1389
+    assets:sivale:pantry                  $-1389
+
+2026-05-30 despensa | walmart
+    expenses:food:groceries           $1172
+    assets:sivale:pantry             $-1172
