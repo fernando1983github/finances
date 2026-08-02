@@ -498,3 +498,29 @@ include accounts.journal
 2026-07-31 oxxo | google play
     expenses:digital              $100
     assets:cash:wallet           $-100
+
+2026-07-31 minisix
+    expenses:food:groceries             $97
+    assets:cash:wallet                 $-97
+
+2026-08-01 estacionamiento | parque toreo
+    expenses:entertainment:parking             $63
+    assets:cash:wallet                        $-63
+
+2026-08-01 despensa | sams
+    expenses:food:groceries                $1960
+    assets:sivale:pantry                  $-1960
+    expenses:food:groceries                 $495  ;  cerveza
+    assets:bank:banamex:checking           $-495
+
+2026-08-01 comida | familia
+    expenses:food:dining                  $951.5
+    assets:bank:banamex:checking         $-951.5
+
+2026-08-01 Ivan Tolama | August Rent
+    assets:bank:banamex:checking       $9,000.00
+    income:rent                       $-9,000.00
+
+2026-08-01 despensa | walmart
+    expenses:food:groceries           $1993
+    assets:sivale:pantry             $-1993
