@@ -560,3 +560,7 @@ include accounts.journal
 2026-05-30 despensa | walmart
     expenses:food:groceries           $1172
     assets:sivale:pantry             $-1172
+
+2026-08-03 compra estampas
+    expenses:entertainment            $150
+    assets:cash:wallet               $-150
