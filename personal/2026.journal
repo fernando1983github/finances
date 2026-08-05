@@ -564,3 +564,7 @@ include accounts.journal
 2026-08-03 compra estampas
     expenses:entertainment            $150
     assets:cash:wallet               $-150
+
+2026-08-05 pago renta caba¤a Mineral del Chico
+    expenses:entertainment                 $2858
+    assets:bank:banamex:checking          $-2858
