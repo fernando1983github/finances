@@ -568,3 +568,7 @@ include accounts.journal
 2026-08-05 pago renta caba¤a Mineral del Chico
     expenses:entertainment                 $2858
     assets:bank:banamex:checking          $-2858
+
+2026-08-05 minisix
+    expenses:food:groceries            $234
+    assets:cash:wallet                $-234
