@@ -572,3 +572,15 @@ include accounts.journal
 2026-08-05 minisix
     expenses:food:groceries            $234
     assets:cash:wallet                $-234
+
+2026-08-06 desayuno schneider
+    expenses:food:dining             $75
+    assets:sivale:meals             $-75
+
+2026-08-06 comida shneider
+    expenses:food:dining            $187
+    assets:sivale:meals            $-187
+
+2026-08-06 minisix
+    expenses:food:groceries            $100
+    assets:sivale:meals               $-100
