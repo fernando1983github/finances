@@ -584,3 +584,15 @@ include accounts.journal
 2026-08-06 minisix
     expenses:food:groceries            $100
     assets:sivale:meals               $-100
+
+2026-08-10 cafeteria schneider
+    expenses:food:dining             $58
+    assets:sivale:meals             $-58
+
+2026-08-10 Building Admin | MTTO AGOSTO B405
+    expenses:housing:maintenance:puerta-toreo         $1,550.
+    assets:bank:banamex:checking                     $-1,550.
+
+2026-08-10 San Pedro | MMTO AGOSTO 302
+    expenses:housing:maintenance:san-pedro         $280.32
+    assets:bank:banamex:checking                  $-280.32
