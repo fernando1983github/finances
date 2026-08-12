@@ -596,3 +596,7 @@ include accounts.journal
 2026-08-10 San Pedro | MMTO AGOSTO 302
     expenses:housing:maintenance:san-pedro         $280.32
     assets:bank:banamex:checking                  $-280.32
+
+2026-08-11 compra plastilinas ni¤as
+    expenses:entertainment             $56
+    assets:cash:wallet                $-56
