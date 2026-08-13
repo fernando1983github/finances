@@ -610,3 +610,11 @@ include accounts.journal
     assets:cash:wallet                       $-2000
     expenses:home:furniture                  $18000
     assets:cash:wallet                      $-18000
+
+2026-08-12 estacionamiento | parque toreo
+    expenses:entertainment:parking             $88
+    assets:cash:wallet                        $-88
+
+2026-08-12 dinning | burger king
+    expenses:food:dining            $194
+    assets:sivale:meals            $-194
