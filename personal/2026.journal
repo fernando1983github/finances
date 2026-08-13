@@ -45,7 +45,7 @@ include accounts.journal
     expenses:education:daughter:english  $1850  ; member:daughter
     assets:bank:banamex:checking                 $ -1850
 
-2026-01-20 TicketMaster | 31 minutos  ; event:concert
+2026-01-20 TicketMaster | 31 minutos  ; event:31minutos-concert
     expenses:entertainment:concert  6 @ $2000.00
     assets:bank:banamex:checking
 
@@ -581,7 +581,7 @@ include accounts.journal
     expenses:food:dining             $75
     assets:sivale:meals             $-75
 
-2026-08-06 comida shneider
+2026-08-06 comida schneider
     expenses:food:dining            $187
     assets:sivale:meals            $-187
 
@@ -618,3 +618,15 @@ include accounts.journal
 2026-08-12 dinning | burger king
     expenses:food:dining            $194
     assets:sivale:meals            $-194
+
+2026-08-10 comida schneider
+    expenses:food:dining            $187
+    assets:sivale:meals            $-187
+
+2026-08-08 comida | Itakate Minero
+    expenses:food:dining        $1233.75
+    assets:sivale:meals        $-1233.75
+
+2026-04-11 estacionamiento | auditorio nacional  ; event:31minutos-concert
+    expenses:entertainment:parking            $270
+    assets:cash:wallet                       $-270
