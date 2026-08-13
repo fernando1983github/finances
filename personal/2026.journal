@@ -537,6 +537,10 @@ include accounts.journal
     expenses:food:groceries            $145
     assets:cash:wallet                $-145
 
+2026-07-25 furniture bedroom | advance payment  ; purchase-id:recamara-2026 
+    expenses:home:furniture           $2000
+    assets:cash:wallet               $-2000
+
 2026-04-30 comida | trabajo
     expenses:food:dining            $277
     assets:sivale:meals            $-277
@@ -597,6 +601,12 @@ include accounts.journal
     expenses:housing:maintenance:san-pedro         $280.32
     assets:bank:banamex:checking                  $-280.32
 
-2026-08-11 compra plastilinas ni¤as
+2026-08-11 compra plastilinas niñas
     expenses:entertainment             $56
     assets:cash:wallet                $-56
+
+2026-08-12 furniture bedroom  ; purchase-id:recamara-2026
+    expenses:transportation:freight           $2000
+    assets:cash:wallet                       $-2000
+    expenses:home:furniture                  $18000
+    assets:cash:wallet                      $-18000

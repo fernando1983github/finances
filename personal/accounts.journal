@@ -71,6 +71,8 @@ account expenses:education:daughter:english
 account expenses:education
 
 account expenses:home:maintenance
+account expenses:home:furniture
+account expenses:transportation:freight
 
 # --- Liabilities (Money passing through) ---
 account liabilities:family:bil-insurance  ; Money your Brother-in-law owes/pays you
