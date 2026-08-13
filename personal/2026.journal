@@ -630,3 +630,19 @@ include accounts.journal
 2026-04-11 estacionamiento | auditorio nacional  ; event:31minutos-concert
     expenses:entertainment:parking            $270
     assets:cash:wallet                       $-270
+
+2026-08-13 uber to work
+    expenses:transportation:rideshare         $127.98
+    assets:bank:banamex:checking             $-127.98
+    expenses:personal:tips                        $10
+    assets:bank:banamex:checking                 $-10
+
+2026-08-13 comida schneider | la chana juana
+    expenses:food:dining          $170.5
+    assets:sivale:meals          $-170.5
+
+2026-08-13 uber | schneider->home
+    expenses:transportation:rideshare         $175.98
+    assets:bank:banamex:checking             $-175.98
+    expenses:personal:tips                        $10
+    assets:bank:banamex:checking                 $-10
