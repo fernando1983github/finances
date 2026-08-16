@@ -654,3 +654,19 @@ include accounts.journal
 2026-08-15 minisix
     expenses:food:groceries            $153
     assets:sivale:meals               $-153
+
+2026-06-23 comida pfchangs | cumpleaños regy
+    expenses:food:dining         $1471.8
+    assets:sivale:meals         $-1471.8
+
+2026-06-23 comida el kioskito | cumpleaños regy
+    expenses:food:dining           $1021
+    assets:sivale:meals           $-1021
+
+2026-01-25 recorcholis
+    expenses:entertainment            $500
+    assets:cash:wallet               $-500
+
+2026-03-21 manteinimiento Kia Sportage
+    expenses:car:maintenance               $2960
+    assets:bank:banamex:checking          $-2960
