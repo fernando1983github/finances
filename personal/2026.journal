@@ -646,3 +646,11 @@ include accounts.journal
     assets:bank:banamex:checking             $-175.98
     expenses:personal:tips                        $10
     assets:bank:banamex:checking                 $-10
+
+2026-08-15 Mobile Carrier | Monthly Phone Plan
+    expenses:utilities:cellphone            $549
+    assets:bank:banamex:checking           $-549
+
+2026-08-15 minisix
+    expenses:food:groceries            $153
+    assets:sivale:meals               $-153
