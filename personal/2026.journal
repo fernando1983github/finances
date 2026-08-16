@@ -655,18 +655,26 @@ include accounts.journal
     expenses:food:groceries            $153
     assets:sivale:meals               $-153
 
-2026-06-23 comida pfchangs | cumpleaños regy
+2026-06-23 comida | PFchangs plaza Carso  ; event:Regina-birthday-2026
     expenses:food:dining         $1471.8
     assets:sivale:meals         $-1471.8
 
-2026-06-23 comida el kioskito | cumpleaños regy
+2026-06-23 comida | El Kioskito  ; event:Regina-birthday-2026
     expenses:food:dining           $1021
     assets:sivale:meals           $-1021
 
-2026-01-25 recorcholis
+2026-01-25 recorcholis | Parque Toreo
     expenses:entertainment            $500
     assets:cash:wallet               $-500
 
-2026-03-21 manteinimiento Kia Sportage
+2026-03-21 Mantenimiento Kia Sportage | KIA San Joaquin
     expenses:car:maintenance               $2960
     assets:bank:banamex:checking          $-2960
+
+2026-04-14 papeleria | dabo
+    expenses:stationery            $385
+    assets:cash:wallet            $-385
+
+2026-08-16 minisix
+    expenses:food:groceries            $222
+    assets:sivale:meals               $-222

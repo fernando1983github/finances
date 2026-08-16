@@ -69,6 +69,7 @@ account expenses:education:daughter  ; Daughter's English classes
 account expenses:housing:maintenance  ; Department maintenance fees
 account expenses:education:daughter:english
 account expenses:education
+account expenses:stationery
 
 account expenses:home:maintenance
 account expenses:home:furniture
