@@ -678,3 +678,7 @@ include accounts.journal
 2026-08-16 minisix
     expenses:food:groceries            $222
     assets:sivale:meals               $-222
+
+2026-04-27 comida | mcdonalds
+    expenses:food:dining            $183
+    assets:cash:wallet             $-183
