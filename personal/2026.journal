@@ -690,3 +690,9 @@ include accounts.journal
 2026-08-17 ATM | Withdrawal
     assets:cash:wallet              $9,000.00
     assets:bank:hsbc:checking      $-9,000.00
+
+2026-08-18 compras para comida
+    expenses:food:groceries             $50
+    assets:cash:wallet                 $-50
+    expenses:food:groceries             $24
+    assets:cash:wallet                 $-24
