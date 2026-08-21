@@ -696,3 +696,11 @@ include accounts.journal
     assets:cash:wallet                 $-50
     expenses:food:groceries             $24
     assets:cash:wallet                 $-24
+
+2026-08-20 desayuno schneider
+    expenses:food:dining             $75
+    assets:sivale:meals             $-75
+
+2026-08-20 comida | familia
+    expenses:food:dining            $470
+    assets:sivale:meals            $-470
