@@ -313,7 +313,7 @@ include accounts.journal
     expenses:food:dining             $165
     assets:sivale:meals             $-165
 
-2026-07-09 Forthnight Payment Q1 Mayo | Wife
+2026-07-09 Fortnight Payment Q1 Mayo | Wife
     expenses:household:fortnight         $4600
     assets:bank:banamex:checking        $-4600
 
@@ -325,7 +325,7 @@ include accounts.journal
     expenses:housing:maintenance:puerta-toreo         $1550
     assets:bank:banamex:checking                     $-1550
 
-2026-07-09 Forthnight Payment Q2 Mayo | Wife
+2026-07-09 Fortnight Payment Q2 Mayo | Wife
     expenses:household:fortnight         $4600
     assets:bank:banamex:checking        $-4600
 
@@ -714,3 +714,11 @@ include accounts.journal
 2026-08-21 Gakuen Academy(Japanese) | Pago Fernando Cuervo
     expenses:education:japanese          $650.00
     assets:bank:banamex:checking        $-650.00
+
+2026-08-21 Fortnight Payment Q1 Junio | Wife
+    expenses:household:fortnight         $4,600.
+    assets:bank:banamex:checking        $-4,600.
+
+2026-08-21 Fortnight Payment Q2 Junio | Wife
+    expenses:household:fortnight         $4,600.
+    assets:bank:banamex:checking        $-4,600.
