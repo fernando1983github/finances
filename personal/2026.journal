@@ -704,3 +704,13 @@ include accounts.journal
 2026-08-20 comida | familia
     expenses:food:dining            $470
     assets:sivale:meals            $-470
+
+2026-08-21 complementos para comida
+    expenses:food:groceries          $148.5
+    assets:cash:wallet              $-148.5
+    expenses:food:groceries             $25
+    assets:cash:wallet                 $-25
+
+2026-08-21 Gakuen Academy(Japanese) | Pago Fernando Cuervo
+    expenses:education:japanese          $650.00
+    assets:bank:banamex:checking        $-650.00
