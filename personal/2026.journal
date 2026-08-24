@@ -95,9 +95,9 @@ include accounts.journal
     expenses:car:insurance          $7440.09
 	assets:bank:banamex:checking            $ -7440.09
 
-2026-02-24 Local Pharmacy | Pamorelin
-    expenses:health:pharmacy          $11600.00  ; member:daughter
-    assets:bank:banamex:checking
+2026-02-24 Leben Medik | Pamorelin
+    expenses:health:pharmacy          $11,600  ; member:daughter
+    assets:bank:banamex:checking    $-11,600
 
 # 2026-04-12 Dr. Smith | General Checkup
 #     expenses:health:medical           $120.00
@@ -259,9 +259,9 @@ include accounts.journal
     assets:bank:banamex:checking       $9,000.00
     income:rent                       $-9,000.00
 
-2026-05-21 Local Pharmacy | Pamorelin
-    expenses:health:pharmacy              $11725  ; member:daughter
-    assets:bank:banamex:checking         $-11725
+2026-05-21 Leben Medik | Pamorelin
+    expenses:health:pharmacy              $11,725  ; member:daughter
+    assets:bank:banamex:checking         $-11,725
 
 2026-05-29 Gakuen Academy(Japanese) | Pago Fernando Cuervo
     expenses:education:japanese          $650.00
@@ -569,7 +569,7 @@ include accounts.journal
     expenses:entertainment            $150
     assets:cash:wallet               $-150
 
-2026-08-05 pago renta caba¤a Mineral del Chico
+2026-08-05 pago renta cabaï¿½a Mineral del Chico
     expenses:entertainment                 $2858
     assets:bank:banamex:checking          $-2858
 
@@ -593,6 +593,10 @@ include accounts.journal
     expenses:food:dining             $58
     assets:sivale:meals             $-58
 
+2026-08-10 comida schneider
+    expenses:food:dining            $187
+    assets:sivale:meals            $-187
+
 2026-08-10 Building Admin | MTTO AGOSTO B405
     expenses:housing:maintenance:puerta-toreo         $1,550.
     assets:bank:banamex:checking                     $-1,550.
@@ -601,7 +605,7 @@ include accounts.journal
     expenses:housing:maintenance:san-pedro         $280.32
     assets:bank:banamex:checking                  $-280.32
 
-2026-08-11 compra plastilinas niñas
+2026-08-11 compra plastilinas niï¿½as
     expenses:entertainment             $56
     assets:cash:wallet                $-56
 
@@ -716,9 +720,69 @@ include accounts.journal
     assets:bank:banamex:checking        $-650.00
 
 2026-08-21 Fortnight Payment Q1 Junio | Wife
-    expenses:household:fortnight         $4,600.
-    assets:bank:banamex:checking        $-4,600.
+    expenses:household:fortnight         $4,600
+    assets:bank:banamex:checking        $-4,600
 
 2026-08-21 Fortnight Payment Q2 Junio | Wife
-    expenses:household:fortnight         $4,600.
-    assets:bank:banamex:checking        $-4,600.
+    expenses:household:fortnight         $4,600
+    assets:bank:banamex:checking        $-4,600
+
+2026-08-24 desayuno schneider
+    expenses:food:dining             $55
+    assets:sivale:meals             $-55
+
+2026-08-24 Leben Medik | Pamorelin
+    expenses:health:pharmacy            $11,725   ; member:daughter
+    assets:bank:banamex:checking       $-11,725
+
+2026-08-24 diccionario inlges/espaï¿½ol basico | Amazon
+    expenses:shopping:amazon              $73.50
+    assets:bank:banamex:checking         $-73.50
+
+2026-08-24 ATM | Withdrawal
+    assets:cash:wallet              $9,000.00
+    assets:bank:hsbc:checking      $-9,000.00
+
+2026-08-23 minisix
+    expenses:food:groceries             $50
+    assets:sivale:meals                $-50
+
+2026-08-22 dulceria cinemex spiderman
+    expenses:entertainment:movies            $399
+    assets:cash:wallet                      $-399
+
+2026-08-23 despensa, papeleria | walmart
+    expenses:food:groceries               $820
+    expenses:personal:clothing            $368
+    assets:sivale:pantry                $-1188
+
+2026-08-22 comida | kfc toreo
+    expenses:food:dining            $399
+    assets:sivale:meals            $-399
+
+2026-08-23 oxxo
+    expenses:food:groceries            $147
+    assets:cash:wallet                $-147
+
+2026-08-22 estacionamiento centro naucalpan
+    expenses:entertainment:parking             $32
+    assets:cash:wallet                        $-32
+
+2026-08-22 estacionamiento | rosario towncenter
+    expenses:entertainment:parking            $122
+    assets:cash:wallet                       $-122
+
+2026-08-22 cena | el paisa claveria
+    expenses:food:dining            $375
+    assets:cash:wallet             $-375
+
+2026-08-23 corte de cabello
+    expenses:personal:grooming              90
+    expenses:personal:tips                  10
+    assets:cash:wallet                    -100
+
+2026-08-24 gas station  ; odometer:42003
+    expenses:car:fuel      23.99 L @ $56.274
+    assets:cash:wallet    -23.99 L @ $56.274
+    expenses:car:tips                    10
+    assets:cash:wallet                  -10

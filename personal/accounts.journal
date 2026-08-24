@@ -96,6 +96,10 @@ account expenses:health:insurance  ; (If you pay a monthly premium or copay)
 
 account expenses:personal:grooming
 account expenses:personal:tips
+account expenses:personal:clothing
+account expenses:family:clothing
+account expenses:stationery
+
 
 account expenses:shopping:amazon
 account expenses:subscriptions:amazon
