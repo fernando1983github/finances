@@ -100,7 +100,7 @@ account expenses:personal:clothing
 account expenses:family:clothing
 account expenses:stationery
 
-
+account expenses:shopping:general
 account expenses:shopping:amazon
 account expenses:subscriptions:amazon
 account expenses:subscriptions:pluralsight

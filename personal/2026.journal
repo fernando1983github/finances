@@ -228,15 +228,15 @@ include accounts.journal
     assets:bank:hsbc:checking      $-9,000.00
 
 2026-06-01 Birthday | salon pay remaining amount
-    expenses:entertainment              $21940  ; event:birthday-2026
+    expenses:entertainment              $21940  ; event:birthday-regina-2026
     assets:bank:hsbc:checking          $-21940
 
 2026-03-15 Birthday | Salon deposit
-    expenses:entertainment                 $3000  ;  event:birthday-2026
+    expenses:entertainment                 $3000  ;  event:birthday-regina-2026
     assets:bank:banamex:checking          $-3000
 
 2026-06-20 Gastos adicionales, agua, servilletas, vasos
-    expenses:entertainment            $150  ;  event:birthday-2026
+    expenses:entertainment            $150  ;  event:birthday-regina-2026
     assets:cash:wallet               $-150
 
 2026-07-02 Fondo Carmen
@@ -346,8 +346,8 @@ include accounts.journal
     assets:cash:wallet             $-361
 
 2026-07-09 gas station  ; odometer:41114
-    expenses:car:fuel      23.49 L @ $57.048
-    assets:cash:wallet    -23.49 L @ $57.048
+    expenses:car:fuel      57.048 L @ $23.49
+    assets:cash:wallet    -57.048 L @ $23.49
     expenses:car:tips                    $10
     assets:cash:wallet                  $-10
 
@@ -550,7 +550,7 @@ include accounts.journal
     assets:sivale:meals             -$437
 
 2026-06-13 dulces
-    expenses:entertainment         $1399.8  ; event:birthday-2026
+    expenses:entertainment         $1399.8  ; event:birthday-regina-2026
     assets:cash:wallet            $-1399.8
 
 2026-05-29 oxxo
@@ -777,12 +777,79 @@ include accounts.journal
     assets:cash:wallet             $-375
 
 2026-08-23 corte de cabello
-    expenses:personal:grooming              90
-    expenses:personal:tips                  10
-    assets:cash:wallet                    -100
+    expenses:personal:grooming              $90
+    expenses:personal:tips                  $10
+    assets:cash:wallet                    $-100
 
 2026-08-24 gas station  ; odometer:42003
-    expenses:car:fuel      23.99 L @ $56.274
-    assets:cash:wallet    -23.99 L @ $56.274
-    expenses:car:tips                    10
-    assets:cash:wallet                  -10
+    expenses:car:fuel      56.274 L @ $23.99
+    assets:cash:wallet    -56.274 L @ $23.99
+    expenses:car:tips                    $10
+    assets:cash:wallet                  $-10
+
+2026-08-05 gas station  ; odometer:41473
+    expenses:car:fuel      52.45 L @ $23.69
+    assets:cash:wallet    -52.45 L @ $23.69
+    expenses:car:tips                    $10
+    assets:cash:wallet                  $-10
+
+2026-07-19 compra monedas mundial
+    expenses:shopping:general            $250
+    assets:cash:wallet                  $-250
+
+2206-08-02 comida cumpleañeros barbacoa | casa abuelita
+    expenses:food:dining           $1140
+    assets:cash:wallet            $-1140
+
+2026-08-15 comida cumpleaños carmen  ; event:birthday-carmen-2026
+    expenses:food:dining            $833
+    assets:cash:wallet             $-833
+
+2026-06-17 gas station  ; odometer:40736
+    expenses:car:fuel      54.071 L @ $23.49
+    assets:cash:wallet    -54.071 L @ $23.49
+    expenses:car:tips                    $14
+    assets:cash:wallet                  $-14
+
+2026-05-28 gas station  ; odometer:40440
+    expenses:car:fuel      55.033 L @ $23.99
+    assets:cash:wallet    -55.033 L @ $23.99
+    expenses:car:tips                    $10
+    assets:cash:wallet                  $-10
+
+2026-05-04 gas station  ; odometer:40080
+    expenses:car:fuel      54.195 L @ $23.99
+    assets:cash:wallet    -54.195 L @ $23.99
+    expenses:car:tips                    $10
+    assets:cash:wallet                  $-10
+
+2026-04-13 gas station  ; odometer:39718
+    expenses:car:fuel      30.355 L @ $23.39
+    assets:cash:wallet    -30.355 L @ $23.39
+    expenses:car:tips                    $10
+    assets:cash:wallet                  $-10
+
+2026-03-27 gas station  ; odometer:39482
+    expenses:car:fuel      60.01 L @ $23.69
+    assets:cash:wallet    -60.01 L @ $23.69
+    expenses:car:tips                    $10
+    assets:cash:wallet                  $-10
+
+2026-03-04 gas station  ; odometer:39081
+    expenses:car:fuel      43.202 L @ $22.69
+    assets:cash:wallet    -43.202 L @ $22.69
+    expenses:car:tips                    $10
+    assets:cash:wallet                  $-10
+
+2026-02-10 gas station  ; odometer:38830
+    expenses:car:fuel      41.798 L @ $22.99
+    assets:cash:wallet    -41.798 L @ $22.99
+    expenses:car:tips                    $10
+    assets:cash:wallet                  $-10
+
+2026-01-20 gas station  ; odometer:38546
+    expenses:car:fuel      40.971 L @ $23.19
+    assets:cash:wallet    -40.971 L @ $23.19
+    expenses:car:tips                    $10
+    assets:cash:wallet                  $-10
+
