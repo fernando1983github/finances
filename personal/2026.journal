@@ -853,3 +853,6 @@ include accounts.journal
     expenses:car:tips                    $10
     assets:cash:wallet                  $-10
 
+2026-08-26 complementos para comida
+    expenses:food:groceries             $15
+    assets:cash:wallet                 $-15
