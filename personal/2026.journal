@@ -892,3 +892,7 @@ include accounts.journal
 2026-05-20 minisix
     expenses:food:groceries            $157
     assets:sivale:meals               $-157
+
+2026-08-31 sixflags | goldpass 2027
+    expenses:entertainment              3 @ $999
+    assets:bank:banamex:checking       -3 @ $999
