@@ -1,0 +1,17 @@
+# 2026_inversiones.journal
+
+commodity HSBCDC_BFP1000.00
+commodity 1.000,00 HSBCDC_BFP
+
+# 1. Account Declarations for Investments
+account assets:bank:hsbc:investments:hsbcdc_bfp
+account income:hsbc:capital_gains
+
+# 2. Market Price History (Value updates)
+P 2026-09-01 HSBCDC_BFP $26.47151
+#P 2026-10-31 HSBCDC_BFP $25.35
+
+# 3. Investment Transactions
+2026-09-01 * HSBC | Buy Corto Plazo Plus Fund
+    assets:bank:hsbc:investments:hsbcdc_bfp           26443 HSBCDC_BFP @ $26.47151
+    assets:bank:hsbc:checking                 $-699986.13893

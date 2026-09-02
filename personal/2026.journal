@@ -1,6 +1,6 @@
 include accounts.journal
 ; journal created 2026-04-01 by hledger
-
+include 2026_inversiones.journal
 
 
 
@@ -896,3 +896,7 @@ include accounts.journal
 2026-08-31 sixflags | goldpass 2027
     expenses:entertainment              3 @ $999
     assets:bank:banamex:checking       -3 @ $999
+
+2026-04-11 despensa | sams
+    expenses:food:groceries           $2455.01
+    assets:sivale:pantry             $-2455.01
