@@ -900,3 +900,11 @@ include 2026_inversiones.journal
 2026-04-11 despensa | sams
     expenses:food:groceries           $2455.01
     assets:sivale:pantry             $-2455.01
+
+2026-09-03 desayuno tamales
+    expenses:food:dining             $30
+    assets:cash:wallet              $-30
+
+2026-09-03 minisix
+    expenses:food:groceries            $154
+    assets:cash:wallet                $-154
