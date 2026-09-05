@@ -908,3 +908,7 @@ include 2026_inversiones.journal
 2026-09-03 minisix
     expenses:food:groceries            $154
     assets:cash:wallet                $-154
+
+2026-09-04 micheladas
+    expenses:food:dining            $400
+    assets:cash:wallet             $-400
