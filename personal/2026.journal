@@ -401,7 +401,7 @@ include 2026_inversiones.journal
     expenses:food:groceries            $232
     assets:cash:wallet                $-232
 
-2026-05-11 Building Admin | MMTO MAYO B405
+2026-05-11 Building Admin | MTTO MAYO B405
     expenses:housing:maintenance:puerta-toreo         $1,550
     assets:bank:banamex:checking                     $-1,550
 
@@ -598,10 +598,10 @@ include 2026_inversiones.journal
     assets:sivale:meals            $-187
 
 2026-08-10 Building Admin | MTTO AGOSTO B405
-    expenses:housing:maintenance:puerta-toreo         $1,550.
-    assets:bank:banamex:checking                     $-1,550.
+    expenses:housing:maintenance:puerta-toreo         $1,550
+    assets:bank:banamex:checking                     $-1,550
 
-2026-08-10 San Pedro | MMTO AGOSTO 302
+2026-08-10 San Pedro | MTTO AGOSTO 302
     expenses:housing:maintenance:san-pedro         $280.32
     assets:bank:banamex:checking                  $-280.32
 
@@ -912,3 +912,23 @@ include 2026_inversiones.journal
 2026-09-04 micheladas
     expenses:food:dining            $400
     assets:cash:wallet             $-400
+
+2026-09-01 Ivan Tolama | September Rent
+    assets:bank:banamex:checking           $9000
+    income:rent                           $-9000
+
+2026-09-06 Building Admin | MTTO SEPTIEMBRE B405
+    expenses:housing:maintenance:puerta-toreo         $1,550
+    assets:bank:banamex:checking                     $-1,550
+
+2026-09-06 San Pedro | MTTO SEPTIEMBRE 302
+    expenses:housing:maintenance:san-pedro         $280.32
+    assets:bank:banamex:checking                  $-280.32
+
+2026-09-06 Fortnight Payment Q1 Julio | Wife
+    expenses:household:fortnight         $4,600
+    assets:bank:banamex:checking        $-4,600
+
+2026-09-06 Fortnight Payment Q2 Julio | Wife
+    expenses:household:fortnight         $4,600
+    assets:bank:banamex:checking        $-4,600
