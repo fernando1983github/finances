@@ -932,3 +932,6 @@ include 2026_inversiones.journal
 2026-09-06 Fortnight Payment Q2 Julio | Wife
     expenses:household:fortnight         $4,600
     assets:bank:banamex:checking        $-4,600
+2026-09-07 comida schneider
+    expenses:food:dining             $55
+    assets:sivale:meals             $-55
