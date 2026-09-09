@@ -935,3 +935,33 @@ include 2026_inversiones.journal
 2026-09-07 comida schneider
     expenses:food:dining             $55
     assets:sivale:meals             $-55
+
+2026-09-08 minisix
+    expenses:food:groceries             $61
+    assets:sivale:meals                $-61
+
+# Making a Purchase with the Credit Card
+# When you buy something (for example, $50 in groceries), your spending expense increases, and your liability (what you owe HSBC) increases
+2026-09-05 comida | familia
+    expenses:food:dining           $1489.40
+    liabilities:credit:hsbc       $-1489.40
+
+# Paying Off Your Credit Card from Checking
+# 2026-09-05 Pay Credit Card Bill
+#     liabilities:credit:hsbc           $1489.40
+#     assets:bank:hsbc:checking     -$1489.40
+
+# Annual Fees or Interest
+# If HSBC charges an interest fee or annual fee, log it as a financial expense:
+# 2026-09-05 HSBC Annual Fee
+#     expenses:financial:fees     $30.00
+#     liabilities:credit:hsbc
+
+
+2026-09-09 minisix
+    expenses:food:groceries             $92
+    assets:sivale:meals                $-92
+
+2026-09-09 Telcel personal | Monthly Phone Plan
+    expenses:utilities:cellphone            $549
+    liabilities:credit:hsbc                $-549

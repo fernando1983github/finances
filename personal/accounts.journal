@@ -48,6 +48,9 @@ account expenses:car:maintenance   ; Oil changes, tires, etc.
 account expenses:car:verificacion
 account expenses:car:tenencia
 
+# credit cards are tracked as liability accounts because they represent money you owe to the bank, rather than money you own
+account liabilities:credit:hsbc
+
 
 alias banamex=assets:bank:banamex:checking
 alias hsbc=assets:bank:hsbc:checking
