@@ -965,3 +965,7 @@ include 2026_inversiones.journal
 2026-09-09 Telcel personal | Monthly Phone Plan
     expenses:utilities:cellphone            $549
     liabilities:credit:hsbc                $-549
+
+2026-09-09 starbucks | familia
+    expenses:food:dining           $190
+    liabilities:credit:hsbc       $-190
