@@ -969,3 +969,11 @@ include 2026_inversiones.journal
 2026-09-09 starbucks | familia
     expenses:food:dining           $190
     liabilities:credit:hsbc       $-190
+
+2026-09-11 Krueger | water heater maintenance
+    expenses:housing:utilities:gas:puerta-toreo:maintenance            $250
+    assets:cash:wallet                                                $-250
+
+2026-09-11 oxxo
+    expenses:food:groceries            $164
+    assets:sivale:meals               $-164

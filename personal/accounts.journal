@@ -118,6 +118,7 @@ account expenses:housing:utilities:water:san-pedro
 account expenses:housing:utilities:water:puerta-toreo
 account expenses:housing:utilities:gas:san-pedro
 account expenses:housing:utilities:gas:puerta-toreo
+account expenses:housing:utilities:gas:puerta-toreo:maintenance
 account expenses:housing:utilities:internet
 account expenses:housing:taxes:predial:san-pedro
 account expenses:housing:taxes:predial:puerta-toreo
