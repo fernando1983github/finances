@@ -942,7 +942,7 @@ include 2026_inversiones.journal
 
 # Making a Purchase with the Credit Card
 # When you buy something (for example, $50 in groceries), your spending expense increases, and your liability (what you owe HSBC) increases
-2026-09-05 comida | familia
+2026-09-05 comida familia | moshi moshi
     expenses:food:dining           $1489.40
     liabilities:credit:hsbc       $-1489.40
 
@@ -977,3 +977,7 @@ include 2026_inversiones.journal
 2026-09-11 oxxo
     expenses:food:groceries            $164
     assets:sivale:meals               $-164
+
+2026-09-12 comida familia | olive garden
+    expenses:food:dining           $1371.00
+    liabilities:credit:hsbc       $-1371.00
