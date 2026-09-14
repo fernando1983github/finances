@@ -981,3 +981,10 @@ include 2026_inversiones.journal
 2026-09-12 comida familia | olive garden
     expenses:food:dining           $1371.00
     liabilities:credit:hsbc       $-1371.00
+2026-09-13 cerveza
+    expenses:food:groceries            $150
+    assets:cash:wallet                $-150
+
+2026-09-13 comida | casa lety
+    expenses:food:dining                    $375
+    assets:bank:banamex:checking           $-375
