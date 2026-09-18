@@ -988,3 +988,7 @@ include 2026_inversiones.journal
 2026-09-13 comida | casa lety
     expenses:food:dining                    $375
     assets:bank:banamex:checking           $-375
+
+2026-09-16 minisix
+    expenses:food:groceries            $194
+    assets:sivale:meals               $-194
