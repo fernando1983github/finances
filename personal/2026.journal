@@ -1023,3 +1023,17 @@ include 2026_inversiones.journal
 2026-09-20 comics | panini
     expenses:entertainment              $338
     liabilities:credit:hsbc            $-338
+
+2026-09-19 gas station  ; odometer:42384
+    expenses:car:fuel      59.1 L @ $23.69
+    assets:cash:wallet    -59.1 L @ $23.69
+    expenses:car:tips                    $10
+    assets:cash:wallet                  $-10
+
+2026-09-13 micheladas
+    expenses:food:groceries                 $150  ;  cerveza
+    assets:cash:wallet                     $-150
+
+2026-09-15 comida | casa lety
+    expenses:food:dining                    $500
+    assets:bank:banamex:checking           $-500
