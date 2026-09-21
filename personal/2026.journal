@@ -992,3 +992,34 @@ include 2026_inversiones.journal
 2026-09-16 minisix
     expenses:food:groceries            $194
     assets:sivale:meals               $-194
+
+2026-09-18 Gakuen Academy(Japanese) | Pago Fernando Cuervo
+    expenses:education:japanese        $650.00
+    assets:bank:banamex:checking               $ -650.00
+2026-09-19 comida | rebel wings
+    expenses:food:dining             $817.3
+    liabilities:credit:hsbc         $-817.3
+
+2026-09-19 minisix
+    expenses:food:groceries             $62
+    assets:sivale:meals                $-62
+
+2026-09-19 oxxo
+    expenses:food:groceries             $145
+    assets:sivale:meals                $-145
+
+2026-09-14 minisix
+    expenses:food:groceries             $108
+    assets:sivale:meals                $-108
+
+2026-09-20 minisix
+    expenses:food:groceries             $138
+    assets:sivale:meals                $-138
+
+2026-09-20 minisix
+    expenses:food:groceries             $30
+    assets:sivale:meals                $-30
+
+2026-09-20 comics | panini
+    expenses:entertainment              $338
+    liabilities:credit:hsbc            $-338
