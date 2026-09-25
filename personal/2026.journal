@@ -1037,3 +1037,7 @@ include 2026_inversiones.journal
 2026-09-15 comida | casa lety
     expenses:food:dining                    $500
     assets:bank:banamex:checking           $-500
+
+2026-09-24 desayuno tamales
+    expenses:food:dining             $30
+    assets:cash:wallet              $-30
