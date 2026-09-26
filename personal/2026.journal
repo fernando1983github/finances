@@ -981,6 +981,7 @@ include 2026_inversiones.journal
 2026-09-12 comida familia | olive garden
     expenses:food:dining           $1371.00
     liabilities:credit:hsbc       $-1371.00
+
 2026-09-13 cerveza
     expenses:food:groceries            $150
     assets:cash:wallet                $-150
@@ -1041,3 +1042,21 @@ include 2026_inversiones.journal
 2026-09-24 desayuno tamales
     expenses:food:dining             $30
     assets:cash:wallet              $-30
+
+2026-09-25 michelada
+    expenses:food:groceries                 $100  ;  cerveza
+    assets:cash:wallet                     $-100
+
+2026-09-26 uber | kia->home
+    expenses:transportation:rideshare         $69.98
+    assets:bank:banamex:checking             $-69.98
+    expenses:personal:tips                        $10
+    assets:bank:banamex:checking                 $-10
+
+2026-09-26 oxxo
+    expenses:food:groceries             $41
+    assets:cash:wallet                 $-41
+
+2026-09-09 starbucks | familia
+    expenses:food:dining           $74
+    assets:cash:wallet             $-74
