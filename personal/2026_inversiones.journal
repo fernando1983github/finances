@@ -11,6 +11,7 @@ account income:hsbc:capital_gains
 #P 2026-09-01 HSBCDC_BFP $26.47151
 #P 2026-10-31 HSBCDC_BFP $25.35
 P 2026-09-09 HSBCDC_BFP $26.4935
+P 2026-09-29 HSBCDC_BFP $26.5468
 
 # 3. Investment Transactions
 # dont know why i put 26443, maybe some tests
