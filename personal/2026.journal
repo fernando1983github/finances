@@ -1039,6 +1039,10 @@ include 2026_inversiones.journal
     expenses:food:dining                    $500
     assets:bank:banamex:checking           $-500
 
+2026-09-23 starbucks | familia
+    expenses:food:dining           $74
+    assets:cash:wallet             $-74
+
 2026-09-24 desayuno tamales
     expenses:food:dining             $30
     assets:cash:wallet              $-30
@@ -1068,3 +1072,23 @@ include 2026_inversiones.journal
 2026-09-28 Gas | Naturgy
     expenses:housing:utilities:gas:puerta-toreo            $274
     assets:sivale:services                                $-274
+
+2026-09-26 comida | PFchangs plaza Carso
+    expenses:food:dining         $877.8
+    liabilities:credit:hsbc      $-877.8
+
+2026-09-26 Mantenimiento Kia Sportage | KIA San Joaquin
+    expenses:car:maintenance         $8139.3
+    liabilities:credit:hsbc          $-8139.3
+
+2026-09-26 despensa | sams
+    expenses:food:groceries           $1540
+    assets:sivale:pantry             $-1540
+
+2026-09-26 despensa | walmart
+    expenses:food:groceries            $1355
+    assets:sivale:pantry              $-1355
+
+2026-09-29 Pago tarjeta de credito | hsbc
+    liabilities:credit:hsbc           $3599.4
+    assets:bank:hsbc:checking     -$3599.4
