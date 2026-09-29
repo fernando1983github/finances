@@ -1060,3 +1060,11 @@ include 2026_inversiones.journal
 2026-09-09 starbucks | familia
     expenses:food:dining           $74
     assets:cash:wallet             $-74
+
+2026-09-27 luz | CFE
+    expenses:housing:utilities:electricity:puerta-toreo            $736
+    assets:sivale:services                                        $-736
+
+2026-09-28 Gas | Naturgy
+    expenses:housing:utilities:gas:puerta-toreo            $274
+    assets:sivale:services                                $-274
