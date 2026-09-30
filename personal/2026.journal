@@ -1092,3 +1092,7 @@ include 2026_inversiones.journal
 2026-09-29 Pago tarjeta de credito | hsbc
     liabilities:credit:hsbc           $3599.4
     assets:bank:hsbc:checking     -$3599.4
+
+2026-09-30 ear buds pro 4 | Amazon
+    expenses:shopping:amazon           $799.99
+    liabilities:credit:hsbc            $-799.99
