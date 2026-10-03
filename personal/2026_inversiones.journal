@@ -1,6 +1,6 @@
 # 2026_inversiones.journal
 
-commodity HSBCDC_BFP1000.00
+commodity HSBCDC_BFP 1000.00
 commodity 1.000,00 HSBCDC_BFP
 
 # 1. Account Declarations for Investments
@@ -12,6 +12,7 @@ account income:hsbc:capital_gains
 #P 2026-10-31 HSBCDC_BFP $25.35
 P 2026-09-09 HSBCDC_BFP $26.4935
 P 2026-09-29 HSBCDC_BFP $26.5468
+P 2026-10-01 HSBCDC_BFP $26.552028
 
 # 3. Investment Transactions
 # dont know why i put 26443, maybe some tests
@@ -22,3 +23,7 @@ P 2026-09-29 HSBCDC_BFP $26.5468
 2026-09-02 * HSBC | Buy Corto Plazo Plus Fund
     assets:bank:hsbc:investments:hsbcdc_bfp           26440 HSBCDC_BFP @ $26.474662
     assets:bank:hsbc:checking                 $-699990.06
+
+# to fix
+# total value / shares = share price
+# 702035.62 / 26440 = 26.552028

@@ -1,0 +1,25 @@
+; ---------------------------------------------------------
+; Commodity Formats
+; ---------------------------------------------------------
+commodity 1.00000 "SU.PA"
+commodity 1,000.00 EUR
+
+; Account Declarations for Investments
+account assets:schneider:investments:company_plan
+
+; ---------------------------------------------------------
+; Portfolio Initialization
+; ---------------------------------------------------------
+2026-10-02 Opening Balance: Schneider Electric
+    assets:schneider:investments:company_plan        70.1418 "SU.PA" @ 677.59900 EUR
+    equity:opening-balances          -47528.01 EUR
+
+; ---------------------------------------------------------
+; Market Price Directives
+; ---------------------------------------------------------
+P 2026-10-02 "SU.PA" 677.59900 EUR
+P 2026-10-03 "SU.PA" 678.99098 EUR
+
+# to fix
+# total value / shares = share price
+# 48300 / 70.1418 = 688.6050

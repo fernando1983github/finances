@@ -1,6 +1,7 @@
 include accounts.journal
 ; journal created 2026-04-01 by hledger
 include 2026_inversiones.journal
+include 2026_inversiones_schneider.journal
 
 
 
@@ -569,7 +570,7 @@ include 2026_inversiones.journal
     expenses:entertainment            $150
     assets:cash:wallet               $-150
 
-2026-08-05 pago renta caba�a Mineral del Chico
+2026-08-05 pago renta cabaña Mineral del Chico
     expenses:entertainment                 $2858
     assets:bank:banamex:checking          $-2858
 
@@ -605,7 +606,7 @@ include 2026_inversiones.journal
     expenses:housing:maintenance:san-pedro         $280.32
     assets:bank:banamex:checking                  $-280.32
 
-2026-08-11 compra plastilinas ni�as
+2026-08-11 compra plastilinas niñas
     expenses:entertainment             $56
     assets:cash:wallet                $-56
 
@@ -735,7 +736,7 @@ include 2026_inversiones.journal
     expenses:health:pharmacy            $11,725   ; member:daughter
     assets:bank:banamex:checking       $-11,725
 
-2026-08-24 diccionario inlges/espa�ol basico | Amazon
+2026-08-24 diccionario inlges/español basico | Amazon
     expenses:shopping:amazon              $73.50
     assets:bank:banamex:checking         $-73.50
 
@@ -1021,7 +1022,7 @@ include 2026_inversiones.journal
     expenses:food:groceries             $30
     assets:sivale:meals                $-30
 
-2026-09-20 comics | panini
+2026-09-20 comics | panini Mundo E  ; libro jujutsu kaisen, libro regina
     expenses:entertainment              $338
     liabilities:credit:hsbc            $-338
 
@@ -1089,6 +1090,10 @@ include 2026_inversiones.journal
     expenses:food:groceries            $1355
     assets:sivale:pantry              $-1355
 
+2026-09-27 tortas comida mitad
+    expenses:food:dining            $375
+    assets:cash:wallet             $-375
+
 2026-09-29 Pago tarjeta de credito | hsbc
     liabilities:credit:hsbc           $3599.4
     assets:bank:hsbc:checking     -$3599.4
@@ -1096,3 +1101,31 @@ include 2026_inversiones.journal
 2026-09-30 ear buds pro 4 | Amazon
     expenses:shopping:amazon           $799.99
     liabilities:credit:hsbc            $-799.99
+
+2026-09-30 starbucks | familia
+    expenses:food:dining           $170
+    liabilities:credit:hsbc       $-170
+
+2026-10-01 * Hospital militar | Reembolso medicinas, Abuelita
+    assets:bank:hsbc:checking           $1793.5
+    expenses:health:pharmacy          $-1793.5
+
+2026-10-02 micheladas
+    expenses:food:groceries                 $200  ;  cerveza
+    assets:cash:wallet                     $-200
+
+2026-10-02 Farmacia Guadalajara | medicinas dolor estomago Regina
+    expenses:health:pharmacy              $51.4  ; member:daughter
+    assets:bank:banamex:checking         $-51.4
+
+2026-10-02 Farmacia San Pablo | medicinas dolor estomago Regina
+    expenses:health:pharmacy              $127  ; member:daughter
+    assets:bank:banamex:checking         $-127
+
+2026-10-03 minisix
+    expenses:food:groceries            $145
+    assets:cash:wallet               $-145
+
+2026-06-06 comics | Sanborns webtoon ; estamos muertos 3,4,5
+    expenses:entertainment              $897
+    assets:bank:banamex:checking        $-897

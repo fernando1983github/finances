@@ -29,6 +29,7 @@ alias SHORT_NAME = FULL:ACCOUNT:NAME
 # alias /:parking$/ = expenses:entertainment:parking
 
 
+account equity:opening-balances
 #account assets:cash
 #account expenses:food
 

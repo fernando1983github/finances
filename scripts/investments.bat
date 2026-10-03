@@ -11,3 +11,16 @@ echo.
 echo How much money did you gain on paper?
 hledger -f ~\2026.journal balance assets:bank:hsbc:investments --gain
 echo.
+
+echo.
+echo.
+
+echo View the Cost on its own, To verify what you originally paid
+hledger -f ~\2026.journal balance assets:schneider:investments:company_plan -B
+echo.
+echo View the Market Value on its own (Recommended)
+hledger -f ~\2026.journal balance assets:schneider:investments:company_plan -V
+echo.
+echo How much money did you gain on paper?
+hledger -f ~\2026.journal balance assets:schneider:investments:company_plan --gain
+echo.
