@@ -1141,3 +1141,7 @@ include 2026_inversiones_schneider.journal
 2026-10-03 comics | Gandi ; Espada de kaigen, y libreta
     expenses:entertainment              $639
     liabilities:credit:hsbc             $-639
+
+2026-10-03 uber | kia->home
+    expenses:transportation:rideshare         $99.98
+    liabilities:credit:hsbc                   $-99.98
