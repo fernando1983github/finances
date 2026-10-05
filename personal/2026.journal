@@ -1129,3 +1129,15 @@ include 2026_inversiones_schneider.journal
 2026-06-06 comics | Sanborns webtoon ; estamos muertos 3,4,5
     expenses:entertainment              $897
     assets:bank:banamex:checking        $-897
+
+2026-10-04 minisix
+    expenses:food:groceries            $258
+    assets:cash:wallet               $-258
+
+2026-10-03 Balatas delanteras Kia Sportage | KIA San Joaquin
+    expenses:car:maintenance         $4078.38
+    liabilities:credit:hsbc          $-4078.38
+
+2026-10-03 comics | Gandi ; Espada de kaigen, y libreta
+    expenses:entertainment              $639
+    liabilities:credit:hsbc             $-639
