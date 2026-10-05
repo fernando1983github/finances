@@ -636,7 +636,7 @@ include 2026_inversiones_schneider.journal
     expenses:entertainment:parking            $270
     assets:cash:wallet                       $-270
 
-2026-08-13 uber to work
+2026-08-13 uber | home->schneider
     expenses:transportation:rideshare         $127.98
     assets:bank:banamex:checking             $-127.98
     expenses:personal:tips                        $10
@@ -933,6 +933,7 @@ include 2026_inversiones_schneider.journal
 2026-09-06 Fortnight Payment Q2 Julio | Wife
     expenses:household:fortnight         $4,600
     assets:bank:banamex:checking        $-4,600
+
 2026-09-07 comida schneider
     expenses:food:dining             $55
     assets:sivale:meals             $-55
@@ -1058,6 +1059,10 @@ include 2026_inversiones_schneider.journal
     expenses:personal:tips                        $10
     assets:bank:banamex:checking                 $-10
 
+2026-09-26 uber | home->kia
+    expenses:transportation:rideshare         $80.56
+    assets:bank:banamex:checking             $-80.56
+
 2026-09-26 oxxo
     expenses:food:groceries             $41
     assets:cash:wallet                 $-41
@@ -1142,6 +1147,22 @@ include 2026_inversiones_schneider.journal
     expenses:entertainment              $639
     liabilities:credit:hsbc             $-639
 
-2026-10-03 uber | kia->home
+2026-10-03 uber | home->kia
     expenses:transportation:rideshare         $99.98
     liabilities:credit:hsbc                   $-99.98
+
+2026-10-05 Building Admin | MTTO OCTUBRE B405
+    expenses:housing:maintenance:puerta-toreo         $1,550
+    assets:bank:banamex:checking                     $-1,550
+
+2026-10-05 San Pedro | MTTO OCTUBRE 302
+    expenses:housing:maintenance:san-pedro         $280.32
+    assets:bank:banamex:checking                  $-280.32
+
+2026-10-05 Fortnight Payment Q1 Agosto | Wife
+    expenses:household:fortnight         $4,600
+    assets:bank:banamex:checking        $-4,600
+
+2026-10-05 Fortnight Payment Q2 Agosto | Wife
+    expenses:household:fortnight         $4,600
+    assets:bank:banamex:checking        $-4,600
