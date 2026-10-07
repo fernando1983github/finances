@@ -1095,9 +1095,9 @@ include 2026_inversiones_schneider.journal
     expenses:food:groceries            $1355
     assets:sivale:pantry              $-1355
 
-2026-09-27 tortas comida mitad
-    expenses:food:dining            $375
-    assets:cash:wallet             $-375
+2026-09-27 La choza | tortas comida mitad
+    expenses:food:dining            $400
+    assets:cash:wallet             $-400
 
 2026-09-29 Pago tarjeta de credito | hsbc
     liabilities:credit:hsbc           $3599.4
@@ -1132,7 +1132,7 @@ include 2026_inversiones_schneider.journal
     assets:cash:wallet               $-145
 
 2026-06-06 comics | Sanborns webtoon ; estamos muertos 3,4,5
-    expenses:entertainment              $897
+    expenses:entertainment:books              3 @ $299.00
     assets:bank:banamex:checking        $-897
 
 2026-10-04 minisix
@@ -1143,8 +1143,9 @@ include 2026_inversiones_schneider.journal
     expenses:car:maintenance         $4078.38
     liabilities:credit:hsbc          $-4078.38
 
-2026-10-03 comics | Gandi ; Espada de kaigen, y libreta
-    expenses:entertainment              $639
+2026-10-03 Gandhi | libros y libreta ; Espada de kaigen, y libreta
+    expenses:entertainment:books              $480  ; book: espada-de-kaigen
+    expenses:stationery:notebooks              $159
     liabilities:credit:hsbc             $-639
 
 2026-10-03 uber | home->kia
@@ -1164,5 +1165,21 @@ include 2026_inversiones_schneider.journal
     assets:bank:banamex:checking        $-4,600
 
 2026-10-05 Fortnight Payment Q2 Agosto | Wife
+    expenses:household:fortnight         $4,600
+    assets:bank:banamex:checking        $-4,600
+
+2026-10-06 veterinario | tortuga
+    expenses:pet:vet              $50
+    assets:cash:wallet            $-50
+
+2026-10-06 comida | tacos
+    expenses:food:dining          $245
+    assets:cash:wallet            $-245
+
+2026-10-06 minisix
+    expenses:food:groceries          $160
+    assets:sivale:meals              $-160
+
+2026-10-07 Fortnight Payment Q1 Septiembre | Wife
     expenses:household:fortnight         $4,600
     assets:bank:banamex:checking        $-4,600

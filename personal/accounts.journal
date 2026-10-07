@@ -88,6 +88,7 @@ account expenses:housing:maintenance:san-pedro
 account expenses:housing:maintenance:puerta-toreo
 
 account expenses:entertainment
+account expenses:entertainment:books
 account expenses:entertainment:movies
 account expenses:entertainment:concert
 account expenses:entertainment:parking
@@ -103,6 +104,11 @@ account expenses:personal:tips
 account expenses:personal:clothing
 account expenses:family:clothing
 account expenses:stationery
+account expenses:stationery:notebooks
+
+account expenses:pet:vet
+account expenses:pet:food
+account expenses:pet:supplies
 
 account expenses:shopping:general
 account expenses:shopping:amazon
