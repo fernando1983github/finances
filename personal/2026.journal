@@ -959,6 +959,9 @@ include 2026_inversiones_schneider.journal
 #     expenses:financial:fees     $30.00
 #     liabilities:credit:hsbc
 
+2026-09-09 Leben Medik | Refund for Pamorelin ; type:refund
+    assets:bank:banamex:checking     $23,023.80
+    expenses:health:pharmacy        $-23,023.80
 
 2026-09-09 minisix
     expenses:food:groceries             $92
@@ -1183,3 +1186,33 @@ include 2026_inversiones_schneider.journal
 2026-10-07 Fortnight Payment Q1 Septiembre | Wife
     expenses:household:fortnight         $4,600
     assets:bank:banamex:checking        $-4,600
+
+2026-10-03 estacionamiento | rosario town center
+    expenses:entertainment:parking            $94
+    assets:cash:wallet                       $-94
+
+2026-10-07 starbucks | familia
+    expenses:food:dining           $74
+    liabilities:credit:hsbc        $-74
+
+2026-10-07 starbucks | familia
+    expenses:food:dining           $148
+    liabilities:credit:hsbc        $-148
+
+2026-10-08 desayuno tamales
+    expenses:food:dining             $30
+    assets:cash:wallet              $-30
+
+2026-10-07 estacionamiento | nuevo polanco
+    expenses:entertainment:parking            $60
+    assets:cash:wallet                       $-60
+
+2026-10-08 Kids & Us | Pago Octubre Regina Cuervo
+    expenses:education:daughter:english  $2305  ; member:daughter
+    assets:bank:banamex:checking                 $ -2305
+
+2026-10-09 gas station  ; odometer:42747
+    expenses:car:fuel      54.88 L @ $23.69
+    assets:cash:wallet    -54.88 L @ $23.69
+    expenses:car:tips                    $10
+    assets:cash:wallet                  $-10
