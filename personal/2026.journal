@@ -736,7 +736,7 @@ include 2026_inversiones_schneider.journal
     expenses:health:pharmacy            $11,725   ; member:daughter
     assets:bank:banamex:checking       $-11,725
 
-2026-08-24 diccionario inlges/español basico | Amazon
+2026-08-24 diccionario ingles/español basico | Amazon
     expenses:shopping:amazon              $73.50
     assets:bank:banamex:checking         $-73.50
 
@@ -1106,7 +1106,7 @@ include 2026_inversiones_schneider.journal
     liabilities:credit:hsbc           $3599.4
     assets:bank:hsbc:checking     -$3599.4
 
-2026-09-30 ear buds pro 4 | Amazon
+2026-09-30 soporte para garrafones | Amazon
     expenses:shopping:amazon           $799.99
     liabilities:credit:hsbc            $-799.99
 
@@ -1216,3 +1216,7 @@ include 2026_inversiones_schneider.journal
     assets:cash:wallet    -54.88 L @ $23.69
     expenses:car:tips                    $10
     assets:cash:wallet                  $-10
+
+2026-10-10 plataforma tortuga | Amazon
+    expenses:shopping:amazon           $1160
+    liabilities:credit:hsbc            $-1160
