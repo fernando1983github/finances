@@ -1218,5 +1218,25 @@ include 2026_inversiones_schneider.journal
     assets:cash:wallet                  $-10
 
 2026-10-10 plataforma tortuga | Amazon
-    expenses:shopping:amazon           $1160
-    liabilities:credit:hsbc            $-1160
+    expenses:shopping:amazon           $1160.35
+    liabilities:credit:hsbc            $-1160.35
+
+2026-10-10 micheladas
+    expenses:food:groceries                 $300  ;  cerveza
+    assets:cash:wallet                     $-300
+
+2026-10-10 minisix
+    expenses:food:groceries            $161
+    assets:cash:wallet                $-161
+
+2026-10-10 minisix
+    expenses:entertainment          $389
+    liabilities:credit:hsbc         $-389
+
+2026-10-10 ATM | Withdrawal
+    assets:cash:wallet                    $9000.00
+    assets:bank:banamex:checking         $-9000.00
+
+2026-10-10 comida familia | chilli's parque toreo
+    expenses:food:dining             $826.10
+    assets:sivale:meals              $-826.10
