@@ -1209,13 +1209,13 @@ include 2026_inversiones_schneider.journal
 
 2026-10-08 Kids & Us | Pago Octubre Regina Cuervo
     expenses:education:daughter:english  $2305  ; member:daughter
-    assets:bank:banamex:checking                 $ -2305
+    assets:bank:banamex:checking         $ -2305
 
 2026-10-09 gas station  ; odometer:42747
     expenses:car:fuel      54.88 L @ $23.69
     assets:cash:wallet    -54.88 L @ $23.69
-    expenses:car:tips                    $10
-    assets:cash:wallet                  $-10
+    expenses:car:tips                $10
+    assets:cash:wallet               $-10
 
 2026-10-10 plataforma tortuga | Amazon
     expenses:shopping:amazon           $1160.35

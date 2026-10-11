@@ -257,3 +257,7 @@ account income:benefits:sivale
 # 	- If you run hledger balance expenses:family, it will automatically roll up the totals and show you everything spent on the family as a whole.
 # 	- If you run hledger balance expenses:family:transfer, it will break down exactly how much went to her versus anyone else.
 account expenses:family:transfer:carmen
+account expenses:family:daughter:allowance:regular
+account expenses:family:daughter:allowance:school
+
+account expenses:miscellaneous:untracked
