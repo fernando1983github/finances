@@ -77,8 +77,13 @@ account expenses:stationery
 
 account expenses:home:maintenance
 account expenses:home:furniture
+account expenses:home:electronics
+account expenses:home:equipment
 account expenses:transportation:freight
 account expenses:transportation:rideshare
+
+# tracks the total amount of money you have saved through payment-method discounts, promotions, or store rewards
+account expenses:discounts:payment
 
 # --- Liabilities (Money passing through) ---
 account liabilities:family:bil-insurance  ; Money your Brother-in-law owes/pays you
@@ -150,6 +155,7 @@ account assets:cash:home-safe  ;(If you keep a "petty cash" stash at home or at 
 #account expenses:food:snacks  ; If you want to see exactly how much you spend on regular meals versus junk food/treats, you can break them down into sub-accounts. This is highly recommended for things like snacks, which can sneakily drain a budget.
 account expenses:food:groceries  ; how much you spend on food overall without overcomplicating things
 account expenses:food:dining  ; how much you spend on 
+account expenses:food:alcohol
 account expenses:misc:adjustments
 
 # 2026-04-15 Starbucks | Coffee

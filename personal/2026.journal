@@ -369,6 +369,10 @@ include 2026_inversiones_schneider.journal
     expenses:food:groceries         $116.06
     assets:sivale:pantry           $-116.06
 
+2026-06-24 cremeria el toro
+    expenses:food:groceries         $67.23
+    assets:sivale:pantry           $-67.23
+
 2026-07-13 Telcel personal | Monthly Phone Plan  ; period:2026-07
     expenses:utilities:cellphone         $531.29
     assets:bank:banamex:checking                 $-531.29
@@ -438,7 +442,7 @@ include 2026_inversiones_schneider.journal
     expenses:food:groceries            $106
     assets:cash:wallet                $-106
 
-2026-07-23 dinning | McDonalds
+2026-07-23 comida | McDonalds
     expenses:food:dining            $453
     assets:cash:wallet             $-453
 
@@ -902,6 +906,10 @@ include 2026_inversiones_schneider.journal
     expenses:food:groceries           $2455.01
     assets:sivale:pantry             $-2455.01
 
+2026-04-11 despensa | walmart
+    expenses:food:groceries               $2033
+    assets:sivale:pantry                  $-2033
+
 2026-09-03 desayuno tamales
     expenses:food:dining             $30
     assets:cash:wallet              $-30
@@ -1240,3 +1248,65 @@ include 2026_inversiones_schneider.journal
 2026-10-10 comida familia | chilli's parque toreo
     expenses:food:dining             $826.10
     assets:sivale:meals              $-826.10
+
+2026-06-15 comida | gaudele
+    expenses:food:dining             $512.23
+    assets:sivale:meals              $-512.23
+
+2026-02-15 despensa, impresora | sams
+    expenses:food:groceries               $485.93
+    expenses:home:equipment               $4799.92  ; printer
+    expenses:discounts:payment            $-504.34  ; discount for printer
+    expenses:discounts:payment            $-107.51  ; discount payment type
+    assets:bank:banamex:checking          $-4674  ; ****8094
+
+2026-05-28 comida | mcdonalds
+    expenses:food:dining            $325
+    assets:sivale:meals             $-325
+
+2026-06-19 comida | mcdonalds
+    expenses:food:dining            $443
+    assets:cash:wallet              $-443
+
+2026-04-06 oxxo
+    expenses:food:groceries           $85
+    assets:sivale:meals               $-85
+
+2026-04-17 oxxo
+    expenses:food:groceries           $267  ; cerveza
+    assets:cash:wallet                $-267
+
+2026-01-06 kindle colorsoft 32Gb | Sanborns en linea
+    expenses:home:electronics         $4805
+    assets:bank:hsbc:checking         $-4805  ; ****2229
+
+2026-05-25 minisix
+    expenses:food:groceries            $116
+    assets:sivale:meals               $-116  ; ****6491
+
+2026-05-16 estampas mundial 2026 | Sanborns
+    expenses:entertainment         5 @ $25
+    assets:bank:hsbc:checking         $-125
+
+#2026-04-21 dia del niño | dulcemaria
+
+2026-05-01  despensa | chedraui selecto toreo
+    expenses:food:groceries         $340.9
+    expenses:entertainment:parking  $94
+    expenses:food:alcohol           $182
+    assets:bank:banamex:checking    $-616.9  ; ****8094
+
+2026-05-16 comida | Ranchito de Yulay
+    expenses:food:dining            $911.95
+    assets:sivale:meals             $-911.95
+
+2026-05-16 Papeleria Marchand
+    expenses:stationery           $273.89
+    assets:bank:banamex:checking  $-273.89
+
+2026-05-22 pasta y gotas Regina | Farmacia Guadalajara
+    expenses:health:pharmacy            2 @ $493.81  ; gotas alleance 0.10 mg sol gotas 5ml frasco
+    expenses:discounts:payment          2 @ $-167.9
+    expenses:health:pharmacy            3 @ $315.74  ; fluoxytil lacer 75ml gel dental
+    expenses:discounts:payment          3 @ $-118.75
+    assets:bank:banamex:checking            $-1242.79
