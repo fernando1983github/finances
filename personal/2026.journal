@@ -1229,7 +1229,7 @@ include 2026_inversiones_schneider.journal
     expenses:food:groceries            $161
     assets:cash:wallet                $-161
 
-2026-10-10 minisix
+2026-10-10 rompecabezas | juguetibici
     expenses:entertainment          $389
     liabilities:credit:hsbc         $-389
 
