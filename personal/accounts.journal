@@ -104,6 +104,9 @@ account expenses:health:medical  ; (For doctor visits, consultations, and lab te
 account expenses:health:pharmacy  ; (For medicines, prescriptions, and first-aid supplies)
 account expenses:health:insurance  ; (If you pay a monthly premium or copay)
 
+account expenses:family:grandma:medical
+account expenses:family:grandma:supplies
+
 account expenses:personal:grooming
 account expenses:personal:tips
 account expenses:personal:clothing

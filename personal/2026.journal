@@ -196,7 +196,7 @@ include 2026_inversiones_schneider.journal
     expenses:health:pharmacy            $24
     assets:cash:wallet                   $-24
 
-2026-06-30 Compras velorio abuelita | sams
+2026-06-30 Compras velorio abuelita | sams  ; event:velorio-abuelita
     expenses:food:groceries        $2758
     assets:sivale:pantry           $-2758
 
@@ -227,6 +227,29 @@ include 2026_inversiones_schneider.journal
 2026-05-21 ATM | Withdrawal
     assets:cash:wallet              $9,000.00
     assets:bank:hsbc:checking      $-9,000.00
+
+2026-05-22 pasta y gotas Regina | Farmacia Guadalajara
+    expenses:health:pharmacy            2 @ $493.81  ; gotas alleance 0.10 mg sol gotas 5ml frasco
+    expenses:discounts:payment          2 @ $-167.9
+    expenses:health:pharmacy            3 @ $315.74  ; fluoxytil lacer 75ml gel dental
+    expenses:discounts:payment          3 @ $-118.75
+    assets:bank:banamex:checking            $-1242.79
+
+2026-05-22 minisix
+    expenses:food:groceries            $87
+    assets:sivale:meals               $-87  ; ****6491
+
+2026-05-23 minisix
+    expenses:food:groceries            $113
+    assets:sivale:meals               $-113  ; ****6491
+
+2026-05-22 Compras abuelita internada | walmart
+    expenses:family:grandma:medical        $142  ; cubrecamas predoblado
+    assets:bank:banamex:checking           $-142
+
+2026-05-22 Compras abuelita internada | vianney
+    expenses:family:grandma:supplies        $418  ; 2 cobertores
+    assets:bank:banamex:checking           $-418
 
 2026-06-01 Birthday | salon pay remaining amount
     expenses:entertainment              $21940  ; event:birthday-regina-2026
@@ -1289,6 +1312,7 @@ include 2026_inversiones_schneider.journal
     assets:bank:hsbc:checking         $-125
 
 #2026-04-21 dia del niño | dulcemaria
+#PENDIENTE
 
 2026-05-01  despensa | chedraui selecto toreo
     expenses:food:groceries         $340.9
@@ -1304,9 +1328,9 @@ include 2026_inversiones_schneider.journal
     expenses:stationery           $273.89
     assets:bank:banamex:checking  $-273.89
 
-2026-05-22 pasta y gotas Regina | Farmacia Guadalajara
+2026-10-11 pasta y gotas Regina | Farmacia Guadalajara
     expenses:health:pharmacy            2 @ $493.81  ; gotas alleance 0.10 mg sol gotas 5ml frasco
     expenses:discounts:payment          2 @ $-167.9
     expenses:health:pharmacy            3 @ $315.74  ; fluoxytil lacer 75ml gel dental
     expenses:discounts:payment          3 @ $-118.75
-    assets:bank:banamex:checking            $-1242.79
+    liabilities:credit:hsbc                 $-1242.79
