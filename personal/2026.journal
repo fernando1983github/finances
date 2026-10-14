@@ -1334,3 +1334,7 @@ include 2026_inversiones_schneider.journal
     expenses:health:pharmacy            3 @ $315.74  ; fluoxytil lacer 75ml gel dental
     expenses:discounts:payment          3 @ $-118.75
     liabilities:credit:hsbc                 $-1242.79
+
+2026-10-12 desayuno | schneider
+    expenses:food:dining             $58
+    assets:sivale:meals             $-58
