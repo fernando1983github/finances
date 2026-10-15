@@ -30,6 +30,10 @@ include 2026_inversiones_schneider.journal
 
 
 # January
+2026-01-06 PASE Tag | Estacionamiento Plaza Carso
+    expenses:entertainment:parking             $25
+    assets:transportation:pase-tag
+
 2026-01-29 Fortnight Payment Q1 Octubre | Wife
     expenses:household:fortnight           $ 4600
     assets:bank:banamex:checking                   $ -4600
@@ -49,6 +53,10 @@ include 2026_inversiones_schneider.journal
 2026-01-20 TicketMaster | 31 minutos  ; event:31minutos-concert
     expenses:entertainment:concert  6 @ $2000.00
     assets:bank:banamex:checking
+
+2026-01-31 despensa | walmart
+    expenses:food:groceries           $1471
+    assets:sivale:pantry             $-1471  ; ****2976
 
 # February
 2026-02-05 Fortnight Payment Q1 Noviembre | Wife
@@ -87,6 +95,10 @@ include 2026_inversiones_schneider.journal
 2026-02-05 San Pedro | MTTO FEBRERO 302
     expenses:housing:maintenance:san-pedro       $280.32
     assets:bank:banamex:checking               $ -280.32
+
+2026-02-14 V3Dental Digital | Acapotzalco
+    expenses:health:medical             $1300  ; Estudio completo ortodocncia digital 3d
+    assets:bank:banamex:checking        $-1300
 
 2026-02-23 TicketMaster | AC/DC parking
     expenses:entertainment:parking  $550
@@ -129,7 +141,6 @@ include 2026_inversiones_schneider.journal
     expenses:education:daughter:english  $1850.00  ; member:daughter
     assets:bank:banamex:checking                 $ -1850.00
 
-
 2026-03-02 Ivan Tolama | March Rent
     assets:bank:banamex:checking             $9000.00
     income:rent
@@ -137,6 +148,10 @@ include 2026_inversiones_schneider.journal
 2026-03-03 San Pedro | MTTO MARZO 302
     expenses:housing:maintenance:san-pedro       $280.32
     assets:bank:banamex:checking               $ -280.32
+
+2026-03-12 ATM | Withdrawal
+    assets:cash:wallet                   $9000.00
+    assets:bank:hsbc:checking           $-9000.00   ;  ****2299
 
 # April
 2026-04-01 Fortnight Payment Q1 Febrero | Wife
@@ -174,6 +189,10 @@ include 2026_inversiones_schneider.journal
 2026-04-06 Secretaria de Finanzas | Tenencia 2026 - Placas NLP6060
     expenses:car:tenencia  $990
     assets:bank:banamex:checking
+
+2026-06-23 PASE Tag | Estacionamiento Plaza Carso
+    expenses:entertainment:parking             $68
+    assets:transportation:pase-tag
 
 2026-06-26 Gakuen Academy(Japanese) | Pago Fernando Cuervo
     expenses:education:japanese          $650.00
@@ -597,9 +616,73 @@ include 2026_inversiones_schneider.journal
     expenses:entertainment            $150
     assets:cash:wallet               $-150
 
-2026-08-05 pago renta cabaña Mineral del Chico
+2026-08-05 pago renta cabaña Mineral del Chico  ; trip:sta-maria-regla
     expenses:entertainment                 $2858
-    assets:bank:banamex:checking          $-2858
+    assets:bank:banamex:checking           $-2858
+
+#hledger -f ~/master.journal bal tag:trip=acapulco
+2026-08-07 * Caseta | Highway Toll Fee  ; trip:sta-maria-regla
+    expenses:transportation:tolls              $72
+    assets:cash:wallet
+
+2026-08-07 compras extras  ; trip:sta-maria-regla
+    expenses:family:gifts                      $60  ; pulsera
+    expenses:family:gifts                      $50  ; papitas
+    assets:cash:wallet
+
+2026-08-07 recorrido en razer | Hidalgo  ; trip:sta-maria-regla
+    expenses:leisure:tourism                   $750  ; recorrido por el pueblo
+    assets:cash:wallet
+
+2026-08-07 estacionamiento | Hidalgo  ; trip:sta-maria-regla
+    expenses:entertainment:parking             $80
+    assets:cash:wallet                        $-80
+
+2026-08-07 comida | Hidalgo  ; trip:sta-maria-regla
+    expenses:food:dining            $300
+    assets:cash:wallet              $-300
+
+2026-08-07 tienda | Hidalgo  ; trip:sta-maria-regla
+    expenses:food:groceries        $243.5
+    assets:cash:wallet            $-243.5
+
+2026-08-08 estacionamiento | Hidalgo  ; trip:sta-maria-regla
+    expenses:entertainment:parking             $50
+    assets:cash:wallet                        $-50
+
+2026-08-08 cervezas, chicharrones | Hidalgo  ; trip:sta-maria-regla
+    expenses:food:groceries        $240
+    assets:cash:wallet            $-240
+
+2026-08-08 estacionamiento | Hidalgo  ; trip:sta-maria-regla
+    expenses:entertainment:parking             $80
+    assets:cash:wallet                        $-80
+
+# revisar si fue tarjeta o efectivo
+2026-08-08 La Montaña | Hidalgo  ; trip:sta-maria-regla
+    expenses:food:dining            $1112.5
+    assets:sivale:meals             $-1112.5
+
+2026-08-08 Paseo puentes colgantes  ; trip:sta-maria-regla
+    expenses:leisure:tourism                   $1050  ; recorrido puentes colgantes
+    assets:cash:wallet
+
+2026-08-09 extras, casa pago  ; trip:sta-maria-regla
+    expenses:entertainment                      $115  ; pago extra
+    assets:cash:wallet
+
+# revisar si fue tarjeta o efectivo
+2026-08-09 Estufón Loco | Hidalgo  ; trip:sta-maria-regla
+    expenses:food:dining            $1155
+    assets:sivale:meals              $-1155
+
+2026-08-09 * Caseta | Highway Toll Fee  ; trip:sta-maria-regla
+    expenses:transportation:tolls              $72
+    assets:cash:wallet
+
+2026-08-09 PASE Tag | Highway Toll Fee  ; trip:sta-maria-regla
+    expenses:entertainment:parking             $106
+    assets:transportation:pase-tag
 
 2026-08-05 minisix
     expenses:food:groceries            $234
@@ -1133,7 +1216,7 @@ include 2026_inversiones_schneider.journal
     expenses:food:dining            $400
     assets:cash:wallet             $-400
 
-2026-09-29 Pago tarjeta de credito | hsbc
+2026-09-29 HSBC | Credit Card Payment
     liabilities:credit:hsbc           $3599.4
     assets:bank:hsbc:checking     -$3599.4
 
@@ -1311,8 +1394,9 @@ include 2026_inversiones_schneider.journal
     expenses:entertainment         5 @ $25
     assets:bank:hsbc:checking         $-125
 
-#2026-04-21 dia del niño | dulcemaria
-#PENDIENTE
+2026-04-21 Dulceria dulcemaria | dia del niño
+    expenses:leisure:holidays        $887.7
+    assets:cash:wallet               $-887.7
 
 2026-05-01  despensa | chedraui selecto toreo
     expenses:food:groceries         $340.9
@@ -1338,3 +1422,55 @@ include 2026_inversiones_schneider.journal
 2026-10-12 desayuno | schneider
     expenses:food:dining             $58
     assets:sivale:meals             $-58
+
+2026-10-14 desayuno tamales, chilaquiles | vacaciones
+    expenses:food:dining             $175
+    assets:cash:wallet               $-175
+
+2026-10-14 minisix
+    expenses:food:groceries            $50
+    assets:cash:wallet                $-50
+
+2026-10-14 estacionamiento | nuevo polanco
+    expenses:entertainment:parking            $54
+    assets:cash:wallet                       $-54
+
+2026-10-14 starbucks
+    expenses:food:dining           $74
+    liabilities:credit:hsbc       $-74
+
+2026-10-14 tienda k | nuevo polanco
+    expenses:food:groceries            $92
+    assets:cash:wallet                $-92
+
+2026-06-03 minisix
+    expenses:food:groceries            $89
+    assets:sivale:meals                $-89
+
+2026-03-15 restaurante (chillis) | Parque Toreo
+    expenses:food:dining                  $1075
+    assets:bank:banamex:checking          $-1075  ; ****8094
+
+2026-05-05 minisix
+    expenses:food:groceries            $181
+    assets:sivale:meals               $-181  ; ****6491
+
+2026-08-30 minisix
+    expenses:food:groceries            $105
+    assets:sivale:meals                $-105
+
+2026-08-28 minisix
+    expenses:food:groceries            $156
+    assets:sivale:meals                $-156
+
+2026-10-15 HSBC | Credit Card Payment
+    liabilities:credit:hsbc           $18,973.89
+    assets:bank:hsbc:checking
+
+2026-05-13 minisix
+    expenses:food:groceries            $128
+    assets:sivale:meals               $-128
+
+2026-03-15 Santo Gallo | Legaria
+    expenses:food:dining                  $148
+    assets:bank:banamex:checking          $-148

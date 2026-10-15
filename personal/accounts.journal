@@ -81,6 +81,10 @@ account expenses:home:electronics
 account expenses:home:equipment
 account expenses:transportation:freight
 account expenses:transportation:rideshare
+account expenses:transportation:tolls
+account expenses:transportation:tolls:fees
+account expenses:leisure:tourism
+account assets:transportation:pase-tag
 
 # tracks the total amount of money you have saved through payment-method discounts, promotions, or store rewards
 account expenses:discounts:payment
@@ -123,6 +127,9 @@ account expenses:shopping:amazon
 account expenses:subscriptions:amazon
 account expenses:subscriptions:pluralsight
 account expenses:subscriptions:spotify
+
+account expenses:leisure:holidays
+account expenses:family:gifts
 
 
 

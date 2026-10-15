@@ -1,5 +1,15 @@
 include accounts.journal
 
+2025-11-02 PASE Tag | Recharge with Comission
+    assets:transportation:pase-tag            $290.00
+    expenses:transportation:tolls:fees        $10
+    assets:bank:banamex:checking
+#    assets:transportation:pase-tag            $-10 # this is not the best way, leave it commented
+
+2025-11-12 PASE Tag | Caseta San Joaquin Lomas Verdes
+    expenses:transportation:tolls             $27.97
+    assets:transportation:pase-tag
+
 2025-11-12 TicketMaster | AC/DC  ; event:concert
     expenses:entertainment:concert  3 @ $5662.00
 	expenses:entertainment:fees		3 @ $1359.00
