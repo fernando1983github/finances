@@ -97,7 +97,7 @@ include 2026_inversiones_schneider.journal
     assets:bank:banamex:checking               $ -280.32
 
 2026-02-14 V3Dental Digital | Acapotzalco
-    expenses:health:medical             $1300  ; Estudio completo ortodocncia digital 3d
+    expenses:health:medical             $1300  ; Estudio completo ortodoncia digital 3d
     assets:bank:banamex:checking        $-1300
 
 2026-02-23 TicketMaster | AC/DC parking
@@ -190,6 +190,10 @@ include 2026_inversiones_schneider.journal
     expenses:car:tenencia  $990
     assets:bank:banamex:checking
 
+2026-06-11 oxxo
+    expenses:food:groceries             $402
+    assets:cash:wallet                 $-402
+
 2026-06-23 PASE Tag | Estacionamiento Plaza Carso
     expenses:entertainment:parking             $68
     assets:transportation:pase-tag
@@ -242,6 +246,18 @@ include 2026_inversiones_schneider.journal
 2026-04-06 minisix
     expenses:food:groceries            $180
     assets:sivale:meals               $-180
+
+2026-05-07 minisix
+    expenses:food:groceries            $225
+    assets:sivale:meals               $-225
+
+2026-05-08 minisix
+    expenses:food:groceries            $168
+    assets:sivale:meals                $-168
+
+2026-05-09 despensa | walmart
+    expenses:food:groceries           $1441.9
+    assets:sivale:pantry             $-1441.9  ; ****2976
 
 2026-05-21 ATM | Withdrawal
     assets:cash:wallet              $9,000.00
@@ -297,6 +313,14 @@ include 2026_inversiones_schneider.journal
 2026-05-01 Ivan Tolama | May rent
     assets:bank:banamex:checking       $9,000.00
     income:rent                       $-9,000.00
+
+2026-05-03 oxxo | google play
+    expenses:digital                 $300
+    assets:cash:wallet               $-300
+
+2026-05-03 oxxo
+    expenses:food:groceries            $62
+    assets:bank:banamex:checking       $-62
 
 2026-06-01 Ivan Tolama | June rent
     assets:bank:banamex:checking       $9,000.00
@@ -1474,3 +1498,6 @@ include 2026_inversiones_schneider.journal
 2026-03-15 Santo Gallo | Legaria
     expenses:food:dining                  $148
     assets:bank:banamex:checking          $-148
+
+
+
