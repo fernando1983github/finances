@@ -51,7 +51,7 @@ include 2026_inversiones_schneider.journal
     assets:bank:banamex:checking                 $ -1850
 
 2026-01-20 TicketMaster | 31 minutos  ; event:31minutos-concert
-    expenses:entertainment:concert  6 @ $2000.00
+    expenses:entertainment:concert  $12,000  ; 6 @ $2000.00
     assets:bank:banamex:checking
 
 2026-01-31 despensa | walmart
@@ -264,11 +264,11 @@ include 2026_inversiones_schneider.journal
     assets:bank:hsbc:checking      $-9,000.00
 
 2026-05-22 pasta y gotas Regina | Farmacia Guadalajara
-    expenses:health:pharmacy            2 @ $493.81  ; gotas alleance 0.10 mg sol gotas 5ml frasco
-    expenses:discounts:payment          2 @ $-167.9
-    expenses:health:pharmacy            3 @ $315.74  ; fluoxytil lacer 75ml gel dental
-    expenses:discounts:payment          3 @ $-118.75
-    assets:bank:banamex:checking            $-1242.79
+    expenses:health:pharmacy            $987.62  ; 2 @ $493.81  ; gotas alleance 0.10 mg sol gotas 5ml frasco
+    expenses:discounts:payment          $-335.8  ; 2 @ $-167.9
+    expenses:health:pharmacy            $947.22  ; 3 @ $315.74  ; fluoxytil lacer 75ml gel dental
+    expenses:discounts:payment          $-356.25  ; 3 @ $-118.75
+    assets:bank:banamex:checking
 
 2026-05-22 minisix
     expenses:food:groceries            $87
@@ -306,11 +306,15 @@ include 2026_inversiones_schneider.journal
     assets:cash:wallet              $9,000.00
     assets:bank:hsbc:checking      $-9,000.00
 
-2026-07-01 Ivan Tolama | July rent
+2026-05-01 Ivan Tolama | May rent
     assets:bank:banamex:checking       $9,000.00
     income:rent                       $-9,000.00
 
-2026-05-01 Ivan Tolama | May rent
+2026-06-01 Ivan Tolama | June rent
+    assets:bank:banamex:checking       $9,000.00
+    income:rent                       $-9,000.00
+
+2026-07-01 Ivan Tolama | July rent
     assets:bank:banamex:checking       $9,000.00
     income:rent                       $-9,000.00
 
@@ -321,10 +325,6 @@ include 2026_inversiones_schneider.journal
 2026-05-03 oxxo
     expenses:food:groceries            $62
     assets:bank:banamex:checking       $-62
-
-2026-06-01 Ivan Tolama | June rent
-    assets:bank:banamex:checking       $9,000.00
-    income:rent                       $-9,000.00
 
 2026-05-21 Leben Medik | Pamorelin
     expenses:health:pharmacy              $11,725  ; member:daughter
@@ -413,10 +413,10 @@ include 2026_inversiones_schneider.journal
     assets:cash:wallet             $-361
 
 2026-07-09 gas station  ; odometer:41114
-    expenses:car:fuel      57.048 L @ $23.49
-    assets:cash:wallet    -57.048 L @ $23.49
+    expenses:car:fuel      $1,340.0575  ; 57.048 L @ $23.49
     expenses:car:tips                    $10
     assets:cash:wallet                  $-10
+    assets:cash:wallet
 
 2026-07-11 desayuno tamales
     expenses:food:dining            $121
@@ -917,14 +917,14 @@ include 2026_inversiones_schneider.journal
     assets:cash:wallet                    $-100
 
 2026-08-24 gas station  ; odometer:42003
-    expenses:car:fuel      56.274 L @ $23.99
-    assets:cash:wallet    -56.274 L @ $23.99
+    expenses:car:fuel      $1,350.0132  ; 56.274 L @ $23.99
+    assets:cash:wallet
     expenses:car:tips                    $10
     assets:cash:wallet                  $-10
 
 2026-08-05 gas station  ; odometer:41473
-    expenses:car:fuel      52.45 L @ $23.69
-    assets:cash:wallet    -52.45 L @ $23.69
+    expenses:car:fuel      $1,242.5405  ; 52.45 L @ $23.69
+    assets:cash:wallet
     expenses:car:tips                    $10
     assets:cash:wallet                  $-10
 
@@ -941,50 +941,50 @@ include 2026_inversiones_schneider.journal
     assets:cash:wallet             $-833
 
 2026-06-17 gas station  ; odometer:40736
-    expenses:car:fuel      54.071 L @ $23.49
-    assets:cash:wallet    -54.071 L @ $23.49
+    expenses:car:fuel      $1,270.12779  ; 54.071 L @ $23.49
+    assets:cash:wallet
     expenses:car:tips                    $14
     assets:cash:wallet                  $-14
 
 2026-05-28 gas station  ; odometer:40440
-    expenses:car:fuel      55.033 L @ $23.99
-    assets:cash:wallet    -55.033 L @ $23.99
+    expenses:car:fuel      $1,320.24167  ; 55.033 L @ $23.99
+    assets:cash:wallet
     expenses:car:tips                    $10
     assets:cash:wallet                  $-10
 
 2026-05-04 gas station  ; odometer:40080
-    expenses:car:fuel      54.195 L @ $23.99
-    assets:cash:wallet    -54.195 L @ $23.99
+    expenses:car:fuel      $1,300.13805  ; 54.195 L @ $23.99
+    assets:cash:wallet
     expenses:car:tips                    $10
     assets:cash:wallet                  $-10
 
 2026-04-13 gas station  ; odometer:39718
-    expenses:car:fuel      30.355 L @ $23.39
-    assets:cash:wallet    -30.355 L @ $23.39
+    expenses:car:fuel      $706.96795  ; 30.355 L @ $23.39
+    assets:cash:wallet
     expenses:car:tips                    $10
     assets:cash:wallet                  $-10
 
 2026-03-27 gas station  ; odometer:39482
-    expenses:car:fuel      60.01 L @ $23.69
-    assets:cash:wallet    -60.01 L @ $23.69
+    expenses:car:fuel      $1,421.6369  ; 60.01 L @ $23.69
+    assets:cash:wallet
     expenses:car:tips                    $10
     assets:cash:wallet                  $-10
 
 2026-03-04 gas station  ; odometer:39081
-    expenses:car:fuel      43.202 L @ $22.69
-    assets:cash:wallet    -43.202 L @ $22.69
+    expenses:car:fuel      $980.25338  ; 43.202 L @ $22.69
+    assets:cash:wallet
     expenses:car:tips                    $10
     assets:cash:wallet                  $-10
 
 2026-02-10 gas station  ; odometer:38830
-    expenses:car:fuel      41.798 L @ $22.99
-    assets:cash:wallet    -41.798 L @ $22.99
+    expenses:car:fuel      $960.93602  ; 41.798 L @ $22.99
+    assets:cash:wallet
     expenses:car:tips                    $10
     assets:cash:wallet                  $-10
 
 2026-01-20 gas station  ; odometer:38546
-    expenses:car:fuel      40.971 L @ $23.19
-    assets:cash:wallet    -40.971 L @ $23.19
+    expenses:car:fuel      $950.11749  ; 40.971 L @ $23.19
+    assets:cash:wallet
     expenses:car:tips                    $10
     assets:cash:wallet                  $-10
 
@@ -1029,8 +1029,8 @@ include 2026_inversiones_schneider.journal
     assets:sivale:meals               $-157
 
 2026-08-31 sixflags | goldpass 2027
-    expenses:entertainment              3 @ $999
-    assets:bank:banamex:checking       -3 @ $999
+    expenses:entertainment              $2997  ; 3 @ $999
+    assets:bank:banamex:checking
 
 2026-04-11 despensa | sams
     expenses:food:groceries           $2455.01
@@ -1169,8 +1169,8 @@ include 2026_inversiones_schneider.journal
     liabilities:credit:hsbc            $-338
 
 2026-09-19 gas station  ; odometer:42384
-    expenses:car:fuel      59.1 L @ $23.69
-    assets:cash:wallet    -59.1 L @ $23.69
+    expenses:car:fuel      $1,400.079  ; 59.1 L @ $23.69
+    assets:cash:wallet
     expenses:car:tips                    $10
     assets:cash:wallet                  $-10
 
@@ -1252,6 +1252,10 @@ include 2026_inversiones_schneider.journal
     expenses:food:dining           $170
     liabilities:credit:hsbc       $-170
 
+2026-10-01 Ivan Tolama | October Rent
+    assets:bank:banamex:checking       $9,000.00
+    income:rent                       $-9,000.00
+
 2026-10-01 * Hospital militar | Reembolso medicinas, Abuelita
     assets:bank:hsbc:checking           $1793.5
     expenses:health:pharmacy          $-1793.5
@@ -1273,8 +1277,8 @@ include 2026_inversiones_schneider.journal
     assets:cash:wallet               $-145
 
 2026-06-06 comics | Sanborns webtoon ; estamos muertos 3,4,5
-    expenses:entertainment:books              3 @ $299.00
-    assets:bank:banamex:checking        $-897
+    expenses:entertainment:books        $897  ; 3 @ $299.00
+    assets:bank:banamex:checking
 
 2026-10-04 minisix
     expenses:food:groceries            $258
@@ -1350,8 +1354,8 @@ include 2026_inversiones_schneider.journal
     assets:bank:banamex:checking         $ -2305
 
 2026-10-09 gas station  ; odometer:42747
-    expenses:car:fuel      54.88 L @ $23.69
-    assets:cash:wallet    -54.88 L @ $23.69
+    expenses:car:fuel      $1,300.1072  ; 54.88 L @ $23.69
+    assets:cash:wallet
     expenses:car:tips                $10
     assets:cash:wallet               $-10
 
@@ -1415,8 +1419,8 @@ include 2026_inversiones_schneider.journal
     assets:sivale:meals               $-116  ; ****6491
 
 2026-05-16 estampas mundial 2026 | Sanborns
-    expenses:entertainment         5 @ $25
-    assets:bank:hsbc:checking         $-125
+    expenses:entertainment         $125  ; 5 @ $25
+    assets:bank:hsbc:checking
 
 2026-04-21 Dulceria dulcemaria | dia del niño
     expenses:leisure:holidays        $887.7
@@ -1437,11 +1441,11 @@ include 2026_inversiones_schneider.journal
     assets:bank:banamex:checking  $-273.89
 
 2026-10-11 pasta y gotas Regina | Farmacia Guadalajara
-    expenses:health:pharmacy            2 @ $493.81  ; gotas alleance 0.10 mg sol gotas 5ml frasco
-    expenses:discounts:payment          2 @ $-167.9
-    expenses:health:pharmacy            3 @ $315.74  ; fluoxytil lacer 75ml gel dental
-    expenses:discounts:payment          3 @ $-118.75
-    liabilities:credit:hsbc                 $-1242.79
+    expenses:health:pharmacy            $987.62  ; 2 @ $493.81  ; gotas alleance 0.10 mg sol gotas 5ml frasco
+    expenses:discounts:payment          $-335.8  ; 2 @ $-167.9
+    expenses:health:pharmacy            $947.22  ; 3 @ $315.74  ; fluoxytil lacer 75ml gel dental
+    expenses:discounts:payment          $-356.25  ; 3 @ $-118.75
+    liabilities:credit:hsbc
 
 2026-10-12 desayuno | schneider
     expenses:food:dining             $58
@@ -1499,5 +1503,191 @@ include 2026_inversiones_schneider.journal
     expenses:food:dining                  $148
     assets:bank:banamex:checking          $-148
 
+2026-05-05 minisix
+    expenses:food:groceries            $80
+    assets:sivale:meals               $-80  ; ****6491
+
+2026-10-14 cashback 2q fondos
+    assets:bank:hsbc:checking       $105
+    income:rewards:cashback         $-105
 
 
+
+
+
+2026-01-15 nomina
+    assets:bank:hsbc:checking       $26,968.18
+    income:salary
+2026-01-31 nomina
+    assets:bank:hsbc:checking       $25,963.58
+    income:salary
+2026-01-31 vales restaurante | SIVALE
+    assets:sivale:meals             $3,566
+    income:benefits:sivale:meals
+2026-01-31 vales despensa | SIVALE
+    assets:sivale:pantry             $3,440
+    income:benefits:sivale:pantry
+#---
+2026-02-15 nomina
+    assets:bank:hsbc:checking       $26,986.3
+    income:salary
+2026-02-28 nomina
+    assets:bank:hsbc:checking       $27,227.47
+    income:salary
+2026-02-28 vales restaurante | SIVALE
+    assets:sivale:meals             $3,566
+    income:benefits:sivale:meals
+2026-02-28 vales despensa | SIVALE
+    assets:sivale:pantry             $3,567
+    income:benefits:sivale:pantry
+2026-02-27 vales servicios | SIVALE
+    assets:sivale:services             $450
+    income:benefits:sivale:services
+2026-02-27 vales servicios | SIVALE
+    assets:sivale:services             $450
+    income:benefits:sivale:services
+#---
+2026-03-15 nomina
+    assets:bank:hsbc:checking       $26,986.31
+    income:salary
+2026-03-31 nomina
+    assets:bank:hsbc:checking       $26,987.52
+    income:salary
+2026-03-31 vales restaurante | SIVALE
+    assets:sivale:meals             $3,566
+    income:benefits:sivale:meals
+2026-03-31 vales despensa | SIVALE
+    assets:sivale:pantry             $3,567
+    income:benefits:sivale:pantry
+2026-03-23 vales servicios | SIVALE
+    assets:sivale:services             $450
+    income:benefits:sivale:services
+#---
+#STIP
+2026-03-25 STIP
+    assets:bank:hsbc:checking       $81,606  ; BONO $116,580.00, ISR $34,974.00
+    income:salary
+#---
+2026-04-15 nomina
+    assets:bank:hsbc:checking       $27,857.6
+    income:salary
+2026-04-30 nomina
+    assets:bank:hsbc:checking       $27,938.79
+    income:salary
+2026-04-30 vales restaurante | SIVALE
+    assets:sivale:meals             $3,566
+    income:benefits:sivale:meals
+2026-04-30 vales despensa | SIVALE
+    assets:sivale:pantry             $3,567
+    income:benefits:sivale:pantry
+2026-04-15 vales servicios | SIVALE
+    assets:sivale:services             $450
+    income:benefits:sivale:services
+#---
+2026-05-15 nomina
+    assets:bank:hsbc:checking       $27,857.6
+    income:salary
+2026-05-31 nomina
+    assets:bank:hsbc:checking       $27,858.81
+    income:salary
+2026-05-31 vales restaurante | SIVALE
+    assets:sivale:meals             $3,566
+    income:benefits:sivale:meals
+2026-05-31 vales despensa | SIVALE
+    assets:sivale:pantry             $3,567
+    income:benefits:sivale:pantry
+2026-05-28 vales servicios | SIVALE
+    assets:sivale:services             $450
+    income:benefits:sivale:services
+#---
+#PTU
+2026-05-12 Utilidades
+    assets:bank:hsbc:checking       $6,519.84
+    income:salary
+#---
+2026-06-15 nomina
+    assets:bank:hsbc:checking       $27,857.6
+    income:salary
+2026-06-30 nomina
+    assets:bank:hsbc:checking       $27,938.79
+    income:salary
+2026-06-30 vales restaurante | SIVALE
+    assets:sivale:meals             $3,566
+    income:benefits:sivale:meals
+2026-06-30 vales despensa | SIVALE
+    assets:sivale:pantry             $3,567
+    income:benefits:sivale:pantry
+2026-06-29 vales servicios | SIVALE
+    assets:sivale:services             $450
+    income:benefits:sivale:services
+#---
+2026-07-15 nomina
+    assets:bank:hsbc:checking       $27,857.6
+    income:salary
+2026-07-31 nomina
+    assets:bank:hsbc:checking       $27,858.81
+    income:salary
+2026-07-31 vales restaurante | SIVALE
+    assets:sivale:meals             $3,566
+    income:benefits:sivale:meals
+2026-07-31 vales despensa | SIVALE
+    assets:sivale:pantry             $3,567
+    income:benefits:sivale:pantry
+2026-07-30 vales servicios | SIVALE
+    assets:sivale:services             $450
+    income:benefits:sivale:services
+#---
+2026-08-15 nomina
+    assets:bank:hsbc:checking       $26,567.39
+    income:salary
+2026-08-31 nomina
+    assets:bank:hsbc:checking       $26,568.6
+    income:salary
+2026-08-31 vales restaurante | SIVALE
+    assets:sivale:meals             $3,566
+    income:benefits:sivale:meals
+2026-08-31 vales despensa | SIVALE
+    assets:sivale:pantry             $3,567
+    income:benefits:sivale:pantry
+2026-08-31 vales servicios | SIVALE
+    assets:sivale:services             $450
+    income:benefits:sivale:services
+2026-08-03 Poliza de seguro JUL | HSBC
+    expenses:health:insurance       $87
+    assets:bank:hsbc:checking
+2026-08-31 Poliza de seguro AGO | HSBC
+    expenses:health:insurance       $87
+    assets:bank:hsbc:checking
+#---
+2026-09-15 nomina
+    assets:bank:hsbc:checking       $26,567.39
+    income:salary
+2026-09-30 nomina
+    assets:bank:hsbc:checking       $71994.66
+    income:salary
+##    assets:bank:hsbc:checking       $45,427.27
+##    assets:bank:hsbc:checking       $26,567.39
+#    assets:bank:hsbc:checking       $26,568.6
+2026-09-30 vales restaurante | SIVALE
+    assets:sivale:meals             $3,566
+    income:benefits:sivale:meals
+2026-09-30 vales despensa | SIVALE
+    assets:sivale:pantry             $3,567
+    income:benefits:sivale:pantry
+2026-09-28 vales servicios | SIVALE
+    assets:sivale:services             $450
+    income:benefits:sivale:services
+2026-09-30 Poliza de seguro SEP | HSBC
+    expenses:health:insurance       $87
+    assets:bank:hsbc:checking
+#---
+2026-10-15 nomina
+    assets:bank:hsbc:checking       $26,567.39
+    income:salary
+
+
+#2026-10-15 * Sívale | Balance Realignment
+#    assets:sivale:meals             == $4,724.28
+#    assets:sivale:pantry            == $4,829.75
+#    assets:sivale:services          == $1,485
+#    equity:opening-balances

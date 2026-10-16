@@ -11,8 +11,8 @@ include accounts.journal
     assets:transportation:pase-tag
 
 2025-11-12 TicketMaster | AC/DC  ; event:concert
-    expenses:entertainment:concert  3 @ $5662.00
-	expenses:entertainment:fees		3 @ $1359.00
+    expenses:entertainment:concert  $16,986  ; 3 @ $5662.00
+	expenses:entertainment:fees		$4,077  ; 3 @ $1359.00
     assets:bank:banamex:checking
 
 2025-01-31 Fortnight Payment Enero | Wife

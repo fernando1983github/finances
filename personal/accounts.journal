@@ -49,6 +49,8 @@ account expenses:car:maintenance   ; Oil changes, tires, etc.
 account expenses:car:verificacion
 account expenses:car:tenencia
 
+account income:rewards:cashback
+
 # credit cards are tracked as liability accounts because they represent money you owe to the bank, rather than money you own
 account liabilities:credit:hsbc
 
@@ -65,6 +67,7 @@ account expenses:household:fortnight       ; specific 15-day cycle of settling a
 
 # --- Income (Money coming in) ---
 account income:rent                  ; Money you receive from your property
+account income:salary
 
 
 # --- Expenses (Money you spend) ---
@@ -198,7 +201,9 @@ account assets:sivale:meals
 account assets:sivale:services
 
 # --- Related Income ---
-account income:benefits:sivale
+account income:benefits:sivale:pantry
+account income:benefits:sivale:meals
+account income:benefits:sivale:services
 
 # assets:sivale:pantry (Despensa - for groceries, usually accepted at supermarkets)
 # assets:sivale:meals (Restaurante - for prepared food/restaurants)

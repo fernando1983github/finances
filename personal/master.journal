@@ -1,3 +1,9 @@
+#P 2025-01-01 L $1.00
+#P 2025-01-01 "" $1.00
+P 2025-01-01 EUR $21.5610
+P 2026-01-01 EUR $21.1311
+P 2026-10-15 EUR $20.68
+
 # master.journal
 include accounts.journal
 include 2025.journal
