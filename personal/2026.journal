@@ -1691,3 +1691,23 @@ include 2026_inversiones_schneider.journal
 #    assets:sivale:pantry            == $4,829.75
 #    assets:sivale:services          == $1,485
 #    equity:opening-balances
+
+2026-10-16 estacionamiento | primaria
+    expenses:entertainment:parking            $28
+    assets:cash:wallet
+
+2026-10-16 estacionamiento | plaza azcapotzalco
+    expenses:entertainment:parking            $26
+    assets:cash:wallet
+
+2026-10-16 pan | Sanborns
+    expenses:food:groceries         $73
+    assets:cash:wallet
+
+2026-10-16 agua | Sanborns
+    expenses:food:groceries         $15.30
+    assets:cash:wallet
+
+2026-10-16 articulos | Sanborns
+    expenses:entertainment         $298
+    liabilities:credit:hsbc
