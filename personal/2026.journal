@@ -1733,3 +1733,7 @@ include 2026_inversiones_schneider.journal
 2026-10-16 odontopediatra
     expenses:health:medical            $2000  ; adelanto aparato
     assets:cash:wallet
+
+2026-10-17 minisix
+    expenses:food:groceries            $142
+    assets:sivale:meals
