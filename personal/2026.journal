@@ -1711,3 +1711,24 @@ include 2026_inversiones_schneider.journal
 2026-10-16 articulos | Sanborns
     expenses:entertainment         $298
     liabilities:credit:hsbc
+
+2026-10-16 Lauirie´s puzzle | Azcapotzalco
+    expenses:entertainment           $485  ; rompecabezas noche estrellada 1000pzs
+    expenses:entertainment           $350  ; pegamento ravensburguer
+    liabilities:credit:hsbc
+
+2026-10-16 play the game 2 | Azcapotzalco
+    expenses:entertainment           $115  ; pouch cinturon
+    liabilities:credit:hsbc
+
+2026-10-16 starbucks | av Camarones
+    expenses:food:dining           $254
+    liabilities:credit:hsbc
+
+2026-10-16 pasta y gotas Regina | Farmacia Guadalajara
+    expenses:health:pharmacy        $92  ; cepillos dientes
+    liabilities:credit:hsbc
+
+2026-10-16 odontopediatra
+    expenses:health:medical            $2000  ; adelanto aparato
+    assets:cash:wallet
