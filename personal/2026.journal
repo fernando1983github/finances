@@ -1741,3 +1741,11 @@ include 2026_inversiones_schneider.journal
 2026-10-18 Telcel personal | Monthly Phone Plan
     expenses:utilities:cellphone            $549
     assets:bank:banamex:checking
+
+2026-10-17 despensa | sams
+    expenses:food:groceries                $1163
+    assets:sivale:pantry
+
+2026-10-17 despensa | walmart
+    expenses:food:groceries           $926
+    assets:sivale:pantry
