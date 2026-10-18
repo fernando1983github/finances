@@ -1737,3 +1737,7 @@ include 2026_inversiones_schneider.journal
 2026-10-17 minisix
     expenses:food:groceries            $142
     assets:sivale:meals
+
+2026-10-18 Telcel personal | Monthly Phone Plan
+    expenses:utilities:cellphone            $549
+    assets:bank:banamex:checking
