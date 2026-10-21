@@ -1,0 +1,2 @@
+alias expenses:housing:utilities:gas:puerta-toreo:maintenance = housing:utilities:puerta-toreo:maintenance
+alias expenses:housing:utilities:electricity:puerta-toreo = housing:utilities:electricity:puerta-toreo

@@ -1,3 +1,23 @@
+# change a specific word, anywhere
+#alias /\bpuerta-toreo\b/ = pta-toreo
+#alias /\bmaintenance\b/ = mtce
+#alias /\butilities\b/ = utils
+
+#alias /:b:d:e$/ = :b:newname:e
+#alias /:d:/ = :newname:
+
+#alias /\binvestments\b/ = invst
+alias assets:schneider:investments:company_plan = assets:schneider:invst:company_plan
+alias assets:bank:hsbc:investments:hsbcdc_bfp = assets:bank:hsbc:invst:hsbcdc_bfp
+
+# --- Short Aliases for Speed and layout ---
+alias expenses:housing:utilities:gas:puerta-toreo = housing:utilities:gas:pta-toreo
+alias expenses:housing:utilities:gas:puerta-toreo:maintenance = housing:utilities:pta-toreo:maint
+alias expenses:housing:utilities:electricity:puerta-toreo = housing:utilities:elect:pta-toreo
+alias expenses:housing:maintenance:puerta-toreo = housing:maint:pta-toreo
+alias expenses:housing:maintenance:san-pedro = housing:maint:san-pedro
+
+
 include accounts.journal
 ; journal created 2026-04-01 by hledger
 include 2026_inversiones.journal
@@ -1775,4 +1795,20 @@ include 2026_inversiones_schneider.journal
     expenses:food:groceries            $118
     assets:sivale:meals
 
-2026
+2026-10-21 starbucks | familia
+    expenses:food:dining           $170
+    liabilities:credit:hsbc
+
+2026-10-21 estacionamiento | nuevo polanco
+    expenses:entertainment:parking      $0
+    assets:cash:wallet
+
+
+
+#2026-11-21 estacionamiento | nuevo polanco
+#    expenses:entertainment:parking      $300000.12
+#    assets:cash:wallet
+#
+#2026-12-21 estacionamiento | nuevo polanco
+#    expenses:entertainment:parking      $100000.54
+#    assets:cash:wallet
