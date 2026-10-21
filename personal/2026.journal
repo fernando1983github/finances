@@ -1740,7 +1740,7 @@ include 2026_inversiones_schneider.journal
 
 2026-10-18 Telcel personal | Monthly Phone Plan
     expenses:utilities:cellphone            $549
-    assets:bank:banamex:checking
+    liabilities:credit:hsbc
 
 2026-10-17 despensa | sams
     expenses:food:groceries                $1163
@@ -1749,3 +1749,24 @@ include 2026_inversiones_schneider.journal
 2026-10-17 despensa | walmart
     expenses:food:groceries           $926
     assets:sivale:pantry
+
+2026-10-18 Farmacia San Pablo | Pamorelin
+    expenses:health:pharmacy          $10,960.5  ; member:daughter
+    liabilities:credit:hsbc
+
+2026-10-18 Pluralsight | Annual membership
+    expenses:education:courses            $6,435.59
+    assets:bank:banamex:checking
+
+2026-10-18 micheladas
+    expenses:food:dining            $100
+    assets:cash:wallet
+
+2026-10-19 mcDonalds | periferico
+    expenses:food:dining            $159
+    assets:sivale:meals
+
+2026-10-18 corte de cabello
+    expenses:personal:grooming             $90
+    expenses:personal:tips                 $10
+    assets:cash:wallet
