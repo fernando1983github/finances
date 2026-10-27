@@ -1184,7 +1184,7 @@ include 2026_inversiones_schneider.journal
     expenses:food:groceries             $30
     assets:sivale:meals                $-30
 
-2026-09-20 comics | panini Mundo E  ; libro jujutsu kaisen, libro regina
+2026-09-20 comics | panini Mundo E  ; libro jujutsu kaisen, she is beautiful
     expenses:entertainment              $338
     liabilities:credit:hsbc            $-338
 
@@ -1812,3 +1812,44 @@ include 2026_inversiones_schneider.journal
 #2026-12-21 estacionamiento | nuevo polanco
 #    expenses:entertainment:parking      $100000.54
 #    assets:cash:wallet
+
+2026-10-23 rollo chocolate | sanborns azcapo
+    expenses:food:dining      $179
+    liabilities:credit:hsbc
+
+2026-10-23 ATM | Withdrawal
+    assets:cash:wallet                   $100
+    assets:bank:banamex:checking
+
+2026-10-23 estacionamiento | sanborns azcapo
+    expenses:entertainment:parking      $26
+    assets:cash:wallet
+
+2026-10-24 comics | panini Mundo E  ; libro elfen lied, she is beautiful
+    expenses:entertainment              $855  ; 179 elfen lied
+    liabilities:credit:hsbc
+
+2026-10-24 starbucks | mundo e
+    expenses:food:dining             $242
+    liabilities:credit:hsbc
+
+2026-10-24 minisix
+    expenses:food:groceries            $75
+    assets:sivale:meals
+
+2026-10-24 estacionamiento | Ribs azcapo
+    expenses:entertainment:parking      $30
+    assets:cash:wallet
+
+2026-10-24 Ribs | Azcapotzalco  ; 1,996/2 = 998 x 1.1 = 1,097.8; 1,996*1.1 = 2,195.6
+    expenses:food:dining             $1,195.60  ; Your share of the dinner
+    assets:cash:wallet               $1,000     ; The cash he handed you
+    liabilities:credit:hsbc                     ; The total charged to your card
+
+2026-10-25 minisix
+    expenses:food:groceries            $139
+    assets:cash:wallet
+
+2026-10-27 despensa | soriana
+    expenses:food:groceries           $431.40
+    assets:sivale:pantry
