@@ -1442,7 +1442,7 @@ include 2026_inversiones_schneider.journal
     expenses:entertainment         $125  ; 5 @ $25
     assets:bank:hsbc:checking
 
-2026-04-21 Dulceria dulcemaria | dia del niño
+2026-04-21 Dulceria dulce maria | dia del niño
     expenses:leisure:holidays        $887.7
     assets:cash:wallet               $-887.7
 
@@ -1799,12 +1799,6 @@ include 2026_inversiones_schneider.journal
     expenses:food:dining           $170
     liabilities:credit:hsbc
 
-2026-10-21 estacionamiento | nuevo polanco
-    expenses:entertainment:parking      $0
-    assets:cash:wallet
-
-
-
 #2026-11-21 estacionamiento | nuevo polanco
 #    expenses:entertainment:parking      $300000.12
 #    assets:cash:wallet
@@ -1833,6 +1827,10 @@ include 2026_inversiones_schneider.journal
     expenses:food:dining             $242
     liabilities:credit:hsbc
 
+2026-10-24 oxxo
+    expenses:food:groceries             $115
+    assets:sivale:meals
+
 2026-10-24 minisix
     expenses:food:groceries            $75
     assets:sivale:meals
@@ -1850,6 +1848,18 @@ include 2026_inversiones_schneider.journal
     expenses:food:groceries            $139
     assets:cash:wallet
 
+2026-10-27 minisix
+    expenses:food:groceries            $134
+    assets:sivale:meals
+
 2026-10-27 despensa | soriana
     expenses:food:groceries           $431.40
     assets:sivale:pantry
+
+2026-10-27 Dulceria dulce maria | halloween
+    expenses:leisure:holidays        $216.1
+    assets:cash:wallet
+
+2026-10-28 lijas 180 | comex sotelo
+    expenses:housing:maintenance    $30    
+    assets:cash:wallet
