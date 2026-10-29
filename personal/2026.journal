@@ -1863,3 +1863,7 @@ include 2026_inversiones_schneider.journal
 2026-10-28 lijas 180 | comex sotelo
     expenses:housing:maintenance    $30    
     assets:cash:wallet
+
+2026-10-29 Arreglo cuarto Regina | Sr Ruperto
+    expenses:housing:maintenance    $2,500    
+    assets:cash:wallet
