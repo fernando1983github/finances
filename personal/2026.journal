@@ -1867,3 +1867,11 @@ include 2026_inversiones_schneider.journal
 2026-10-29 Arreglo cuarto Regina | Sr Ruperto
     expenses:housing:maintenance    $2,500    
     assets:cash:wallet
+
+2026-10-30 desayuno chilaquiles
+    expenses:food:dining            $65
+    assets:cash:wallet
+
+2026-10-28 Duolingo | Annual membership
+    expenses:education:courses            $2,110.5
+    liabilities:credit:hsbc
