@@ -1868,10 +1868,26 @@ include 2026_inversiones_schneider.journal
     expenses:housing:maintenance    $2,500    
     assets:cash:wallet
 
+2026-10-29 minisix
+    expenses:food:groceries            $136
+    assets:sivale:meals
+
+2026-10-28 Duolingo | Annual membership
+    expenses:education:courses            $2,110.5
+    liabilities:credit:hsbc
+
 2026-10-30 desayuno chilaquiles
     expenses:food:dining            $65
     assets:cash:wallet
 
-2026-10-28 Duolingo | Annual membership
-    expenses:education:courses            $2,110.5
+2026-10-30 estacionamiento | Hospital Angeles Lindavista
+    expenses:entertainment:parking      $93
+    assets:cash:wallet
+
+2026-10-30 starbucks | paruqe lindavista
+    expenses:food:dining             $170
+    liabilities:credit:hsbc
+
+2026-10-30 endocrinologa | seguimiento tratamiento Regina
+    expenses:health:medical            $1,200
     liabilities:credit:hsbc
