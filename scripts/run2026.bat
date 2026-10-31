@@ -51,7 +51,14 @@ hledger -f ~/master.journal bse -p 2026 -sS -V -X $
 ::hledger -f ~/master.journal bal -MTsS --drop=1 -p 2026 -B
 ::hledger -f ~/master.journal bal -VMTsS --drop=1 -p 2026 -X $ -B
 ::hledger -f ~/master.journal bal -VMTsS --drop=1 -p 2026 -X $ --value=then,$ -B
-hledger -f ~/master.journal bal -VMTsS --drop=1 -p 2026 -X $
+::--
+::comented on 2026/10/31
+::hledger -f ~/master.journal bal -VMTsS --drop=1 -p 2026 -X $
+::The reason your balances aren't reflecting today's market value comes down to how hledger interprets -V vs --value=now,$ when paired with -M (monthly grouping).
+::When you use -V (which is shorthand for --value=end), hledger calculates market valuation per column. For a monthly report like -M, it uses the price directive from the end of each respective month rather than today's price.
+::Here is how to modify your command to force today's market rate while keeping your monthly tabular layout:
+hledger -f ~/master.journal bal -MTsS --drop=1 -p 2026 --value=now,$
+::--
 ::hledger -f ~/master.journal bal -VDTsS --drop=1 -p "2026/9/1 to 2026/9/3" -X $
 ::hledger -f ~/master.journal bal -BMTsS --drop=1 -p 2026 type:A
 hledger -f ~/master.journal is -BMTsS --drop=1 -p 2026

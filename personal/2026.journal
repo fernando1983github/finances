@@ -1704,7 +1704,16 @@ include 2026_inversiones_schneider.journal
 2026-10-15 nomina
     assets:bank:hsbc:checking       $26,567.39
     income:salary
-
+2026-10-30 nomina
+    assets:bank:hsbc:checking       $26568.6
+    income:salary
+2026-10-30 vales restaurante | SIVALE
+    assets:sivale:meals             $3,566
+    income:benefits:sivale:meals
+2026-10-30 vales despensa | SIVALE
+    assets:sivale:pantry             $3,567
+    income:benefits:sivale:pantry
+#---
 
 #2026-10-15 * Sívale | Balance Realignment
 #    assets:sivale:meals             == $4,724.28
