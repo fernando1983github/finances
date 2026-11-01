@@ -150,19 +150,19 @@ include 2026_inversiones_schneider.journal
     assets:bank:banamex:checking
 
 2026-03-02 Building Admin | PAGO EXTRAORDINARIO B405
-    expenses:housing:maintenance:puerta-toreo  $5,980.00
+    expenses:housing:maintenance:puerta-toreo  $5,980
     assets:bank:banamex:checking
 
 2026-03-03 Gakuen Academy(Japanese) | Pago Fernando Cuervo
-    expenses:education:japanese        $650.00
+    expenses:education:japanese        $650
     assets:bank:banamex:checking
 
 2026-03-03 Kids & Us | Pago Marzo Regina Cuervo
-    expenses:education:daughter:english  $1,850.00  ; member:daughter
+    expenses:education:daughter:english  $1,850  ; member:daughter
     assets:bank:banamex:checking
 
 2026-03-02 Ivan Tolama | March Rent
-    assets:bank:banamex:checking             $9,000.00
+    assets:bank:banamex:checking             $9,000
     income:rent
 
 2026-03-03 San Pedro | MTTO MARZO 302
@@ -170,7 +170,7 @@ include 2026_inversiones_schneider.journal
     assets:bank:banamex:checking
 
 2026-03-12 ATM | Withdrawal
-    assets:cash:wallet                   $9000.00
+    assets:cash:wallet                   $9000
     assets:bank:hsbc:checking  ;  ****2299
 
 # April
@@ -191,7 +191,7 @@ include 2026_inversiones_schneider.journal
     assets:bank:banamex:checking
 
 2026-04-01 Kids & Us | Pago Abril Regina Cuervo
-    expenses:education:daughter:english  $1,850.00  ; member:daughter
+    expenses:education:daughter:english  $1,850  ; member:daughter
     assets:bank:banamex:checking
 
 2026-04-01 San Pedro | MTTO ABRIL 302
@@ -199,7 +199,7 @@ include 2026_inversiones_schneider.journal
     assets:bank:banamex:checking
 
 2026-04-01 Ivan Tolama | April Rent
-    assets:bank:banamex:checking             $9,000.00
+    assets:bank:banamex:checking             $9,000
     income:rent
 
 2026-04-02 Cinepolis | Mario Galaxy
@@ -257,31 +257,31 @@ include 2026_inversiones_schneider.journal
 
 2026-07-01 minisix
     expenses:food:groceries            $109
-    assets:cash:wallet                $-109
+    assets:cash:wallet
 
 2026-06-11 botanas oxxo
     expenses:food:groceries           $401.5
-    assets:cash:wallet               $-401.5
+    assets:cash:wallet
 
 2026-04-06 minisix
     expenses:food:groceries            $180
-    assets:sivale:meals               $-180
+    assets:sivale:meals
 
 2026-05-07 minisix
     expenses:food:groceries            $225
-    assets:sivale:meals               $-225
+    assets:sivale:meals
 
 2026-05-08 minisix
     expenses:food:groceries            $168
-    assets:sivale:meals                $-168
+    assets:sivale:meals
 
 2026-05-09 despensa | walmart
-    expenses:food:groceries           $1441.9
-    assets:sivale:pantry             $-1441.9  ; ****2976
+    expenses:food:groceries           $1,441.9
+    assets:sivale:pantry  ; ****2976
 
 2026-05-21 ATM | Withdrawal
-    assets:cash:wallet              $9,000.00
-    assets:bank:hsbc:checking      $-9,000.00
+    assets:cash:wallet              $9,000
+    assets:bank:hsbc:checking
 
 2026-05-22 pasta y gotas Regina | Farmacia Guadalajara
     expenses:health:pharmacy            $987.62  ; 2 @ $493.81  ; gotas alleance 0.10 mg sol gotas 5ml frasco
@@ -292,145 +292,145 @@ include 2026_inversiones_schneider.journal
 
 2026-05-22 minisix
     expenses:food:groceries            $87
-    assets:sivale:meals               $-87  ; ****6491
+    assets:sivale:meals  ; ****6491
 
 2026-05-23 minisix
     expenses:food:groceries            $113
-    assets:sivale:meals               $-113  ; ****6491
+    assets:sivale:meals  ; ****6491
 
 2026-05-22 Compras abuelita internada | walmart
     expenses:family:grandma:medical        $142  ; cubrecamas predoblado
-    assets:bank:banamex:checking           $-142
+    assets:bank:banamex:checking
 
 2026-05-22 Compras abuelita internada | vianney
     expenses:family:grandma:supplies        $418  ; 2 cobertores
-    assets:bank:banamex:checking           $-418
+    assets:bank:banamex:checking
 
 2026-06-01 Birthday | salon pay remaining amount
-    expenses:entertainment              $21940  ; event:birthday-regina-2026
-    assets:bank:hsbc:checking          $-21940
+    expenses:entertainment              $21,940  ; event:birthday-regina-2026
+    assets:bank:hsbc:checking
 
 2026-03-15 Birthday | Salon deposit
-    expenses:entertainment                 $3000  ;  event:birthday-regina-2026
-    assets:bank:banamex:checking          $-3000
+    expenses:entertainment                 $3,000  ;  event:birthday-regina-2026
+    assets:bank:banamex:checking
 
 2026-06-20 Gastos adicionales, agua, servilletas, vasos
     expenses:entertainment            $150  ;  event:birthday-regina-2026
-    assets:cash:wallet               $-150
+    assets:cash:wallet
 
 2026-07-02 Fondo Carmen
-    expenses:family:transfer:carmen           $3000
-    assets:cash:wallet                       $-3000
+    expenses:family:transfer:carmen           $3,000
+    assets:cash:wallet
 
 2026-07-02 ATM | Withdrawal
-    assets:cash:wallet              $9,000.00
-    assets:bank:hsbc:checking      $-9,000.00
+    assets:cash:wallet              $9,000
+    assets:bank:hsbc:checking
 
 2026-05-01 Ivan Tolama | May rent
-    assets:bank:banamex:checking       $9,000.00
-    income:rent                       $-9,000.00
+    assets:bank:banamex:checking       $9,000
+    income:rent
 
 2026-06-01 Ivan Tolama | June rent
-    assets:bank:banamex:checking       $9,000.00
-    income:rent                       $-9,000.00
+    assets:bank:banamex:checking       $9,000
+    income:rent
 
 2026-07-01 Ivan Tolama | July rent
-    assets:bank:banamex:checking       $9,000.00
-    income:rent                       $-9,000.00
+    assets:bank:banamex:checking       $9,000
+    income:rent
 
 2026-05-03 oxxo | google play
     expenses:digital                 $300
-    assets:cash:wallet               $-300
+    assets:cash:wallet
 
 2026-05-03 oxxo
     expenses:food:groceries            $62
-    assets:bank:banamex:checking       $-62
+    assets:bank:banamex:checking
 
 2026-05-21 Leben Medik | Pamorelin
     expenses:health:pharmacy              $11,725  ; member:daughter
-    assets:bank:banamex:checking         $-11,725
+    assets:bank:banamex:checking
 
 2026-05-29 Gakuen Academy(Japanese) | Pago Fernando Cuervo
-    expenses:education:japanese          $650.00
-    assets:bank:banamex:checking        $-650.00
+    expenses:education:japanese          $650
+    assets:bank:banamex:checking
 
 2026-06-04 San Pedro | MTTO ABRIL(debe se Junio) 302
     expenses:housing:maintenance:san-pedro         $280.32
-    assets:bank:banamex:checking                  $-280.32
+    assets:bank:banamex:checking
 
 2026-06-04 Building Admin | MTTO ABRIL(debe ser Junio) B405
-    expenses:housing:maintenance:puerta-toreo           $1550
-    assets:bank:banamex:checking                       $-1550
+    expenses:housing:maintenance:puerta-toreo           $1,550
+    assets:bank:banamex:checking
 
 2026-05-10 San Pedro | MTTO MAYO 302
     expenses:housing:maintenance:san-pedro         $280.32
-    assets:bank:banamex:checking                  $-280.32
+    assets:bank:banamex:checking
 
 2026-05-10 Kids & Us | Pago Mayo Regina Cuervo
-    expenses:education:daughter:english       $1,850.00  ; member:daughter, course:english
-    assets:bank:banamex:checking             $-1,850.00
+    expenses:education:daughter:english       $1,850  ; member:daughter, course:english
+    assets:bank:banamex:checking
 
 2026-06-04 Kids & Us | Pago Junio Regina Cuervo
-    expenses:education:daughter:english       $1,850.00  ; member:daughter, course:english
-    assets:bank:banamex:checking             $-1,850.00
+    expenses:education:daughter:english       $1,850  ; member:daughter, course:english
+    assets:bank:banamex:checking
 
 2026-07-04 Rosario Town Center
     expenses:entertainment:movies            $220  ;  toy story
     expenses:food:dining                     $169  ;  sushi itto
     expenses:food:dining                     $222  ;  Carls Jr
-    assets:cash:wallet                      $-611
+    assets:cash:wallet
 
 2026-07-08 Colegiatura 2026-2027
-    expenses:education                    $37800  ; member:daughter, student:regina
-    assets:bank:banamex:checking         $-37800
+    expenses:education                    $37,800  ; member:daughter, student:regina
+    assets:bank:banamex:checking
 
 2026-07-08 minisix
     expenses:food:groceries            $164
-    assets:cash:wallet                $-164
+    assets:cash:wallet
 
 2026-07-04 Despensa
-    expenses:food:groceries           $1854
-    assets:sivale:pantry             $-1854
+    expenses:food:groceries           $1,854
+    assets:sivale:pantry
 
 2026-07-09 desayuno
     expenses:food:dining            $100
-    assets:cash:wallet             $-100
+    assets:cash:wallet
 
 2026-07-09 comida
     expenses:food:dining             $165
-    assets:sivale:meals             $-165
+    assets:sivale:meals
 
 2026-07-09 Fortnight Payment Q1 Mayo | Wife
-    expenses:household:fortnight         $4600
-    assets:bank:banamex:checking        $-4600
+    expenses:household:fortnight         $4,600
+    assets:bank:banamex:checking
 
 2026-07-09 San Pedro | MTTO JULIO 302
     expenses:housing:maintenance:san-pedro         $280.32
-    assets:bank:banamex:checking                  $-280.32
+    assets:bank:banamex:checking
 
 2026-07-09 Building Admin | MTTO JULIO B405
-    expenses:housing:maintenance:puerta-toreo         $1550
-    assets:bank:banamex:checking                     $-1550
+    expenses:housing:maintenance:puerta-toreo         $1,550
+    assets:bank:banamex:checking
 
 2026-07-09 Fortnight Payment Q2 Mayo | Wife
-    expenses:household:fortnight         $4600
-    assets:bank:banamex:checking        $-4600
+    expenses:household:fortnight         $4,600
+    assets:bank:banamex:checking
 
 2026-07-09 Kids & Us | Pago Materiales
-    expenses:education:daughter:english           $3200
-    assets:bank:banamex:checking                 $-3200
+    expenses:education:daughter:english           $3,200
+    assets:bank:banamex:checking
 
 2026-07-11 minisix
     expenses:food:groceries            $174
-    assets:cash:wallet                $-174
+    assets:cash:wallet
 
 2026-07-05 oxxo
     expenses:food:groceries             $39
-    assets:cash:wallet                 $-39
+    assets:cash:wallet
 
 2026-07-05 kentucky comida mitad
     expenses:food:dining            $361
-    assets:cash:wallet             $-361
+    assets:cash:wallet
 
 2026-07-09 gas station  ; odometer:41114
     expenses:car:fuel      $1,340.0575  ; 57.048 L @ $23.49
@@ -440,229 +440,229 @@ include 2026_inversiones_schneider.journal
 
 2026-07-11 desayuno tamales
     expenses:food:dining            $121
-    assets:cash:wallet             $-121
+    assets:cash:wallet
 
 2026-07-12 comida
     expenses:food:dining            $155
-    assets:cash:wallet             $-155
+    assets:cash:wallet
 
 2026-07-12 corte de cabello
     expenses:personal:grooming             $80
     expenses:personal:tips                 $20
-    assets:cash:wallet                   $-100
+    assets:cash:wallet
 
 2026-06-24 cremeria el toro
     expenses:food:groceries         $116.06
-    assets:sivale:pantry           $-116.06
+    assets:sivale:pantry
 
 2026-06-24 cremeria el toro
     expenses:food:groceries         $67.23
-    assets:sivale:pantry           $-67.23
+    assets:sivale:pantry
 
 2026-07-13 Telcel personal | Monthly Phone Plan  ; period:2026-07
     expenses:utilities:cellphone         $531.29
-    assets:bank:banamex:checking                 $-531.29
+    assets:bank:banamex:checking
 
 
 #estacionamiento graduacion regina
 #56 efectivo, estoy determinando la cuenta donde lo registrare
 2026-07-15 Estacionamiento | graduacion  ; event:graduacion
     expenses:entertainment:parking             $56
-    assets:cash:wallet                        $-56
+    assets:cash:wallet
     expenses:personal:tips                     $10
     assets:cash:wallet                        $-10
 
 2026-07-18 odontopediatra
     expenses:health:medical            $500
-    assets:cash:wallet                $-500
+    assets:cash:wallet
 
 2026-07-18 minisix
     expenses:food:groceries            $203
-    assets:cash:wallet                $-203
+    assets:cash:wallet
 
 2026-07-18 comida | trabajo
     expenses:food:dining            $700
-    assets:sivale:meals            $-700
+    assets:sivale:meals
 
 2026-07-16 comida kfc
     expenses:food:dining            $309
-    assets:sivale:meals            $-309
+    assets:sivale:meals
 
 2026-07-13 minisix
     expenses:food:groceries            $232
-    assets:cash:wallet                $-232
+    assets:cash:wallet
 
 2026-05-11 Building Admin | MTTO MAYO B405
     expenses:housing:maintenance:puerta-toreo         $1,550
-    assets:bank:banamex:checking                     $-1,550
+    assets:bank:banamex:checking
 
 2026-05-10 Fortnight Payment Q1 Marzo | Wife
-    expenses:household:fortnight           $ 4600
-    assets:bank:banamex:checking                   $ -4600
+    expenses:household:fortnight           $4,600
+    assets:bank:banamex:checking
 
 2026-05-10 Fortnight Payment Q2 Marzo | Wife
-    expenses:household:fortnight           $ 4600
-    assets:bank:banamex:checking                   $ -4600
+    expenses:household:fortnight           $4,600
+    assets:bank:banamex:checking
 
 2026-06-04 Fortnight Payment Q1 Abril | Wife
-    expenses:household:fortnight           $ 4600
-    assets:bank:banamex:checking                   $ -4600
+    expenses:household:fortnight           $4,600
+    assets:bank:banamex:checking
 
 2026-06-04 Fortnight Payment Q2 Abril | Wife
-    expenses:household:fortnight           $ 4600
-    assets:bank:banamex:checking                   $ -4600
+    expenses:household:fortnight           $4,600
+    assets:bank:banamex:checking
 
 2026-07-20 comida
     expenses:food:dining             $70
-    assets:sivale:meals             $-70
+    assets:sivale:meals
 
 2026-07-21 comida
     expenses:food:dining             $50
-    assets:sivale:meals             $-50
+    assets:sivale:meals
 
 2026-07-22 minisix
     expenses:food:groceries             $64
-    assets:cash:wallet                 $-64
+    assets:cash:wallet
 
 2026-07-23 minisix
     expenses:food:groceries            $106
-    assets:cash:wallet                $-106
+    assets:cash:wallet
 
 2026-07-23 comida | McDonalds
     expenses:food:dining            $453
-    assets:cash:wallet             $-453
+    assets:cash:wallet
 
 2026-07-18 Reparacion casa | Home Depot
     expenses:home:maintenance            $496
-    assets:cash:wallet                  $-496
+    assets:cash:wallet
     expenses:food:groceries               $20
     assets:cash:wallet                   $-20
 
 2026-07-24 Gakuen Academy(Japanese) | Pago Fernando Cuervo
-    expenses:education:japanese          $650.00
-    assets:bank:banamex:checking        $-650.00
+    expenses:education:japanese          $650
+    assets:bank:banamex:checking
 
 2026-07-25 estacionamiento | parque toreo
     expenses:entertainment:parking            $100
-    assets:cash:wallet                       $-100
+    assets:cash:wallet
 
 2026-07-25 ear buds pro 4 | Amazon
-    expenses:shopping:amazon           $3299
-    assets:bank:banamex:checking               $-3299
+    expenses:shopping:amazon           $3,299
+    assets:bank:banamex:checking
 
 2026-07-26 ear buds pro 4 | Amazon
     expenses:shopping:amazon           $3299  ; gift:wife
-    assets:bank:banamex:checking               $-3299
+    assets:bank:banamex:checking
 
 2026-07-26 Toro cremeria
     expenses:food:groceries         $546.01
-    assets:sivale:pantry           $-546.01
+    assets:sivale:pantry
 
 2026-07-28 desayuno | schneider
     expenses:food:dining             $70
-    assets:sivale:meals             $-70
+    assets:sivale:meals
 
 2026-07-28 minisix
     expenses:food:groceries             $97
-    assets:cash:wallet                 $-97
+    assets:cash:wallet
 
 2026-07-30 schneider | cafeteria
     expenses:food:dining             $70
-    assets:sivale:meals             $-70
+    assets:sivale:meals
 
 2026-07-30 minisix
     expenses:food:groceries             $79
-    assets:sivale:meals                 $-79
+    assets:sivale:meals
 
 2026-07-31 Gas | Naturgy
     expenses:housing:utilities:gas:puerta-toreo            $283
-    assets:sivale:services                                $-283
+    assets:sivale:services
 
 2026-07-31 luz | CFE
     expenses:housing:utilities:electricity:puerta-toreo            $741
-    assets:sivale:services                                        $-741
+    assets:sivale:services
 
 2026-07-31 oxxo
     expenses:food:groceries             $89
-    assets:cash:wallet                 $-89
+    assets:cash:wallet
 
 2026-07-31 oxxo | google play
     expenses:digital              $100
-    assets:cash:wallet           $-100
+    assets:cash:wallet
 
 2026-07-31 minisix
     expenses:food:groceries             $97
-    assets:cash:wallet                 $-97
+    assets:cash:wallet
 
 2026-08-01 estacionamiento | parque toreo
     expenses:entertainment:parking             $63
-    assets:cash:wallet                        $-63
+    assets:cash:wallet
 
 2026-08-01 despensa | sams
-    expenses:food:groceries                $1960
-    assets:sivale:pantry                  $-1960
+    expenses:food:groceries                $1,960
+    assets:sivale:pantry
     expenses:food:groceries                 $495  ;  cerveza
     assets:bank:banamex:checking           $-495
 
 2026-08-01 despensa | walmart
-    expenses:food:groceries           $1993
-    assets:sivale:pantry             $-1993
+    expenses:food:groceries           $1,993
+    assets:sivale:pantry
 
 2026-08-01 comida | familia
     expenses:food:dining                  $951.5
-    assets:bank:banamex:checking         $-951.5
+    assets:bank:banamex:checking
 
 2026-08-01 Ivan Tolama | August Rent
-    assets:bank:banamex:checking       $9,000.00
-    income:rent                       $-9,000.00
+    assets:bank:banamex:checking       $9,000
+    income:rent
 
 2026-07-30 ATM | Withdrawal
-    assets:cash:wallet              $9,000.00
-    assets:bank:hsbc:checking      $-9,000.00
+    assets:cash:wallet              $9,000
+    assets:bank:hsbc:checking
 
 2026-07-16 ATM | Withdrawal
-    assets:cash:wallet              $9,000.00
-    assets:bank:hsbc:checking      $-9,000.00
+    assets:cash:wallet              $9,000
+    assets:bank:hsbc:checking
 
 2026-07-19 oxxo
     expenses:food:groceries            $145
-    assets:cash:wallet                $-145
+    assets:cash:wallet
 
 2026-07-25 furniture bedroom | advance payment  ; purchase-id:recamara-2026 
-    expenses:home:furniture           $2000
-    assets:cash:wallet               $-2000
+    expenses:home:furniture           $2,000
+    assets:cash:wallet
 
 2026-04-30 comida | trabajo
     expenses:food:dining            $277
-    assets:sivale:meals            $-277
+    assets:sivale:meals
 
 2026-04-12 comida | familia
     expenses:food:dining             $437
-    assets:sivale:meals             -$437
+    assets:sivale:meals
 
 2026-06-13 dulces
-    expenses:entertainment         $1399.8  ; event:birthday-regina-2026
-    assets:cash:wallet            $-1399.8
+    expenses:entertainment         $1,399.8  ; event:birthday-regina-2026
+    assets:cash:wallet
 
 2026-05-29 oxxo
     expenses:food:groceries             $51
-    assets:cash:wallet                 $-51
+    assets:cash:wallet
 
 2026-05-30 despensa | sams
-    expenses:food:groceries                $1389
-    assets:sivale:pantry                  $-1389
+    expenses:food:groceries                $1,389
+    assets:sivale:pantry
 
 2026-05-30 despensa | walmart
-    expenses:food:groceries           $1172
-    assets:sivale:pantry             $-1172
+    expenses:food:groceries           $1,172
+    assets:sivale:pantry
 
 2026-08-03 compra estampas
     expenses:entertainment            $150
-    assets:cash:wallet               $-150
+    assets:cash:wallet
 
 2026-08-05 pago renta cabaña Mineral del Chico  ; trip:sta-maria-regla
-    expenses:entertainment                 $2858
-    assets:bank:banamex:checking           $-2858
+    expenses:entertainment                 $2,858
+    assets:bank:banamex:checking
 
 #hledger -f ~/master.journal bal tag:trip=acapulco
 2026-08-07 * Caseta | Highway Toll Fee  ; trip:sta-maria-regla
@@ -680,35 +680,35 @@ include 2026_inversiones_schneider.journal
 
 2026-08-07 estacionamiento | Hidalgo  ; trip:sta-maria-regla
     expenses:entertainment:parking             $80
-    assets:cash:wallet                        $-80
+    assets:cash:wallet
 
 2026-08-07 comida | Hidalgo  ; trip:sta-maria-regla
     expenses:food:dining            $300
-    assets:cash:wallet              $-300
+    assets:cash:wallet
 
 2026-08-07 tienda | Hidalgo  ; trip:sta-maria-regla
     expenses:food:groceries        $243.5
-    assets:cash:wallet            $-243.5
+    assets:cash:wallet
 
 2026-08-08 estacionamiento | Hidalgo  ; trip:sta-maria-regla
     expenses:entertainment:parking             $50
-    assets:cash:wallet                        $-50
+    assets:cash:wallet
 
 2026-08-08 cervezas, chicharrones | Hidalgo  ; trip:sta-maria-regla
     expenses:food:groceries        $240
-    assets:cash:wallet            $-240
+    assets:cash:wallet
 
 2026-08-08 estacionamiento | Hidalgo  ; trip:sta-maria-regla
     expenses:entertainment:parking             $80
-    assets:cash:wallet                        $-80
+    assets:cash:wallet
 
 # revisar si fue tarjeta o efectivo
 2026-08-08 La Montaña | Hidalgo  ; trip:sta-maria-regla
-    expenses:food:dining            $1112.5
-    assets:sivale:meals             $-1112.5
+    expenses:food:dining            $1,112.5
+    assets:sivale:meals
 
 2026-08-08 Paseo puentes colgantes  ; trip:sta-maria-regla
-    expenses:leisure:tourism                   $1050  ; recorrido puentes colgantes
+    expenses:leisure:tourism                   $1,050  ; recorrido puentes colgantes
     assets:cash:wallet
 
 2026-08-09 extras, casa pago  ; trip:sta-maria-regla
@@ -717,8 +717,8 @@ include 2026_inversiones_schneider.journal
 
 # revisar si fue tarjeta o efectivo
 2026-08-09 Estufón Loco | Hidalgo  ; trip:sta-maria-regla
-    expenses:food:dining            $1155
-    assets:sivale:meals              $-1155
+    expenses:food:dining            $1,155
+    assets:sivale:meals
 
 2026-08-09 * Caseta | Highway Toll Fee  ; trip:sta-maria-regla
     expenses:transportation:tolls              $72
@@ -730,386 +730,374 @@ include 2026_inversiones_schneider.journal
 
 2026-08-05 minisix
     expenses:food:groceries            $234
-    assets:cash:wallet                $-234
+    assets:cash:wallet
 
 2026-08-06 desayuno schneider
     expenses:food:dining             $75
-    assets:sivale:meals             $-75
+    assets:sivale:meals
 
 2026-08-06 comida schneider
     expenses:food:dining            $187
-    assets:sivale:meals            $-187
+    assets:sivale:meals
 
 2026-08-06 minisix
     expenses:food:groceries            $100
-    assets:sivale:meals               $-100
+    assets:sivale:meals
 
 2026-08-10 cafeteria schneider
     expenses:food:dining             $58
-    assets:sivale:meals             $-58
+    assets:sivale:meals
 
 2026-08-10 comida schneider
     expenses:food:dining            $187
-    assets:sivale:meals            $-187
+    assets:sivale:meals
 
 2026-08-10 Building Admin | MTTO AGOSTO B405
     expenses:housing:maintenance:puerta-toreo         $1,550
-    assets:bank:banamex:checking                     $-1,550
+    assets:bank:banamex:checking
 
 2026-08-10 San Pedro | MTTO AGOSTO 302
     expenses:housing:maintenance:san-pedro         $280.32
-    assets:bank:banamex:checking                  $-280.32
+    assets:bank:banamex:checking
 
 2026-08-11 compra plastilinas niñas
     expenses:entertainment             $56
-    assets:cash:wallet                $-56
+    assets:cash:wallet
 
 2026-08-12 furniture bedroom  ; purchase-id:recamara-2026
-    expenses:transportation:freight           $2000
-    assets:cash:wallet                       $-2000
-    expenses:home:furniture                  $18000
-    assets:cash:wallet                      $-18000
+    expenses:transportation:freight           $2,000
+    assets:cash:wallet
+    expenses:home:furniture                  $18,000
+    assets:cash:wallet                      $-18,000
 
 2026-08-12 estacionamiento | parque toreo
     expenses:entertainment:parking             $88
-    assets:cash:wallet                        $-88
+    assets:cash:wallet
 
 2026-08-12 dinning | burger king
     expenses:food:dining            $194
-    assets:sivale:meals            $-194
+    assets:sivale:meals
 
 2026-08-10 comida schneider
     expenses:food:dining            $187
-    assets:sivale:meals            $-187
+    assets:sivale:meals
 
 2026-08-08 comida | Itakate Minero
-    expenses:food:dining        $1233.75
-    assets:sivale:meals        $-1233.75
+    expenses:food:dining        $1,233.75
+    assets:sivale:meals
 
 2026-04-11 estacionamiento | auditorio nacional  ; event:31minutos-concert
     expenses:entertainment:parking            $270
-    assets:cash:wallet                       $-270
+    assets:cash:wallet
 
 2026-08-13 uber | home->schneider
     expenses:transportation:rideshare         $127.98
-    assets:bank:banamex:checking             $-127.98
+    assets:bank:banamex:checking
     expenses:personal:tips                        $10
     assets:bank:banamex:checking                 $-10
 
 2026-08-13 comida schneider | la chana juana
     expenses:food:dining          $170.5
-    assets:sivale:meals          $-170.5
+    assets:sivale:meals
 
 2026-08-13 uber | schneider->home
     expenses:transportation:rideshare         $175.98
-    assets:bank:banamex:checking             $-175.98
+    assets:bank:banamex:checking
     expenses:personal:tips                        $10
     assets:bank:banamex:checking                 $-10
 
 2026-08-15 Telcel personal | Monthly Phone Plan
     expenses:utilities:cellphone            $549
-    assets:bank:banamex:checking           $-549
+    assets:bank:banamex:checking
 
 2026-08-15 minisix
     expenses:food:groceries            $153
-    assets:sivale:meals               $-153
+    assets:sivale:meals
 
 2026-06-23 comida | PFchangs plaza Carso  ; event:Regina-birthday-2026
-    expenses:food:dining         $1471.8
-    assets:sivale:meals         $-1471.8
+    expenses:food:dining         $1,471.8
+    assets:sivale:meals
 
 2026-06-23 comida | El Kioskito  ; event:Regina-birthday-2026
-    expenses:food:dining           $1021
-    assets:sivale:meals           $-1021
+    expenses:food:dining           $1,021
+    assets:sivale:meals
 
 2026-01-25 recorcholis | Parque Toreo
     expenses:entertainment            $500
-    assets:cash:wallet               $-500
+    assets:cash:wallet
 
 2026-03-21 Mantenimiento Kia Sportage | KIA San Joaquin
-    expenses:car:maintenance               $2960
-    assets:bank:banamex:checking          $-2960
+    expenses:car:maintenance               $2,960
+    assets:bank:banamex:checking
 
 2026-04-14 papeleria | dabo
     expenses:stationery            $385
-    assets:cash:wallet            $-385
+    assets:cash:wallet
 
 2026-08-16 minisix
     expenses:food:groceries            $222
-    assets:sivale:meals               $-222
+    assets:sivale:meals
 
 2026-04-27 comida | mcdonalds
     expenses:food:dining            $183
-    assets:cash:wallet             $-183
+    assets:cash:wallet
 
 2026-08-17 desayuno schneider
     expenses:food:dining             $70
-    assets:sivale:meals             $-70
+    assets:sivale:meals
 
 2026-08-17 ATM | Withdrawal
-    assets:cash:wallet              $9,000.00
-    assets:bank:hsbc:checking      $-9,000.00
+    assets:cash:wallet              $9,000
+    assets:bank:hsbc:checking
 
 2026-08-18 compras para comida
     expenses:food:groceries             $50
-    assets:cash:wallet                 $-50
     expenses:food:groceries             $24
-    assets:cash:wallet                 $-24
+    assets:cash:wallet
 
 2026-08-20 desayuno schneider
     expenses:food:dining             $75
-    assets:sivale:meals             $-75
+    assets:sivale:meals
 
 2026-08-20 comida | familia
     expenses:food:dining            $470
-    assets:sivale:meals            $-470
+    assets:sivale:meals
 
 2026-08-21 complementos para comida
     expenses:food:groceries          $148.5
-    assets:cash:wallet              $-148.5
     expenses:food:groceries             $25
-    assets:cash:wallet                 $-25
+    assets:cash:wallet
 
 2026-08-21 Gakuen Academy(Japanese) | Pago Fernando Cuervo
-    expenses:education:japanese          $650.00
-    assets:bank:banamex:checking        $-650.00
+    expenses:education:japanese          $650
+    assets:bank:banamex:checking
 
 2026-08-21 Fortnight Payment Q1 Junio | Wife
     expenses:household:fortnight         $4,600
-    assets:bank:banamex:checking        $-4,600
+    assets:bank:banamex:checking
 
 2026-08-21 Fortnight Payment Q2 Junio | Wife
     expenses:household:fortnight         $4,600
-    assets:bank:banamex:checking        $-4,600
+    assets:bank:banamex:checking
 
 2026-08-24 desayuno schneider
     expenses:food:dining             $55
-    assets:sivale:meals             $-55
+    assets:sivale:meals
 
 2026-08-24 Leben Medik | Pamorelin
     expenses:health:pharmacy            $11,725   ; member:daughter
-    assets:bank:banamex:checking       $-11,725
+    assets:bank:banamex:checking
 
 2026-08-24 diccionario ingles/español basico | Amazon
     expenses:shopping:amazon              $73.50
-    assets:bank:banamex:checking         $-73.50
+    assets:bank:banamex:checking
 
 2026-08-24 ATM | Withdrawal
-    assets:cash:wallet              $9,000.00
-    assets:bank:hsbc:checking      $-9,000.00
+    assets:cash:wallet              $9,000
+    assets:bank:hsbc:checking
 
 2026-08-23 minisix
     expenses:food:groceries             $50
-    assets:sivale:meals                $-50
+    assets:sivale:meals
 
 2026-08-22 dulceria cinemex spiderman
     expenses:entertainment:movies            $399
-    assets:cash:wallet                      $-399
+    assets:cash:wallet
 
 2026-08-23 despensa, papeleria | walmart
     expenses:food:groceries               $820
     expenses:personal:clothing            $368
-    assets:sivale:pantry                $-1188
+    assets:sivale:pantry
 
 2026-08-22 comida | kfc toreo
     expenses:food:dining            $399
-    assets:sivale:meals            $-399
+    assets:sivale:meals
 
 2026-08-23 oxxo
     expenses:food:groceries            $147
-    assets:cash:wallet                $-147
+    assets:cash:wallet
 
 2026-08-22 estacionamiento centro naucalpan
     expenses:entertainment:parking             $32
-    assets:cash:wallet                        $-32
+    assets:cash:wallet
 
 2026-08-22 estacionamiento | rosario towncenter
     expenses:entertainment:parking            $122
-    assets:cash:wallet                       $-122
+    assets:cash:wallet
 
 2026-08-22 cena | el paisa claveria
     expenses:food:dining            $375
-    assets:cash:wallet             $-375
+    assets:cash:wallet
 
 2026-08-23 corte de cabello
     expenses:personal:grooming              $90
     expenses:personal:tips                  $10
-    assets:cash:wallet                    $-100
+    assets:cash:wallet
 
 2026-08-24 gas station  ; odometer:42003
     expenses:car:fuel      $1,350.0132  ; 56.274 L @ $23.99
-    assets:cash:wallet
     expenses:car:tips                    $10
-    assets:cash:wallet                  $-10
+    assets:cash:wallet
 
 2026-08-05 gas station  ; odometer:41473
     expenses:car:fuel      $1,242.5405  ; 52.45 L @ $23.69
-    assets:cash:wallet
     expenses:car:tips                    $10
-    assets:cash:wallet                  $-10
+    assets:cash:wallet
 
 2026-07-19 compra monedas mundial
     expenses:shopping:general            $250
-    assets:cash:wallet                  $-250
+    assets:cash:wallet
 
 2206-08-02 comida cumpleañeros barbacoa | casa abuelita
-    expenses:food:dining           $1140
-    assets:cash:wallet            $-1140
+    expenses:food:dining           $1,140
+    assets:cash:wallet
 
 2026-08-15 comida cumpleaños carmen  ; event:birthday-carmen-2026
     expenses:food:dining            $833
-    assets:cash:wallet             $-833
+    assets:cash:wallet
 
 2026-06-17 gas station  ; odometer:40736
     expenses:car:fuel      $1,270.12779  ; 54.071 L @ $23.49
-    assets:cash:wallet
     expenses:car:tips                    $14
-    assets:cash:wallet                  $-14
+    assets:cash:wallet
 
 2026-05-28 gas station  ; odometer:40440
     expenses:car:fuel      $1,320.24167  ; 55.033 L @ $23.99
-    assets:cash:wallet
     expenses:car:tips                    $10
-    assets:cash:wallet                  $-10
+    assets:cash:wallet
 
 2026-05-04 gas station  ; odometer:40080
     expenses:car:fuel      $1,300.13805  ; 54.195 L @ $23.99
-    assets:cash:wallet
     expenses:car:tips                    $10
-    assets:cash:wallet                  $-10
+    assets:cash:wallet
 
 2026-04-13 gas station  ; odometer:39718
     expenses:car:fuel      $706.96795  ; 30.355 L @ $23.39
-    assets:cash:wallet
     expenses:car:tips                    $10
-    assets:cash:wallet                  $-10
+    assets:cash:wallet
 
 2026-03-27 gas station  ; odometer:39482
     expenses:car:fuel      $1,421.6369  ; 60.01 L @ $23.69
-    assets:cash:wallet
     expenses:car:tips                    $10
-    assets:cash:wallet                  $-10
+    assets:cash:wallet
 
 2026-03-04 gas station  ; odometer:39081
     expenses:car:fuel      $980.25338  ; 43.202 L @ $22.69
-    assets:cash:wallet
     expenses:car:tips                    $10
-    assets:cash:wallet                  $-10
+    assets:cash:wallet
 
 2026-02-10 gas station  ; odometer:38830
     expenses:car:fuel      $960.93602  ; 41.798 L @ $22.99
-    assets:cash:wallet
     expenses:car:tips                    $10
-    assets:cash:wallet                  $-10
+    assets:cash:wallet
 
 2026-01-20 gas station  ; odometer:38546
     expenses:car:fuel      $950.11749  ; 40.971 L @ $23.19
-    assets:cash:wallet
     expenses:car:tips                    $10
-    assets:cash:wallet                  $-10
+    assets:cash:wallet
 
 2026-08-26 complementos para comida
     expenses:food:groceries             $15
-    assets:cash:wallet                 $-15
+    assets:cash:wallet
 
 2026-08-31 estacionamiento 1er dia 5to
     expenses:entertainment:parking              $33
-    assets:cash:wallet                         $-33
+    assets:cash:wallet
 
 2026-08-31 Kids & Us | Pago Septiembre Regina Cuervo
-    expenses:education:daughter:english           $2305
-    assets:bank:banamex:checking                 $-2305
+    expenses:education:daughter:english           $2,305
+    assets:bank:banamex:checking
 
 2026-08-27 minisix
     expenses:food:groceries             $63
-    assets:sivale:meals                $-63
+    assets:sivale:meals
 
 2026-08-23 minisix
     expenses:food:groceries            $140
-    assets:sivale:meals               $-140
+    assets:sivale:meals
 
 2026-08-28 oxxo
     expenses:food:groceries           $206.9
-    assets:cash:wallet               $-206.9
+    assets:cash:wallet
 
 2026-08-29 despensa | sams
-    expenses:food:groceries                $1013
-    assets:bank:banamex:checking          $-1013
+    expenses:food:groceries                $1,013
+    assets:bank:banamex:checking
 
 2026-08-29 despensa | walmart
     expenses:food:groceries            $353
-    assets:sivale:pantry              $-353
+    assets:sivale:pantry
 
 2026-03-14 despensa | sams
-    expenses:food:groceries           $1116
-    assets:sivale:pantry             $-1116
+    expenses:food:groceries           $1,116
+    assets:sivale:pantry
 
 2026-05-20 minisix
     expenses:food:groceries            $157
-    assets:sivale:meals               $-157
+    assets:sivale:meals
 
 2026-08-31 sixflags | goldpass 2027
-    expenses:entertainment              $2997  ; 3 @ $999
+    expenses:entertainment              $2,997  ; 3 @ $999
     assets:bank:banamex:checking
 
 2026-04-11 despensa | sams
-    expenses:food:groceries           $2455.01
-    assets:sivale:pantry             $-2455.01
+    expenses:food:groceries           $2,455.01
+    assets:sivale:pantry
 
 2026-04-11 despensa | walmart
-    expenses:food:groceries               $2033
-    assets:sivale:pantry                  $-2033
+    expenses:food:groceries               $2,033
+    assets:sivale:pantry
 
 2026-09-03 desayuno tamales
     expenses:food:dining             $30
-    assets:cash:wallet              $-30
+    assets:cash:wallet
 
 2026-09-03 minisix
     expenses:food:groceries            $154
-    assets:cash:wallet                $-154
+    assets:cash:wallet
 
 2026-09-04 micheladas
     expenses:food:dining            $400
-    assets:cash:wallet             $-400
+    assets:cash:wallet
 
 2026-09-01 Ivan Tolama | September Rent
-    assets:bank:banamex:checking           $9000
-    income:rent                           $-9000
+    assets:bank:banamex:checking           $9,000
+    income:rent
 
 2026-09-06 Building Admin | MTTO SEPTIEMBRE B405
     expenses:housing:maintenance:puerta-toreo         $1,550
-    assets:bank:banamex:checking                     $-1,550
+    assets:bank:banamex:checking
 
 2026-09-06 San Pedro | MTTO SEPTIEMBRE 302
     expenses:housing:maintenance:san-pedro         $280.32
-    assets:bank:banamex:checking                  $-280.32
+    assets:bank:banamex:checking
 
 2026-09-06 Fortnight Payment Q1 Julio | Wife
     expenses:household:fortnight         $4,600
-    assets:bank:banamex:checking        $-4,600
+    assets:bank:banamex:checking
 
 2026-09-06 Fortnight Payment Q2 Julio | Wife
     expenses:household:fortnight         $4,600
-    assets:bank:banamex:checking        $-4,600
+    assets:bank:banamex:checking
 
 2026-09-07 comida schneider
     expenses:food:dining             $55
-    assets:sivale:meals             $-55
+    assets:sivale:meals
 
 2026-09-08 minisix
     expenses:food:groceries             $61
-    assets:sivale:meals                $-61
+    assets:sivale:meals
 
 # Making a Purchase with the Credit Card
 # When you buy something (for example, $50 in groceries), your spending expense increases, and your liability (what you owe HSBC) increases
 2026-09-05 comida familia | moshi moshi
-    expenses:food:dining           $1489.40
-    liabilities:credit:hsbc       $-1489.40
+    expenses:food:dining           $1,489.40
+    liabilities:credit:hsbc
 
 # Paying Off Your Credit Card from Checking
 # 2026-09-05 Pay Credit Card Bill
-#     liabilities:credit:hsbc           $1489.40
-#     assets:bank:hsbc:checking     -$1489.40
+#     liabilities:credit:hsbc           $1,489.40
+#     assets:bank:hsbc:checking
 
 # Annual Fees or Interest
 # If HSBC charges an interest fee or annual fee, log it as a financial expense:
@@ -1119,182 +1107,181 @@ include 2026_inversiones_schneider.journal
 
 2026-09-09 Leben Medik | Refund for Pamorelin ; type:refund
     assets:bank:banamex:checking     $23,023.80
-    expenses:health:pharmacy        $-23,023.80
+    expenses:health:pharmacy
 
 2026-09-09 minisix
     expenses:food:groceries             $92
-    assets:sivale:meals                $-92
+    assets:sivale:meals
 
 2026-09-09 Telcel personal | Monthly Phone Plan
     expenses:utilities:cellphone            $549
-    liabilities:credit:hsbc                $-549
+    liabilities:credit:hsbc
 
 2026-09-09 starbucks | familia
     expenses:food:dining           $190
-    liabilities:credit:hsbc       $-190
+    liabilities:credit:hsbc
 
 2026-09-11 Krueger | water heater maintenance
     expenses:housing:utilities:gas:puerta-toreo:maintenance            $250
-    assets:cash:wallet                                                $-250
+    assets:cash:wallet
 
 2026-09-11 oxxo
     expenses:food:groceries            $164
-    assets:sivale:meals               $-164
+    assets:sivale:meals
 
 2026-09-12 comida familia | olive garden
-    expenses:food:dining           $1371.00
-    liabilities:credit:hsbc       $-1371.00
+    expenses:food:dining           $1,371
+    liabilities:credit:hsbc
 
 2026-09-13 cerveza
     expenses:food:groceries            $150
-    assets:cash:wallet                $-150
+    assets:cash:wallet
 
 2026-09-13 comida | casa lety
     expenses:food:dining                    $375
-    assets:bank:banamex:checking           $-375
+    assets:bank:banamex:checking
 
 2026-09-16 minisix
     expenses:food:groceries            $194
-    assets:sivale:meals               $-194
+    assets:sivale:meals
 
 2026-09-18 Gakuen Academy(Japanese) | Pago Fernando Cuervo
-    expenses:education:japanese        $650.00
-    assets:bank:banamex:checking               $ -650.00
+    expenses:education:japanese        $650
+    assets:bank:banamex:checking
+
 2026-09-19 comida | rebel wings
     expenses:food:dining             $817.3
-    liabilities:credit:hsbc         $-817.3
+    liabilities:credit:hsbc
 
 2026-09-19 minisix
     expenses:food:groceries             $62
-    assets:sivale:meals                $-62
+    assets:sivale:meals
 
 2026-09-19 oxxo
     expenses:food:groceries             $145
-    assets:sivale:meals                $-145
+    assets:sivale:meals
 
 2026-09-14 minisix
     expenses:food:groceries             $108
-    assets:sivale:meals                $-108
+    assets:sivale:meals
 
 2026-09-20 minisix
     expenses:food:groceries             $138
-    assets:sivale:meals                $-138
+    assets:sivale:meals
 
 2026-09-20 minisix
     expenses:food:groceries             $30
-    assets:sivale:meals                $-30
+    assets:sivale:meals
 
 2026-09-20 comics | panini Mundo E  ; libro jujutsu kaisen, she is beautiful
     expenses:entertainment              $338
-    liabilities:credit:hsbc            $-338
+    liabilities:credit:hsbc
 
 2026-09-19 gas station  ; odometer:42384
     expenses:car:fuel      $1,400.079  ; 59.1 L @ $23.69
-    assets:cash:wallet
     expenses:car:tips                    $10
-    assets:cash:wallet                  $-10
+    assets:cash:wallet
 
 2026-09-13 micheladas
     expenses:food:groceries                 $150  ;  cerveza
-    assets:cash:wallet                     $-150
+    assets:cash:wallet
 
 2026-09-15 comida | casa lety
     expenses:food:dining                    $500
-    assets:bank:banamex:checking           $-500
+    assets:bank:banamex:checking
 
 2026-09-23 starbucks | familia
     expenses:food:dining           $74
-    assets:cash:wallet             $-74
+    assets:cash:wallet
 
 2026-09-24 desayuno tamales
     expenses:food:dining             $30
-    assets:cash:wallet              $-30
+    assets:cash:wallet
 
 2026-09-25 michelada
     expenses:food:groceries                 $100  ;  cerveza
-    assets:cash:wallet                     $-100
+    assets:cash:wallet
 
 2026-09-26 uber | kia->home
     expenses:transportation:rideshare         $69.98
-    assets:bank:banamex:checking             $-69.98
     expenses:personal:tips                        $10
-    assets:bank:banamex:checking                 $-10
+    assets:bank:banamex:checking
 
 2026-09-26 uber | home->kia
     expenses:transportation:rideshare         $80.56
-    assets:bank:banamex:checking             $-80.56
+    assets:bank:banamex:checking
 
 2026-09-26 oxxo
     expenses:food:groceries             $41
-    assets:cash:wallet                 $-41
+    assets:cash:wallet
 
 2026-09-09 starbucks | familia
     expenses:food:dining           $74
-    assets:cash:wallet             $-74
+    assets:cash:wallet
 
 2026-09-27 luz | CFE
     expenses:housing:utilities:electricity:puerta-toreo            $736
-    assets:sivale:services                                        $-736
+    assets:sivale:services
 
 2026-09-28 Gas | Naturgy
     expenses:housing:utilities:gas:puerta-toreo            $274
-    assets:sivale:services                                $-274
+    assets:sivale:services
 
 2026-09-26 comida | PFchangs plaza Carso
     expenses:food:dining         $877.8
-    liabilities:credit:hsbc      $-877.8
+    liabilities:credit:hsbc
 
 2026-09-26 Mantenimiento Kia Sportage | KIA San Joaquin
-    expenses:car:maintenance         $8139.3
-    liabilities:credit:hsbc          $-8139.3
+    expenses:car:maintenance         $8,139.3
+    liabilities:credit:hsbc
 
 2026-09-26 despensa | sams
-    expenses:food:groceries           $1540
-    assets:sivale:pantry             $-1540
+    expenses:food:groceries           $1,540
+    assets:sivale:pantry
 
 2026-09-26 despensa | walmart
-    expenses:food:groceries            $1355
-    assets:sivale:pantry              $-1355
+    expenses:food:groceries            $1,355
+    assets:sivale:pantry
 
 2026-09-27 La choza | tortas comida mitad
     expenses:food:dining            $400
-    assets:cash:wallet             $-400
+    assets:cash:wallet
 
 2026-09-29 HSBC | Credit Card Payment
-    liabilities:credit:hsbc           $3599.4
-    assets:bank:hsbc:checking     -$3599.4
+    liabilities:credit:hsbc           $3,599.4
+    assets:bank:hsbc:checking
 
 2026-09-30 soporte para garrafones | Amazon
     expenses:shopping:amazon           $799.99
-    liabilities:credit:hsbc            $-799.99
+    liabilities:credit:hsbc
 
 2026-09-30 starbucks | familia
     expenses:food:dining           $170
-    liabilities:credit:hsbc       $-170
+    liabilities:credit:hsbc
 
 2026-10-01 Ivan Tolama | October Rent
-    assets:bank:banamex:checking       $9,000.00
-    income:rent                       $-9,000.00
+    assets:bank:banamex:checking       $9,000
+    income:rent
 
 2026-10-01 * Hospital militar | Reembolso medicinas, Abuelita
-    assets:bank:hsbc:checking           $1793.5
-    expenses:health:pharmacy          $-1793.5
+    assets:bank:hsbc:checking           $1,793.5
+    expenses:health:pharmacy
 
 2026-10-02 micheladas
     expenses:food:groceries                 $200  ;  cerveza
-    assets:cash:wallet                     $-200
+    assets:cash:wallet
 
 2026-10-02 Farmacia Guadalajara | medicinas dolor estomago Regina
     expenses:health:pharmacy              $51.4  ; member:daughter
-    assets:bank:banamex:checking         $-51.4
+    assets:bank:banamex:checking
 
 2026-10-02 Farmacia San Pablo | medicinas dolor estomago Regina
     expenses:health:pharmacy              $127  ; member:daughter
-    assets:bank:banamex:checking         $-127
+    assets:bank:banamex:checking
 
 2026-10-03 minisix
     expenses:food:groceries            $145
-    assets:cash:wallet               $-145
+    assets:cash:wallet
 
 2026-06-06 comics | Sanborns webtoon ; estamos muertos 3,4,5
     expenses:entertainment:books        $897  ; 3 @ $299.00
@@ -1302,141 +1289,141 @@ include 2026_inversiones_schneider.journal
 
 2026-10-04 minisix
     expenses:food:groceries            $258
-    assets:cash:wallet               $-258
+    assets:cash:wallet
 
 2026-10-03 Balatas delanteras Kia Sportage | KIA San Joaquin
-    expenses:car:maintenance         $4078.38
-    liabilities:credit:hsbc          $-4078.38
+    expenses:car:maintenance         $4,078.38
+    liabilities:credit:hsbc
 
 2026-10-03 Gandhi | libros y libreta ; Espada de kaigen, y libreta
     expenses:entertainment:books              $480  ; book: espada-de-kaigen
     expenses:stationery:notebooks              $159
-    liabilities:credit:hsbc             $-639
+    liabilities:credit:hsbc
 
 2026-10-03 uber | home->kia
     expenses:transportation:rideshare         $99.98
-    liabilities:credit:hsbc                   $-99.98
+    liabilities:credit:hsbc
 
 2026-10-05 Building Admin | MTTO OCTUBRE B405
     expenses:housing:maintenance:puerta-toreo         $1,550
-    assets:bank:banamex:checking                     $-1,550
+    assets:bank:banamex:checking
 
 2026-10-05 San Pedro | MTTO OCTUBRE 302
     expenses:housing:maintenance:san-pedro         $280.32
-    assets:bank:banamex:checking                  $-280.32
+    assets:bank:banamex:checking
 
 2026-10-05 Fortnight Payment Q1 Agosto | Wife
     expenses:household:fortnight         $4,600
-    assets:bank:banamex:checking        $-4,600
+    assets:bank:banamex:checking
 
 2026-10-05 Fortnight Payment Q2 Agosto | Wife
     expenses:household:fortnight         $4,600
-    assets:bank:banamex:checking        $-4,600
+    assets:bank:banamex:checking
 
 2026-10-06 veterinario | tortuga
     expenses:pet:vet              $50
-    assets:cash:wallet            $-50
+    assets:cash:wallet
 
 2026-10-06 comida | tacos
     expenses:food:dining          $245
-    assets:cash:wallet            $-245
+    assets:cash:wallet
 
 2026-10-06 minisix
     expenses:food:groceries          $160
-    assets:sivale:meals              $-160
+    assets:sivale:meals
 
 2026-10-07 Fortnight Payment Q1 Septiembre | Wife
     expenses:household:fortnight         $4,600
-    assets:bank:banamex:checking        $-4,600
+    assets:bank:banamex:checking
 
 2026-10-03 estacionamiento | rosario town center
     expenses:entertainment:parking            $94
-    assets:cash:wallet                       $-94
+    assets:cash:wallet
 
 2026-10-07 starbucks | familia
     expenses:food:dining           $74
-    liabilities:credit:hsbc        $-74
+    liabilities:credit:hsbc
 
 2026-10-07 starbucks | familia
     expenses:food:dining           $148
-    liabilities:credit:hsbc        $-148
+    liabilities:credit:hsbc
 
 2026-10-08 desayuno tamales
     expenses:food:dining             $30
-    assets:cash:wallet              $-30
+    assets:cash:wallet
 
 2026-10-07 estacionamiento | nuevo polanco
     expenses:entertainment:parking            $60
-    assets:cash:wallet                       $-60
+    assets:cash:wallet
 
 2026-10-08 Kids & Us | Pago Octubre Regina Cuervo
-    expenses:education:daughter:english  $2305  ; member:daughter
-    assets:bank:banamex:checking         $ -2305
+    expenses:education:daughter:english  $2,305  ; member:daughter
+    assets:bank:banamex:checking
 
 2026-10-09 gas station  ; odometer:42747
     expenses:car:fuel      $1,300.1072  ; 54.88 L @ $23.69
-    assets:cash:wallet
     expenses:car:tips                $10
-    assets:cash:wallet               $-10
+    assets:cash:wallet
 
 2026-10-10 plataforma tortuga | Amazon
-    expenses:shopping:amazon           $1160.35
-    liabilities:credit:hsbc            $-1160.35
+    expenses:shopping:amazon           $1,160.35
+    liabilities:credit:hsbc
 
 2026-10-10 micheladas
     expenses:food:groceries                 $300  ;  cerveza
-    assets:cash:wallet                     $-300
+    assets:cash:wallet
 
 2026-10-10 minisix
     expenses:food:groceries            $161
-    assets:cash:wallet                $-161
+    assets:cash:wallet
 
 2026-10-10 rompecabezas | juguetibici
     expenses:entertainment          $389
-    liabilities:credit:hsbc         $-389
+    liabilities:credit:hsbc
 
 2026-10-10 ATM | Withdrawal
-    assets:cash:wallet                    $9000.00
-    assets:bank:banamex:checking         $-9000.00
+    assets:cash:wallet                    $9,000
+    assets:bank:banamex:checking
 
 2026-10-10 comida familia | chilli's parque toreo
     expenses:food:dining             $826.10
-    assets:sivale:meals              $-826.10
+    assets:sivale:meals
 
 2026-06-15 comida | gaudele
     expenses:food:dining             $512.23
-    assets:sivale:meals              $-512.23
+    assets:sivale:meals
 
+#**Check this register, to delete a line from discount, and dont set a total
 2026-02-15 despensa, impresora | sams
     expenses:food:groceries               $485.93
-    expenses:home:equipment               $4799.92  ; printer
+    expenses:home:equipment               $4,799.92  ; printer
     expenses:discounts:payment            $-504.34  ; discount for printer
     expenses:discounts:payment            $-107.51  ; discount payment type
     assets:bank:banamex:checking          $-4674  ; ****8094
 
 2026-05-28 comida | mcdonalds
     expenses:food:dining            $325
-    assets:sivale:meals             $-325
+    assets:sivale:meals
 
 2026-06-19 comida | mcdonalds
     expenses:food:dining            $443
-    assets:cash:wallet              $-443
+    assets:cash:wallet
 
 2026-04-06 oxxo
     expenses:food:groceries           $85
-    assets:sivale:meals               $-85
+    assets:sivale:meals
 
 2026-04-17 oxxo
     expenses:food:groceries           $267  ; cerveza
-    assets:cash:wallet                $-267
+    assets:cash:wallet
 
 2026-01-06 kindle colorsoft 32Gb | Sanborns en linea
-    expenses:home:electronics         $4805
-    assets:bank:hsbc:checking         $-4805  ; ****2229
+    expenses:home:electronics         $4,805
+    assets:bank:hsbc:checking          ; ****2229
 
 2026-05-25 minisix
     expenses:food:groceries            $116
-    assets:sivale:meals               $-116  ; ****6491
+    assets:sivale:meals               ; ****6491
 
 2026-05-16 estampas mundial 2026 | Sanborns
     expenses:entertainment         $125  ; 5 @ $25
@@ -1444,21 +1431,21 @@ include 2026_inversiones_schneider.journal
 
 2026-04-21 Dulceria dulce maria | dia del niño
     expenses:leisure:holidays        $887.7
-    assets:cash:wallet               $-887.7
+    assets:cash:wallet
 
 2026-05-01  despensa | chedraui selecto toreo
     expenses:food:groceries         $340.9
     expenses:entertainment:parking  $94
     expenses:food:alcohol           $182
-    assets:bank:banamex:checking    $-616.9  ; ****8094
+    assets:bank:banamex:checking      ; ****8094
 
 2026-05-16 comida | Ranchito de Yulay
     expenses:food:dining            $911.95
-    assets:sivale:meals             $-911.95
+    assets:sivale:meals
 
 2026-05-16 Papeleria Marchand
     expenses:stationery           $273.89
-    assets:bank:banamex:checking  $-273.89
+    assets:bank:banamex:checking
 
 2026-10-11 pasta y gotas Regina | Farmacia Guadalajara
     expenses:health:pharmacy            $987.62  ; 2 @ $493.81  ; gotas alleance 0.10 mg sol gotas 5ml frasco
@@ -1469,47 +1456,47 @@ include 2026_inversiones_schneider.journal
 
 2026-10-12 desayuno | schneider
     expenses:food:dining             $58
-    assets:sivale:meals             $-58
+    assets:sivale:meals
 
 2026-10-14 desayuno tamales, chilaquiles | vacaciones
     expenses:food:dining             $175
-    assets:cash:wallet               $-175
+    assets:cash:wallet
 
 2026-10-14 minisix
     expenses:food:groceries            $50
-    assets:cash:wallet                $-50
+    assets:cash:wallet
 
 2026-10-14 estacionamiento | nuevo polanco
     expenses:entertainment:parking            $54
-    assets:cash:wallet                       $-54
+    assets:cash:wallet
 
 2026-10-14 starbucks
     expenses:food:dining           $74
-    liabilities:credit:hsbc       $-74
+    liabilities:credit:hsbc
 
 2026-10-14 tienda k | nuevo polanco
     expenses:food:groceries            $92
-    assets:cash:wallet                $-92
+    assets:cash:wallet
 
 2026-06-03 minisix
     expenses:food:groceries            $89
-    assets:sivale:meals                $-89
+    assets:sivale:meals
 
 2026-03-15 restaurante (chillis) | Parque Toreo
-    expenses:food:dining                  $1075
-    assets:bank:banamex:checking          $-1075  ; ****8094
+    expenses:food:dining                  $1,075
+    assets:bank:banamex:checking     ; ****8094
 
 2026-05-05 minisix
     expenses:food:groceries            $181
-    assets:sivale:meals               $-181  ; ****6491
+    assets:sivale:meals             ; ****6491
 
 2026-08-30 minisix
     expenses:food:groceries            $105
-    assets:sivale:meals                $-105
+    assets:sivale:meals
 
 2026-08-28 minisix
     expenses:food:groceries            $156
-    assets:sivale:meals                $-156
+    assets:sivale:meals
 
 2026-10-15 HSBC | Credit Card Payment
     liabilities:credit:hsbc           $18,973.89
@@ -1517,19 +1504,19 @@ include 2026_inversiones_schneider.journal
 
 2026-05-13 minisix
     expenses:food:groceries            $128
-    assets:sivale:meals               $-128
+    assets:sivale:meals
 
 2026-03-15 Santo Gallo | Legaria
     expenses:food:dining                  $148
-    assets:bank:banamex:checking          $-148
+    assets:bank:banamex:checking
 
 2026-05-05 minisix
     expenses:food:groceries            $80
-    assets:sivale:meals               $-80  ; ****6491
+    assets:sivale:meals     ; ****6491
 
 2026-10-14 cashback 2q fondos
     assets:bank:hsbc:checking       $105
-    income:rewards:cashback         $-105
+    income:rewards:cashback 
 
 
 
@@ -1683,7 +1670,7 @@ include 2026_inversiones_schneider.journal
     assets:bank:hsbc:checking       $26,567.39
     income:salary
 2026-09-30 nomina
-    assets:bank:hsbc:checking       $71994.66
+    assets:bank:hsbc:checking       $71,994.66
     income:salary
 ##    assets:bank:hsbc:checking       $45,427.27
 ##    assets:bank:hsbc:checking       $26,567.39
@@ -1705,7 +1692,7 @@ include 2026_inversiones_schneider.journal
     assets:bank:hsbc:checking       $26,567.39
     income:salary
 2026-10-30 nomina
-    assets:bank:hsbc:checking       $26568.6
+    assets:bank:hsbc:checking       $26,568.6
     income:salary
 2026-10-30 vales restaurante | SIVALE
     assets:sivale:meals             $3,566
@@ -1760,7 +1747,7 @@ include 2026_inversiones_schneider.journal
     liabilities:credit:hsbc
 
 2026-10-16 odontopediatra
-    expenses:health:medical            $2000  ; adelanto aparato
+    expenses:health:medical            $2,000  ; adelanto aparato
     assets:cash:wallet
 
 2026-10-17 minisix
@@ -1772,7 +1759,7 @@ include 2026_inversiones_schneider.journal
     liabilities:credit:hsbc
 
 2026-10-17 despensa | sams
-    expenses:food:groceries                $1163
+    expenses:food:groceries                $1,163
     assets:sivale:pantry
 
 2026-10-17 despensa | walmart
@@ -1808,12 +1795,13 @@ include 2026_inversiones_schneider.journal
     expenses:food:dining           $170
     liabilities:credit:hsbc
 
+# test registers
 #2026-11-21 estacionamiento | nuevo polanco
-#    expenses:entertainment:parking      $300000.12
+#    expenses:entertainment:parking      $300,000.12
 #    assets:cash:wallet
 #
 #2026-12-21 estacionamiento | nuevo polanco
-#    expenses:entertainment:parking      $100000.54
+#    expenses:entertainment:parking      $100,000.54
 #    assets:cash:wallet
 
 2026-10-23 rollo chocolate | sanborns azcapo
@@ -1893,7 +1881,7 @@ include 2026_inversiones_schneider.journal
     expenses:entertainment:parking      $93
     assets:cash:wallet
 
-2026-10-30 starbucks | paruqe lindavista
+2026-10-30 starbucks | parque lindavista
     expenses:food:dining             $170
     liabilities:credit:hsbc
 
