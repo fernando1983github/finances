@@ -40,3 +40,4 @@ pause
 ::checkRegsNoDefault2.bat cash:wallet "2026/10/01 to 2026/10/31"
 ::checkRegsNoDefault2.bat fuel "2026/10"
 ::checkRegsNoDefault2.bat "" "2026/10"
+::checkRegsNoDefault2.bat "" "2026"
