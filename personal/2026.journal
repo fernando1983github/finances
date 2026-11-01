@@ -1900,3 +1900,29 @@ include 2026_inversiones_schneider.journal
 2026-10-30 endocrinologa | seguimiento tratamiento Regina
     expenses:health:medical            $1,200
     liabilities:credit:hsbc
+
+2026-10-10 micheladas
+    expenses:food:groceries                 $50  ;  cerveza
+    assets:cash:wallet
+
+2026-10-31 estacionamiento | Centro tlatnepantla
+    expenses:entertainment:parking      $35
+    assets:cash:wallet
+
+2026-10-31 domingo
+    expenses:entertainment      $100
+    assets:cash:wallet
+
+2026-10-31 juego barco feria tlalne
+    expenses:entertainment      $100
+    assets:cash:wallet
+
+2026-10-31 juego carros chocones feria tlalne
+    expenses:entertainment      $140
+    assets:cash:wallet
+
+2026-10-31 gas station  ; odometer:43134
+    expenses:car:fuel      $1,370.07  ; 55.491 L @ $24.69
+    liabilities:credit:hsbc
+    expenses:car:tips                $10
+    assets:cash:wallet               $-10
