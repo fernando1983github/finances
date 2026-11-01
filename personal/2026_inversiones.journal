@@ -4,7 +4,7 @@ commodity HSBCDC_BFP 1000.00
 commodity 1.000,00 HSBCDC_BFP
 
 # 1. Account Declarations for Investments
-account assets:bank:hsbc:investments:hsbcdc_bfp
+account assets:bank:hsbc:investments:hsbcdc_bfp  ; type: A
 account income:hsbc:capital_gains
 
 # 2. Market Price History (Value updates)

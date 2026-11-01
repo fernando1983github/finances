@@ -96,10 +96,6 @@ account expenses:discounts:payment
 # --- Liabilities (Money passing through) ---
 account liabilities:family:bil-insurance  ; Money your Brother-in-law owes/pays you
 
-
-account expenses:housing:maintenance:san-pedro
-account expenses:housing:maintenance:puerta-toreo
-
 account expenses:entertainment
 account expenses:entertainment:books
 account expenses:entertainment:movies
@@ -135,16 +131,23 @@ account expenses:subscriptions:spotify
 account expenses:leisure:holidays
 account expenses:family:gifts
 
+# Explicitly map your shortened parent names to Accounting Types
+#account hsg   ; type: X
+#account util  ; type: X
+#account invst ; type: A
+# (X = Expenses, R = Revenue/Income, A = Assets)
 
+account expenses:housing:maintenance:san-pedro  ; type: X
+account expenses:housing:maintenance:puerta-toreo  ; type: X
 
 # --- Utilities Hierarchy ---
 account expenses:housing:utilities:electricity:san-pedro
-account expenses:housing:utilities:electricity:puerta-toreo
+account expenses:housing:utilities:electricity:puerta-toreo  ; type: X
 account expenses:housing:utilities:water:san-pedro
 account expenses:housing:utilities:water:puerta-toreo
 account expenses:housing:utilities:gas:san-pedro
-account expenses:housing:utilities:gas:puerta-toreo
-account expenses:housing:utilities:gas:puerta-toreo:maintenance
+account expenses:housing:utilities:gas:puerta-toreo  ; type: X
+account expenses:housing:utilities:gas:puerta-toreo:maintenance  ; type: X
 account expenses:housing:utilities:internet
 account expenses:housing:taxes:predial:san-pedro
 account expenses:housing:taxes:predial:puerta-toreo

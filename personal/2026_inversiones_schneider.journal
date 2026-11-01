@@ -5,7 +5,7 @@ commodity 1.00000 "SU.PA"
 commodity 1,000.00 EUR
 
 ; Account Declarations for Investments
-account assets:schneider:investments:company_plan
+account assets:schneider:investments:company_plan  ; type: A
 
 ; ---------------------------------------------------------
 ; Market Price Directives

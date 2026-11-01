@@ -1926,3 +1926,27 @@ include 2026_inversiones_schneider.journal
     liabilities:credit:hsbc
     expenses:car:tips                $10
     assets:cash:wallet               $-10
+
+2026-11-01 Fortnight Payment Q2 Septiembre | Wife
+    expenses:household:fortnight         $4,600
+    assets:bank:banamex:checking
+
+2026-11-01 Fortnight Payment Q1 Octubre | Wife
+    expenses:household:fortnight         $4,600
+    assets:bank:banamex:checking
+
+2026-11-01 Fortnight Payment Q2 Octubre | Wife
+    expenses:household:fortnight         $4,600
+    assets:bank:banamex:checking
+
+2026-11-01 San Pedro | MTTO Noviembre 302
+    expenses:housing:maintenance:san-pedro         $280.32
+    assets:bank:banamex:checking
+
+2026-11-01 Building Admin | MTTO NOVIEMBRE B405
+    expenses:housing:maintenance:puerta-toreo         $1,550
+    assets:bank:banamex:checking
+
+2026-11-01 Kids & Us | Pago Noviembre Regina Cuervo
+    expenses:education:daughter:english  $2305  ; member:daughter
+    assets:bank:banamex:checking
