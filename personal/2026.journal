@@ -219,41 +219,41 @@ include 2026_inversiones_schneider.journal
     assets:transportation:pase-tag
 
 2026-06-26 Gakuen Academy(Japanese) | Pago Fernando Cuervo
-    expenses:education:japanese          $650.00
+    expenses:education:japanese          $650
     assets:bank:banamex:checking
 
 2026-06-26 ATM | Withdrawal
-    assets:cash:wallet                   $9000.00
-    assets:bank:hsbc:checking           $-9000.00
+    assets:cash:wallet                   $9,000
+    assets:bank:hsbc:checking
 
 2026-06-29 ATM | Withdrawal
-    assets:cash:wallet                 $9000.00
-    assets:bank:hsbc:checking         $-9000.00
+    assets:cash:wallet                 $9,000
+    assets:bank:hsbc:checking
 
 2026-06-28 ATM | Withdrawal
-    assets:cash:wallet                    $9000.00
-    assets:bank:banamex:checking         $-9000.00
+    assets:cash:wallet                    $9,000
+    assets:bank:banamex:checking
 
 
 2026-06-28 Metamizol sodico 500mg
     expenses:health:pharmacy            $24
-    assets:cash:wallet                   $-24
+    assets:cash:wallet
 
 2026-06-30 Compras velorio abuelita | sams  ; event:velorio-abuelita
-    expenses:food:groceries        $2758
-    assets:sivale:pantry           $-2758
+    expenses:food:groceries        $2,758
+    assets:sivale:pantry
 
 2026-06-29 Fondo Carmen
-    expenses:family:transfer:carmen          $18000
-    assets:cash:wallet                      $-18000
+    expenses:family:transfer:carmen          $18,000
+    assets:cash:wallet
 
 2026-06-30 Fondo Carmen
-    expenses:family:transfer:carmen           $9000
-    assets:cash:wallet                       $-9000
+    expenses:family:transfer:carmen           $9,000
+    assets:cash:wallet
 
 2026-06-09 Fondo Carmen
-    expenses:family:transfer:carmen          $20000
-    assets:cash:wallet                      $-20000
+    expenses:family:transfer:carmen          $20,000
+    assets:cash:wallet
 
 2026-07-01 minisix
     expenses:food:groceries            $109
