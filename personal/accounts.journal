@@ -41,6 +41,8 @@ account expenses:digital
 account assets:bank:banamex:checking       ; Your main bank account
 account assets:bank:hsbc:checking       ; Your main bank account
 #account assets:bank:debit-card     ; Usually maps to the same checking account
+
+account expenses:bankfees
 account expenses:housing:rent      ; Your monthly rent payment
 account expenses:car:fuel          ; Gasoline/Charging
 account expenses:car:tips          ; tips given
@@ -146,6 +148,7 @@ account expenses:housing:utilities:electricity:puerta-toreo  ; type: X
 account expenses:housing:utilities:water:san-pedro
 account expenses:housing:utilities:water:puerta-toreo
 account expenses:housing:utilities:gas:san-pedro
+account expenses:housing:utilities:gas:san-pedro:maintenance  ; type: X
 account expenses:housing:utilities:gas:puerta-toreo  ; type: X
 account expenses:housing:utilities:gas:puerta-toreo:maintenance  ; type: X
 account expenses:housing:utilities:internet

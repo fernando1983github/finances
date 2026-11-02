@@ -11,6 +11,7 @@ alias assets:schneider:investments:company_plan = assets:schneider:invst:company
 alias assets:bank:hsbc:investments:hsbcdc_bfp = assets:bank:hsbc:invst:hsbcdc_bfp
 
 # --- Short Aliases for Speed and layout ---
+alias expenses:housing:utilities:gas:san-pedro:maintenance = housing:utilities:gas:san-pedro:maint
 alias expenses:housing:utilities:gas:puerta-toreo = housing:utilities:gas:pta-toreo
 alias expenses:housing:utilities:gas:puerta-toreo:maintenance = housing:utilities:pta-toreo:maint
 alias expenses:housing:utilities:electricity:puerta-toreo = housing:utilities:elect:pta-toreo
@@ -233,7 +234,6 @@ include 2026_inversiones_schneider.journal
 2026-06-28 ATM | Withdrawal
     assets:cash:wallet                    $9,000
     assets:bank:banamex:checking
-
 
 2026-06-28 Metamizol sodico 500mg
     expenses:health:pharmacy            $24
@@ -1898,7 +1898,7 @@ include 2026_inversiones_schneider.journal
     assets:cash:wallet
 
 2026-10-31 domingo
-    expenses:entertainment      $100
+    expenses:entertainment      $200  ; regina y camila
     assets:cash:wallet
 
 2026-10-31 juego barco feria tlalne
@@ -1937,4 +1937,19 @@ include 2026_inversiones_schneider.journal
 
 2026-11-01 Kids & Us | Pago Noviembre Regina Cuervo
     expenses:education:daughter:english  $2,305  ; member:daughter
+    assets:bank:banamex:checking
+
+2026-11-01 Neto | Withdrawal
+    assets:cash:wallet                   $500
+    expenses:bankfees                    $14  ; bank:banamex
+    assets:bank:banamex:checking
+
+2026-11-02 Servigas Natural | Naturgy  ; se habia hablado con Ivan, y el lo pago, en esta fecha se saldo
+    housing:maint:san-pedro                 $310  ; reparacion caja baño
+    housing:utilities:gas:san-pedro:maint   $840  ; servicio mantenimiento gas, 2025
+    assets:bank:banamex:checking
+
+2026-11-02 pago Luis varios conceptos
+    expenses:food:alcohol               $100  ; micheladas Carmen
+    expenses:entertainment:parking      $70
     assets:bank:banamex:checking
