@@ -1961,3 +1961,11 @@ include 2026_inversiones_schneider.journal
 2026-11-02 minisix | reembolso por cargo de producto adicional
     assets:cash:wallet                 $50  ; Physical cash put into your wallet
     expenses:food:groceries                 ; Reduces your grocery spending back to 1 product
+
+2026-11-02 minisix
+    expenses:food:groceries            $50  ; refresco 1.5 lt
+    assets:sivale:meals
+
+2026-11-02 Ivan Tolama | November Rent
+    assets:bank:banamex:checking       $9,000
+    income:rent
