@@ -1951,5 +1951,13 @@ include 2026_inversiones_schneider.journal
 
 2026-11-02 pago Luis varios conceptos
     expenses:food:alcohol               $100  ; micheladas Carmen
-    expenses:entertainment:parking      $70
+    expenses:entertainment:parking      $70   ; estacionamiento tlalne
     assets:bank:banamex:checking
+
+2026-11-02 minisix | doble cargo de producto
+    expenses:food:groceries            $100  ; garafon 10 lts epura, $50
+    assets:sivale:meals
+
+2026-11-02 minisix | reembolso por cargo de producto adicional
+    assets:cash:wallet                 $50  ; Physical cash put into your wallet
+    expenses:food:groceries                 ; Reduces your grocery spending back to 1 product
