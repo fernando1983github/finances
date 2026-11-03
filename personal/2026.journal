@@ -1945,7 +1945,7 @@ include 2026_inversiones_schneider.journal
     assets:bank:banamex:checking
 
 2026-11-02 Servigas Natural | Naturgy  ; se habia hablado con Ivan, y el lo pago, en esta fecha se saldo
-    housing:maint:san-pedro                 $310  ; reparacion caja baño
+    housing:maint:san-pedro                 $310  ; reparacion caja baño, mitad
     housing:utilities:gas:san-pedro:maint   $840  ; servicio mantenimiento gas, 2025
     assets:bank:banamex:checking
 
@@ -1969,3 +1969,19 @@ include 2026_inversiones_schneider.journal
 2026-11-02 Ivan Tolama | November Rent
     assets:bank:banamex:checking       $9,000
     income:rent
+
+2026-11-02 estacionamiento | Home Depot Periferico
+    expenses:entertainment:parking      $8
+    assets:cash:wallet
+
+2026-11-02 Arreglos casa | Home Depot Periferico
+    expenses:housing:maintenance:puerta-toreo         $1,037
+    liabilities:credit:hsbc
+
+2026-11-02 estacionamiento | Walmart Toreo
+    expenses:entertainment:parking      $28
+    assets:cash:wallet
+
+2026-11-02 Pizza Hut | Toreo
+    expenses:food:dining            $378
+    liabilities:credit:hsbc
