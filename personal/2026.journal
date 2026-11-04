@@ -1989,3 +1989,7 @@ include 2026_inversiones_schneider.journal
 2026-11-03 minisix
     expenses:food:groceries            $137
     assets:sivale:meals
+
+2026-11-04 starbucks | clases regina
+    expenses:food:dining             $170
+    liabilities:credit:hsbc
