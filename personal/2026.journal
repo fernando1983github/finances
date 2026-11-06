@@ -1993,3 +1993,15 @@ include 2026_inversiones_schneider.journal
 2026-11-04 starbucks | clases regina
     expenses:food:dining             $170
     liabilities:credit:hsbc
+
+2026-11-05 ATM | Withdrawal
+    assets:cash:wallet              $9,000
+    assets:bank:hsbc:checking
+
+2026-11-05 minisix
+    expenses:food:groceries            $66
+    assets:sivale:meals
+
+2026-11-05 minisix
+    expenses:food:groceries            $77
+    assets:sivale:meals
