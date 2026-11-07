@@ -105,6 +105,8 @@ account expenses:entertainment:concert
 account expenses:entertainment:parking
 account expenses:entertainment:fees
 
+account expenses:gear
+
 
 account expenses:health:medical  ; (For doctor visits, consultations, and lab tests)
 account expenses:health:pharmacy  ; (For medicines, prescriptions, and first-aid supplies)

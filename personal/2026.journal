@@ -2005,3 +2005,19 @@ include 2026_inversiones_schneider.journal
 2026-11-05 minisix
     expenses:food:groceries            $77
     assets:sivale:meals
+
+2026-11-06 micheladas
+    expenses:food:alcohol            $350
+    assets:cash:wallet
+
+2026-11-06 thermo para Regina
+    expenses:gear            $300
+    assets:cash:wallet
+
+2026-11-06 odontopediatra
+    expenses:health:medical            $1,800  ; saldo aparato
+    assets:cash:wallet
+
+2026-11-06 chocolate | sanborns azcapo
+    expenses:food:dining      $154.8
+    liabilities:credit:hsbc
