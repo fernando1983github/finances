@@ -2021,3 +2021,44 @@ include 2026_inversiones_schneider.journal
 2026-11-06 chocolate | sanborns azcapo
     expenses:food:dining      $154.8
     liabilities:credit:hsbc
+
+2026-11-07 cortes carne comida mitad
+    expenses:food:dining            $500
+    assets:cash:wallet
+
+2026-11-07 oxxo
+    expenses:food:groceries             $159
+    assets:sivale:meals
+
+2026-11-08 desayuno huaraches
+    expenses:food:dining             $201
+    expenses:personal:tips           $20
+    assets:cash:wallet
+
+2026-11-08 minisix
+    expenses:food:groceries            $131
+    assets:sivale:meals
+
+2026-11-08 Telcel personal | Monthly Phone Plan
+    expenses:utilities:cellphone            $549
+    liabilities:credit:hsbc
+
+2026-11-08 recarga hojas A5, 6 perforaciones | Amazon
+    expenses:shopping:amazon           $149
+    liabilities:credit:hsbc
+
+2026-11-08 parches acne | Amazon
+    expenses:shopping:amazon           $99.98
+    liabilities:credit:hsbc
+
+2026-11-08 set de cuidado facial sakura | Amazon
+    expenses:shopping:amazon           $499
+    liabilities:credit:hsbc
+
+#hojas		149
+#acne		99.98
+#kit		499
+#pulseras	199
+#cuchillas 	757.55
+#mouse		310.48
+#carpeta	399.99
