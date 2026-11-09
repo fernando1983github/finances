@@ -1691,16 +1691,17 @@ include 2026_inversiones_schneider.journal
 2026-10-15 nomina
     assets:bank:hsbc:checking       $26,567.39
     income:salary
-2026-10-30 nomina
+2026-10-31 nomina
     assets:bank:hsbc:checking       $26,568.6
     income:salary
-2026-10-30 vales restaurante | SIVALE
+2026-10-31 vales restaurante | SIVALE
     assets:sivale:meals             $3,566
     income:benefits:sivale:meals
-2026-10-30 vales despensa | SIVALE
+2026-10-31 vales despensa | SIVALE
     assets:sivale:pantry             $3,567
     income:benefits:sivale:pantry
 #---
+
 
 #2026-10-15 * Sívale | Balance Realignment
 #    assets:sivale:meals             == $4,724.28
@@ -2022,7 +2023,7 @@ include 2026_inversiones_schneider.journal
     expenses:food:dining      $154.8
     liabilities:credit:hsbc
 
-2026-11-07 cortes carne comida mitad
+2026-11-07 cortes carne comida mitad, tapa de cuadril o aguayon
     expenses:food:dining            $500
     assets:cash:wallet
 
@@ -2043,16 +2044,32 @@ include 2026_inversiones_schneider.journal
     expenses:utilities:cellphone            $549
     liabilities:credit:hsbc
 
-2026-11-08 recarga hojas A5, 6 perforaciones | Amazon
+2026-11-08 recarga 90 hojas A5, 6 perforaciones, horizontal | Amazon
     expenses:shopping:amazon           $149
     liabilities:credit:hsbc
 
-2026-11-08 parches acne | Amazon
+2026-11-08 parches acne 200pzs | Amazon
     expenses:shopping:amazon           $99.98
     liabilities:credit:hsbc
 
 2026-11-08 set de cuidado facial sakura | Amazon
     expenses:shopping:amazon           $499
+    liabilities:credit:hsbc
+
+2026-11-08 kit pulseras, cuentas de arcilla 5100 | Amazon
+    expenses:shopping:amazon           $199
+    liabilities:credit:hsbc
+
+2026-11-08 CArpeta A5, 6 anillas, planificador | Amazon
+    expenses:shopping:amazon           $399.99
+    liabilities:credit:hsbc
+
+2026-11-08 cinta de agarre deslizante para mouse | Amazon
+    expenses:shopping:amazon           $310.48
+    liabilities:credit:hsbc
+
+2026-11-08 cabezal rasuradora phillips norelco | Amazon
+    expenses:shopping:amazon           $757.55
     liabilities:credit:hsbc
 
 #hojas		149
