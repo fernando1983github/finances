@@ -2060,7 +2060,7 @@ include 2026_inversiones_schneider.journal
     expenses:shopping:amazon           $199
     liabilities:credit:hsbc
 
-2026-11-08 CArpeta A5, 6 anillas, planificador | Amazon
+2026-11-08 Carpeta A5, 6 anillas, planificador | Amazon
     expenses:shopping:amazon           $399.99
     liabilities:credit:hsbc
 
@@ -2079,3 +2079,11 @@ include 2026_inversiones_schneider.journal
 2026-11-10 minisix
     expenses:food:groceries            $176
     assets:sivale:meals
+
+2026-11-11 Cubeta plegable y porta lentes | Amazon
+    expenses:shopping:amazon           $448
+    liabilities:credit:hsbc
+
+2026-11-11 Decoracion acuario, piedra | Amazon
+    expenses:shopping:amazon           $247.59
+    liabilities:credit:hsbc
