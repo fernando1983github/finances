@@ -131,7 +131,7 @@ include 2026_inversiones_schneider.journal
 
 2026-02-24 Leben Medik | Pamorelin
     expenses:health:pharmacy          $11,600  ; member:daughter
-    assets:bank:banamex:checking    $-11,600
+    assets:bank:banamex:checking
 
 # 2026-04-12 Dr. Smith | General Checkup
 #     expenses:health:medical           $120
@@ -2072,10 +2072,10 @@ include 2026_inversiones_schneider.journal
     expenses:shopping:amazon           $757.55
     liabilities:credit:hsbc
 
-#hojas		149
-#acne		99.98
-#kit		499
-#pulseras	199
-#cuchillas 	757.55
-#mouse		310.48
-#carpeta	399.99
+2026-11-09 Pago Carmen medicamentos | Farmacia Guadalajara Legaria
+    expenses:health:pharmacy              $853.12  ; effaclar gel corporal micro-ex 400ml, dexeryl crema piel seca 500gr
+    assets:bank:banamex:checking
+
+2026-11-10 minisix
+    expenses:food:groceries            $176
+    assets:sivale:meals
