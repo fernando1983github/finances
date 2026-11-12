@@ -1991,7 +1991,7 @@ include 2026_inversiones_schneider.journal
     expenses:food:groceries            $137
     assets:sivale:meals
 
-2026-11-04 starbucks | clases regina
+2026-11-04 starbucks | Rio San Joaquin
     expenses:food:dining             $170
     liabilities:credit:hsbc
 
@@ -2087,3 +2087,15 @@ include 2026_inversiones_schneider.journal
 2026-11-11 Decoracion acuario, piedra | Amazon
     expenses:shopping:amazon           $247.59
     liabilities:credit:hsbc
+
+2026-11-11 starbucks | Rio San Joaquin
+    expenses:food:dining             $148
+    liabilities:credit:hsbc
+
+2026-11-12 desayuno chilaquiles
+    expenses:food:dining            $65
+    assets:cash:wallet
+
+2026-11-12 comida | Caldos Riesi
+    expenses:food:dining            $326
+    assets:sivale:meals
