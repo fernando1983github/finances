@@ -2023,6 +2023,14 @@ include 2026_inversiones_schneider.journal
     expenses:food:dining      $154.8
     liabilities:credit:hsbc
 
+2026-11-07 chocolates y bebidas | tienda centro
+    expenses:food:groceries             $96
+    assets:cash:wallet
+
+2026-11-07 morida transito | alameda central
+    expenses:auto:fines             $400
+    assets:cash:wallet
+
 2026-11-07 cortes carne comida mitad, tapa de cuadril o aguayon
     expenses:food:dining            $500
     assets:cash:wallet
@@ -2099,3 +2107,15 @@ include 2026_inversiones_schneider.journal
 2026-11-12 comida | Caldos Riesi
     expenses:food:dining            $326
     assets:sivale:meals
+
+2026-11-12 oxxo
+    expenses:food:groceries             $45
+    assets:sivale:meals
+
+2026-11-12 farmacia guadalajara
+    expenses:food:groceries             $30.5
+    assets:cash:wallet
+
+2026-11-12 comida | tacos legaria
+    expenses:food:dining            $255
+    assets:cash:wallet

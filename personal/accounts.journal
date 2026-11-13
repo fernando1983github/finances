@@ -50,6 +50,7 @@ account expenses:car:insurance     ; Monthly or yearly premium
 account expenses:car:maintenance   ; Oil changes, tires, etc.
 account expenses:car:verificacion
 account expenses:car:tenencia
+account expenses:auto:fines        ; Unofficial fine / bribe
 
 account income:rewards:cashback
 
