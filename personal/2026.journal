@@ -2119,3 +2119,27 @@ include 2026_inversiones_schneider.journal
 2026-11-12 comida | tacos legaria
     expenses:food:dining            $255
     assets:cash:wallet
+
+2026-11-13 juego destreza | sixflags
+    expenses:entertainment            $200
+    liabilities:credit:hsbc
+
+2026-11-13 impermeable | sixflags
+    expenses:entertainment            $130
+    assets:cash:wallet
+
+2026-11-13 comida snacks | sixflags
+    expenses:entertainment            $139
+    liabilities:credit:hsbc
+
+2026-11-13 comida snacks | sixflags
+    expenses:entertainment            $206.1
+    liabilities:credit:hsbc
+
+2026-11-13 comida | sixflags
+    expenses:food:dining            $1,177
+    liabilities:credit:hsbc
+
+2026-11-13 sombrero piolin | sixflags
+    expenses:entertainment            $359.1
+    liabilities:credit:hsbc
