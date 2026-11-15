@@ -2143,3 +2143,11 @@ include 2026_inversiones_schneider.journal
 2026-11-13 sombrero piolin | sixflags
     expenses:entertainment            $359.1
     liabilities:credit:hsbc
+
+2026-11-14 comida | cumpleaños Doña Lety
+    expenses:food:dining            $2,521
+    liabilities:credit:hsbc
+
+2026-11-13 maquillaje | trendy centro
+    expenses:entertainment            $205.25
+    liabilities:credit:hsbc
