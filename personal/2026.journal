@@ -826,7 +826,7 @@ include 2026_inversiones_schneider.journal
     expenses:entertainment            $500
     assets:cash:wallet
 
-2026-03-21 Mantenimiento Kia Sportage | KIA San Joaquin
+2026-03-21 Mantenimiento Kia Sportage | KIA San Joaquin, car:sportage
     expenses:car:maintenance               $2,960
     assets:bank:banamex:checking
 
@@ -1000,13 +1000,18 @@ include 2026_inversiones_schneider.journal
     expenses:food:groceries             $15
     assets:cash:wallet
 
-2026-08-31 estacionamiento 1er dia 5to
+2026-08-31 estacionamiento 1er dia 5to | instituto morelos
     expenses:entertainment:parking              $33
     assets:cash:wallet
 
 2026-08-31 Kids & Us | Pago Septiembre Regina Cuervo
     expenses:education:daughter:english           $2,305
     assets:bank:banamex:checking
+
+2026-08-31 tintoreria
+    expenses:personal:clothing:dry-cleaning     $540
+    expenses:clothing:dry-cleaning     $280
+    assets:cash:wallet
 
 2026-08-27 minisix
     expenses:food:groceries             $63
@@ -1027,6 +1032,10 @@ include 2026_inversiones_schneider.journal
 2026-08-29 despensa | walmart
     expenses:food:groceries            $353
     assets:sivale:pantry
+
+2026-08-29 ????
+    expenses:food:dining             $1,051.6
+    assets:sivale:meals
 
 2026-03-14 despensa | sams
     expenses:food:groceries           $1,116
@@ -1063,6 +1072,14 @@ include 2026_inversiones_schneider.journal
 2026-09-01 Ivan Tolama | September Rent
     assets:bank:banamex:checking           $9,000
     income:rent
+
+2026-09-02 Tienda K | Corporativo Legaria
+    expenses:food:groceries            $82.5  ; paletas
+    assets:cash:wallet
+
+2026-09-02 estacionamiento | Corporativo Legaria
+    expenses:entertainment:parking            $54
+    assets:cash:wallet
 
 2026-09-06 Building Admin | MTTO SEPTIEMBRE B405
     expenses:housing:maintenance:puerta-toreo         $1,550
@@ -1231,7 +1248,7 @@ include 2026_inversiones_schneider.journal
     expenses:food:dining         $877.8
     liabilities:credit:hsbc
 
-2026-09-26 Mantenimiento Kia Sportage | KIA San Joaquin
+2026-09-26 Mantenimiento Kia Sportage | KIA San Joaquin, car:sportage
     expenses:car:maintenance         $8,139.3
     liabilities:credit:hsbc
 
@@ -1291,7 +1308,7 @@ include 2026_inversiones_schneider.journal
     expenses:food:groceries            $258
     assets:cash:wallet
 
-2026-10-03 Balatas delanteras Kia Sportage | KIA San Joaquin
+2026-10-03 Balatas delanteras Kia Sportage | KIA San Joaquin, car:sportage
     expenses:car:maintenance         $4,078.38
     liabilities:credit:hsbc
 
@@ -1352,7 +1369,7 @@ include 2026_inversiones_schneider.journal
     expenses:food:dining             $30
     assets:cash:wallet
 
-2026-10-07 estacionamiento | nuevo polanco
+2026-10-07 estacionamiento | Coprorativo Legaria
     expenses:entertainment:parking            $60
     assets:cash:wallet
 
@@ -1466,7 +1483,7 @@ include 2026_inversiones_schneider.journal
     expenses:food:groceries            $50
     assets:cash:wallet
 
-2026-10-14 estacionamiento | nuevo polanco
+2026-10-14 estacionamiento | Corporativo Legaria
     expenses:entertainment:parking            $54
     assets:cash:wallet
 
@@ -1474,7 +1491,7 @@ include 2026_inversiones_schneider.journal
     expenses:food:dining           $74
     liabilities:credit:hsbc
 
-2026-10-14 tienda k | nuevo polanco
+2026-10-14 Tienda K | Coprorativo Legaria
     expenses:food:groceries            $92
     assets:cash:wallet
 
@@ -1701,6 +1718,9 @@ include 2026_inversiones_schneider.journal
     assets:sivale:pantry             $3,567
     income:benefits:sivale:pantry
 #---
+2026-11-15 nomina
+    assets:bank:hsbc:checking       $26,567.39
+    income:salary
 
 
 #2026-10-15 * Sívale | Balance Realignment
@@ -1738,7 +1758,7 @@ include 2026_inversiones_schneider.journal
     expenses:entertainment           $115  ; pouch cinturon
     liabilities:credit:hsbc
 
-2026-10-16 starbucks | av Camarones
+2026-10-16 starbucks | Av Camarones
     expenses:food:dining           $254
     liabilities:credit:hsbc
 
@@ -1748,7 +1768,7 @@ include 2026_inversiones_schneider.journal
     liabilities:credit:hsbc
 
 2026-10-16 odontopediatra
-    expenses:health:medical            $2,000  ; adelanto aparato
+    expenses:health:medical            $2,000  ; adelanto aparato Regina
     assets:cash:wallet
 
 2026-10-17 minisix
@@ -1797,11 +1817,11 @@ include 2026_inversiones_schneider.journal
     liabilities:credit:hsbc
 
 # test registers
-#2026-11-21 estacionamiento | nuevo polanco
+#2026-11-21 estacionamiento | Corporativo Legaria
 #    expenses:entertainment:parking      $300,000.12
 #    assets:cash:wallet
 #
-#2026-12-21 estacionamiento | nuevo polanco
+#2026-12-21 estacionamiento | Corporativo Legaria
 #    expenses:entertainment:parking      $100,000.54
 #    assets:cash:wallet
 
@@ -2016,7 +2036,7 @@ include 2026_inversiones_schneider.journal
     assets:cash:wallet
 
 2026-11-06 odontopediatra
-    expenses:health:medical            $1,800  ; saldo aparato
+    expenses:health:medical            $1,800  ; saldo aparato Regina
     assets:cash:wallet
 
 2026-11-06 chocolate | sanborns azcapo
@@ -2027,7 +2047,7 @@ include 2026_inversiones_schneider.journal
     expenses:food:groceries             $96
     assets:cash:wallet
 
-2026-11-07 morida transito | alameda central
+2026-11-07 mordida transito | alameda central
     expenses:auto:fines             $400
     assets:cash:wallet
 
@@ -2106,6 +2126,7 @@ include 2026_inversiones_schneider.journal
 
 2026-11-12 comida | Caldos Riesi
     expenses:food:dining            $326
+    expenses:personal:tips          $32.6
     assets:sivale:meals
 
 2026-11-12 oxxo
@@ -2148,6 +2169,41 @@ include 2026_inversiones_schneider.journal
     expenses:food:dining            $2,521
     liabilities:credit:hsbc
 
-2026-11-13 maquillaje | trendy centro
+2026-11-14 maquillaje | trendy centro
     expenses:entertainment            $205.25
     liabilities:credit:hsbc
+
+2026-11-14 verificacion | verificentro NA-951, car:sportage
+    expenses:car:verificacion       $680
+    expenses:auto:fines             $200
+    assets:cash:wallet
+
+2026-11-14 minisix
+    expenses:food:groceries            $138
+    assets:sivale:meals
+
+2026-11-15 comida familia | mariscos Don Pancho
+    expenses:food:dining               $762
+    expenses:entertainment:parking     $30
+    expenses:personal:tips             $76
+    assets:sivale:meals
+
+2026-11-15 estacionamiento | Liverpool Polanco
+    expenses:entertainment:parking      $70
+    assets:cash:wallet
+
+2026-11-15 minisix
+    expenses:food:groceries            $161
+    assets:sivale:meals
+
+2026-11-16 despensa | sams
+    expenses:food:groceries                $1,319
+    assets:sivale:pantry
+
+2026-11-16 despensa | walmart
+    expenses:food:groceries           $2,182.53
+    assets:sivale:pantry
+
+2026-11-16 estacionamiento | Walmart Toreo
+    expenses:entertainment:parking      $5
+    assets:cash:wallet

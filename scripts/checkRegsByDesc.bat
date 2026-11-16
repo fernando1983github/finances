@@ -43,3 +43,4 @@ pause
 ::checkRegsByDesc.bat
 ::checkRegsByDesc.bat "Pamo"
 ::checkRegsByDesc.bat "Pamo" "2026-08"
+::checkRegsByDesc.bat "Monthly Phone" 2026

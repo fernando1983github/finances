@@ -119,9 +119,12 @@ account expenses:family:grandma:supplies
 account expenses:personal:grooming
 account expenses:personal:tips
 account expenses:personal:clothing
+account expenses:personal:clothing:dry-cleaning
 account expenses:family:clothing
 account expenses:stationery
 account expenses:stationery:notebooks
+
+account expenses:clothing:dry-cleaning
 
 account expenses:pet:vet
 account expenses:pet:food
