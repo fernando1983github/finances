@@ -2149,19 +2149,19 @@ include 2026_inversiones_schneider.journal
     expenses:entertainment            $130
     assets:cash:wallet
 
-2026-11-13 comida snacks | sixflags
+2026-11-13 combo hotdog | sixflags
     expenses:entertainment            $139
     liabilities:credit:hsbc
 
 2026-11-13 comida snacks | sixflags
-    expenses:entertainment            $206.1
+    expenses:entertainment            $206.1  ; agua, doritos, icee
     liabilities:credit:hsbc
 
 2026-11-13 comida | sixflags
-    expenses:food:dining            $1,177
+    expenses:food:dining            $1,177  ; pago la mitad Luis, solo corroborar
     liabilities:credit:hsbc
 
-2026-11-13 sombrero piolin | sixflags
+2026-11-13 sombrero piolin pop up ear | sixflags
     expenses:entertainment            $359.1
     liabilities:credit:hsbc
 
@@ -2207,3 +2207,27 @@ include 2026_inversiones_schneider.journal
 2026-11-16 estacionamiento | Walmart Toreo
     expenses:entertainment:parking      $5
     assets:cash:wallet
+
+2026-11-17 desayuno chilaquiles, Charly
+    expenses:food:dining            $115
+    assets:cash:wallet
+
+2026-11-15 Opening balance for Liverpool gift cards
+    assets:giftcards:liverpool    $5,300
+    equity:opening-balances
+
+2026-11-17 Nintendo Switch 2 | Liverpool Parque Toreo
+    expenses:entertainment          $11,894.22
+    expenses:entertainment          $1,119.2  ; splatoon raiders
+    assets:giftcards:liverpool      $-5,300
+    liabilities:credit:hsbc
+
+2026-11-17 estacionamiento | Walmart Toreo
+    expenses:entertainment:parking      $63
+    assets:cash:wallet
+
+2026-11-18 gas station  ; odometer:43481
+    expenses:car:fuel      $1,280.18  ; 54.268 L @ $23.59
+    liabilities:credit:hsbc
+    expenses:car:tips                $10
+    assets:cash:wallet               $-10
