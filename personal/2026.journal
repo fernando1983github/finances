@@ -362,6 +362,11 @@ include 2026_inversiones_schneider.journal
     expenses:housing:maintenance:puerta-toreo           $1,550
     assets:bank:banamex:checking
 
+2026-05-10 verificacion | verificentro NA-951, car:sportage
+    expenses:car:verificacion       $610    ; 2024 $550, 2025 $566
+    expenses:auto:fines             $200
+    assets:cash:wallet
+
 2026-05-10 San Pedro | MTTO MAYO 302
     expenses:housing:maintenance:san-pedro         $280.32
     assets:bank:banamex:checking
@@ -986,7 +991,7 @@ include 2026_inversiones_schneider.journal
     expenses:car:tips                    $10
     assets:cash:wallet
 
-2026-02-10 gas station  ; odometer:38830
+2026-02-10 gas station  ; odometer:38830  ; ingenieros militares
     expenses:car:fuel      $960.93602  ; 41.798 L @ $22.99
     expenses:car:tips                    $10
     assets:cash:wallet
@@ -1914,7 +1919,7 @@ include 2026_inversiones_schneider.journal
     expenses:food:groceries                 $50  ;  cerveza
     assets:cash:wallet
 
-2026-10-31 estacionamiento | Centro tlatnepantla
+2026-10-31 estacionamiento | Centro tlalnepantla
     expenses:entertainment:parking      $35
     assets:cash:wallet
 
@@ -2222,12 +2227,17 @@ include 2026_inversiones_schneider.journal
     assets:giftcards:liverpool      $-5,300
     liabilities:credit:hsbc
 
+2026-11-17 cena | Crepes y Waffles
+    expenses:food:dining            $748
+    expenses:personal:tips          $74.8
+    assets:sivale:meals
+
 2026-11-17 estacionamiento | Walmart Toreo
     expenses:entertainment:parking      $63
     assets:cash:wallet
 
-2026-11-18 gas station  ; odometer:43481
+2026-11-18 gas station  ; odometer:43481  ; lago chiem
     expenses:car:fuel      $1,280.18  ; 54.268 L @ $23.59
-    liabilities:credit:hsbc
+    assets:cash:wallet
     expenses:car:tips                $10
     assets:cash:wallet               $-10
