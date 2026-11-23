@@ -2057,7 +2057,7 @@ include 2026_inversiones_schneider.journal
     assets:cash:wallet
 
 2026-11-07 cortes carne comida mitad, tapa de cuadril o aguayon
-    expenses:food:dining            $500
+    expenses:food:dining            $500  ; fueron $500 que le preste que saque de Neto
     assets:cash:wallet
 
 2026-11-07 oxxo
@@ -2241,3 +2241,39 @@ include 2026_inversiones_schneider.journal
     assets:cash:wallet
     expenses:car:tips                $10
     assets:cash:wallet               $-10
+
+2026-11-19 minisix
+    expenses:food:groceries            $50
+    assets:sivale:meals
+
+2026-11-20 oxxo
+    expenses:food:groceries            $45.5
+    assets:sivale:meals
+
+2026-11-20 comida crepas
+    expenses:food:dining            $315
+    assets:cash:wallet
+
+2026-11-21 minisix
+    expenses:food:groceries            $171
+    assets:sivale:meals
+
+2026-11-21 KFC | CETRAM Toreo
+    expenses:food:groceries            $409
+    assets:sivale:meals
+
+2026-11-21 funda samsung galaxy bus 4 pro | Amazon
+    expenses:entertainment            $239
+    liabilities:credit:hsbc
+
+2026-11-21 tarjeta samsung microsd express 256Gb, cable extension 3 pies, 91 cm | Amazon
+    expenses:entertainment            $1733
+    liabilities:credit:hsbc
+
+2026-11-22 pago Luis mitad comida crepas y tacos
+    expenses:food:dining      $170  ; debio haber sido 142.5, lo cerre en $170
+    assets:bank:banamex:checking
+
+2026-11-22 estuche para 2 anteojos | Amazon
+    expenses:entertainment            $369
+    liabilities:credit:hsbc
