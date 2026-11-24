@@ -2262,7 +2262,7 @@ include 2026_inversiones_schneider.journal
     expenses:food:groceries            $409
     assets:sivale:meals
 
-2026-11-21 funda samsung galaxy bus 4 pro | Amazon
+2026-11-21 funda samsung galaxy buds 4 pro | Amazon
     expenses:entertainment            $239
     liabilities:credit:hsbc
 
@@ -2274,6 +2274,22 @@ include 2026_inversiones_schneider.journal
     expenses:food:dining      $170  ; debio haber sido 142.5, lo cerre en $170
     assets:bank:banamex:checking
 
-2026-11-22 estuche para 2 anteojos | Amazon
+2026-11-23 funda transparente silicon samsung galaxy buds 4 pro | Amazon
+    expenses:entertainment            $195.99
+    liabilities:credit:hsbc
+
+2026-11-20 mcDonalds | 
+    expenses:food:dining            $169
+    assets:sivale:meals
+
+2026-11-23 Estuche par de lentes | Amazon
     expenses:entertainment            $369
+    liabilities:credit:hsbc
+
+2026-11-23 Zelda Ocarina of time | Amazon
+    expenses:entertainment            $2,299
+    liabilities:credit:hsbc
+
+2026-11-23 zelda tears of the kingdom switch 2 enhancement | Nintendo
+    expenses:entertainment            $148.57  ; costo $209
     liabilities:credit:hsbc
