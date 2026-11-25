@@ -2287,6 +2287,11 @@ include 2026_inversiones_schneider.journal
     expenses:food:dining            $169
     assets:sivale:meals
 
+2026-11-22 lavado auto | San Joaquin
+    expenses:auto:maintenance       $100
+    expenses:car:tips               $20
+    assets:cash:wallet
+
 2026-11-23 Estuche par de lentes | Amazon
     expenses:entertainment            $369
     liabilities:credit:hsbc
