@@ -223,6 +223,8 @@ account income:benefits:sivale:services
 # assets:sivale:meals (Restaurante - for prepared food/restaurants)
 # assets:sivale:services (Servicios - for utilities like light, water, or gas)
 
+account assets:receivable:luis
+
 # 2. How to Record the "Income" (The Deposit)
 # When your employer deposits money into these cards, it isn't "Bank" money, but it is still income. You should record the movement from an income account to the specific card.
 # Plaintext

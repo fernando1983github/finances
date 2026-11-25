@@ -2170,8 +2170,9 @@ include 2026_inversiones_schneider.journal
     expenses:entertainment            $359.1
     liabilities:credit:hsbc
 
-2026-11-14 comida | cumpleaños Doña Lety
-    expenses:food:dining            $2,521
+2026-11-14 comida | cumpleaños Lety
+    expenses:food:dining            $1,260.5  ; $2,521
+    assets:receivable:luis          $1,260.5
     liabilities:credit:hsbc
 
 2026-11-14 maquillaje | trendy centro
@@ -2246,6 +2247,10 @@ include 2026_inversiones_schneider.journal
     expenses:food:groceries            $50
     assets:sivale:meals
 
+2026-11-20 Luis | Pago mitad cumpleaños Lety
+    assets:bank:banamex:checking          $1,260.5
+    assets:receivable:luis
+
 2026-11-20 oxxo
     expenses:food:groceries            $45.5
     assets:sivale:meals
@@ -2267,7 +2272,7 @@ include 2026_inversiones_schneider.journal
     liabilities:credit:hsbc
 
 2026-11-21 tarjeta samsung microsd express 256Gb, cable extension 3 pies, 91 cm | Amazon
-    expenses:entertainment            $1733
+    expenses:entertainment            $1,733
     liabilities:credit:hsbc
 
 2026-11-22 pago Luis mitad comida crepas y tacos
@@ -2292,4 +2297,16 @@ include 2026_inversiones_schneider.journal
 
 2026-11-23 zelda tears of the kingdom switch 2 enhancement | Nintendo
     expenses:entertainment            $148.57  ; costo $209
+    liabilities:credit:hsbc
+
+2026-11-25 minisix
+    expenses:food:groceries            $111
+    assets:sivale:meals
+
+2026-11-25 pago fiesta fin de año rockys pizza | Schneider
+    expenses:entertainment      $650
+    assets:bank:banamex:checking
+
+2026-11-25 starbucks | Rio San Joaquin
+    expenses:food:dining             $147.05
     liabilities:credit:hsbc
