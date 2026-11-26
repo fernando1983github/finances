@@ -2322,3 +2322,7 @@ include 2026_inversiones_schneider.journal
 2026-11-25 Cama tipo loft individual | Amazon
     expenses:entertainment            $6,626.35
     liabilities:credit:hsbc
+
+2026-11-25 HSBC | Credit Card Payment
+    liabilities:credit:hsbc           $27,217.06
+    assets:bank:hsbc:checking
