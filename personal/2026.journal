@@ -1726,6 +1726,9 @@ include 2026_inversiones_schneider.journal
 2026-11-15 nomina
     assets:bank:hsbc:checking       $26,567.39
     income:salary
+2026-11-25 aguinaldo
+    assets:bank:hsbc:checking       $55,119.79
+    income:salary
 
 
 #2026-10-15 * Sívale | Balance Realignment
@@ -2301,7 +2304,7 @@ include 2026_inversiones_schneider.journal
     liabilities:credit:hsbc
 
 2026-11-23 zelda tears of the kingdom switch 2 enhancement | Nintendo
-    expenses:entertainment            $148.57  ; costo $209
+    expenses:entertainment            $149.31  ; costo $209
     liabilities:credit:hsbc
 
 2026-11-25 minisix
@@ -2314,4 +2317,8 @@ include 2026_inversiones_schneider.journal
 
 2026-11-25 starbucks | Rio San Joaquin
     expenses:food:dining             $147.05
+    liabilities:credit:hsbc
+
+2026-11-25 Cama tipo loft individual | Amazon
+    expenses:entertainment            $6,626.35
     liabilities:credit:hsbc
