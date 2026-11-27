@@ -2291,7 +2291,7 @@ include 2026_inversiones_schneider.journal
     assets:sivale:meals
 
 2026-11-22 lavado auto | San Joaquin
-    expenses:auto:maintenance       $100
+    expenses:car:maintenance       $100
     expenses:car:tips               $20
     assets:cash:wallet
 
@@ -2326,3 +2326,15 @@ include 2026_inversiones_schneider.journal
 2026-11-25 HSBC | Credit Card Payment
     liabilities:credit:hsbc           $27,217.06
     assets:bank:hsbc:checking
+
+2026-11-27 desayuno club sandwich y jugo | Schneider
+    expenses:food:dining            $120
+    assets:sivale:meals
+
+2026-11-27 regalo intercambio schneider - Tabla de quesos de Bambu | Amazon
+    expenses:entertainment            $532.52
+    liabilities:credit:hsbc
+
+2026-11-27 prestamo Luis
+    assets:receivable:luis          $100
+    assets:cash:wallet
