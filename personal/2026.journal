@@ -2315,6 +2315,10 @@ include 2026_inversiones_schneider.journal
     expenses:entertainment      $650
     assets:bank:banamex:checking
 
+2026-11-25 estacionamiento | Corporativo Legaria
+    expenses:entertainment:parking            $54
+    assets:cash:wallet
+
 2026-11-25 starbucks | Rio San Joaquin
     expenses:food:dining             $147.05
     liabilities:credit:hsbc
@@ -2338,3 +2342,7 @@ include 2026_inversiones_schneider.journal
 2026-11-27 prestamo Luis
     assets:receivable:luis          $100
     assets:cash:wallet
+
+2026-11-27 minisix
+    expenses:food:groceries            $156
+    assets:sivale:meals
